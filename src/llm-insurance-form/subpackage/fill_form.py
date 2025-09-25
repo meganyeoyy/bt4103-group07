@@ -133,6 +133,6 @@ def fill_from_json(input_pdf: str, json_path: str, output_pdf: str, flatten: boo
 
 if __name__ == "__main__":
     INPUT_PDF  = "data/pdf/ntuc_form.pdf"
-    JSON_PATH  = "data/form_fields_filled.json"
-    OUTPUT_PDF = "data/pdf/out/ntuc_form_filled.pdf"
+    JSON_PATH  = "data/raw-txt/form_fields.json"
+    OUTPUT_PDF = "data/pdf/out/ntuc_form_filled_updated.pdf"
     fill_from_json(INPUT_PDF, JSON_PATH, OUTPUT_PDF, flatten=False)
