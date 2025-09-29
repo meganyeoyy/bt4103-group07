@@ -9,14 +9,29 @@ cleaned_path = "../../../data/json/cleaned_output.txt"
 output_path = "combined.json"
 
 def clean_llm_output(text: str) -> str:
+    # remove page breaks
     text = re.sub(r"--- Page \d+ ---", "", text)
+    # remove code fences
     text = re.sub(r"```json", "", text)
     text = re.sub(r"```", "", text)
-    # remove common "trailing commas" 
+    # remove comments (// ...) but not inside strings
+    def _strip_comments(match):
+        s = match.group(0)
+        if s.startswith('"'):  # inside string, keep as-is
+            return s
+        else:
+            # remove // and everything after it
+            return re.sub(r"//.*", "", s)
+    # regex to match string literals or non-strings
+    text = re.sub(r'"(?:\\.|[^"\\])*"|[^"\n]+', _strip_comments, text)
+    # remove common trailing commas
     text = re.sub(r",\s*([}\]])", r"\1", text)
-    # collapse multiple tabs/spaces
+    # collapse multiple spaces/tabs
     text = re.sub(r"[ \t]+", " ", text)
+    # remove blank lines
+    text = re.sub(r"\n\s*\n", "\n", text)
     return text.strip()
+
 
 def extract_json_objects(text: str):
     """Extract top-level {...} objects while respecting strings and escapes."""
