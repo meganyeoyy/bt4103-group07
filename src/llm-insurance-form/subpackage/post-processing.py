@@ -4,7 +4,7 @@ import json
 # script will clean the LLM output and also format it into a JSON suitable for processing
 # might need to change path structure depending on data filing
 
-file_path = "../../../data/json/LLM_Output_Edited_Metadata.txt"
+file_path = "../../../data/raw-txt/llm_output.txt"
 cleaned_path = "../../../data/json/cleaned_output.txt"
 output_path = "combined.json"
 
