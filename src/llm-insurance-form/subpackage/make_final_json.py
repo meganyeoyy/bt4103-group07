@@ -141,8 +141,8 @@ def map_combined_to_fields(combined, form_fields):
         # --- Biopsy ---
         elif "date of biopsy" in name:
             set_date_with_confidence(field, combined, "Biopsy date (dd/mm/yyyy)", name)
-        elif "If No, how was the diagnosis confirmed?" in name:
-            set_field_with_confidence(field, combined, "Was a biopsy of the tumour performed? If “No”, please state why and how the diagnosis was confirmed")
+        elif "Was a biopsy of the tumour performed? If “No”, please state why and how the diagnosis was confirmed" in name:
+            set_field_with_confidence(field, combined, "If No, how was the diagnosis confirmed?")
         elif "Was a biopsy of the tumour performed?" in name:
             set_checkbox_with_confidence(field, combined, "Was a biopsy of the tumour performed?")
 
@@ -150,7 +150,7 @@ def map_combined_to_fields(combined, form_fields):
         elif "site or organ involved" in name:
             set_field_with_confidence(field, combined, "Site or organ involved")
 
-        elif "staging" in name.lower():
+        elif "is the staging of the tumour?" in name:
             set_field_with_confidence(field, combined, "Staging")
 
         elif "Has the cancer spread" in name:
@@ -198,9 +198,9 @@ def map_combined_to_fields(combined, form_fields):
             set_field_with_confidence(field, combined, "Thyroid papillary micro-carcinoma size")
 
         # --- Leukaemia / Melanoma / GIST ---
-        elif "leukaemia" in name.lower() and "type" in name.lower():
+        elif "If the diagnosis is leukaemia, please state type of leukaemia" in name:
             set_field_with_confidence(field, combined, "Leukaemia type")
-        elif "RAI staging" in name:
+        elif "If the diagnosis is leukaemia, please state type of RAI staging" in name:
             set_field_with_confidence(field, combined, "Leukaemia RAI staging")
         elif "malignant melanoma" in name and "Breslow" in name:
             set_field_with_confidence(field, combined, "Melanoma size/thickness (Breslow mm)")
@@ -254,13 +254,13 @@ def map_combined_to_fields(combined, form_fields):
             set_date_with_confidence(field, combined, "Reconstructive surgery date (dd/mm/yyyy)", name)
 
         # --- Follow-up / Discharge ---
+        elif "Is the Insured still on follow-up at your clinic? If “Yes”, please provide state date of next appointment (dd/mm/yyyy)" in name:
+            set_date_with_confidence(field, combined, "Next appointment date (dd/mm/yyyy)", name)
+        elif "Is the Insured still on follow-up at your clinic? If \"No”, please provide date of discharge (dd/mm/yyyy)" in name:
+            set_date_with_confidence(field, combined, "Discharge date (dd/mm/yyyy)", name)
         elif "Is the Insured still on follow-up" in name:
             set_checkbox_with_confidence(field, combined, "Is the Insured still on follow-up at your clinic?")
-        elif "Next appointment" in name:
-            set_date_with_confidence(field, combined, "Next appointment date (dd/mm/yyyy)", name)
-        elif "Discharge date" in name:
-            set_date_with_confidence(field, combined, "Discharge date (dd/mm/yyyy)", name)
-
+        
         # --- Terminal illness ---
         elif "terminally ill" in name:
             set_checkbox_with_confidence(field, combined, "Is the Insured terminally ill (i.e. death expected within 12 months)?")
@@ -347,7 +347,7 @@ def map_combined_to_fields(combined, form_fields):
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (1) Name/address of clinic/hospital")
         elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of date of diagnosis (dd/mm/yyyy) (1)" in name:
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (1) Date of diagnosis (dd/mm/yyyy)")
-        elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of  condition (1)" in name:
+        elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of condition (1)" in name:
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (1) Duration of condition")
         elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of treatment received (1)" in name:
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (1) Treatment received")
@@ -360,7 +360,7 @@ def map_combined_to_fields(combined, form_fields):
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (2) Name/address of clinic/hospital")
         elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of date of diagnosis (dd/mm/yyyy) (2)" in name:
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (2) Date of diagnosis (dd/mm/yyyy)")
-        elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of  condition (2)" in name:
+        elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of condition (2)" in name:
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (2) Duration of condition")
         elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of treatment received (2)" in name:
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (2) Treatment received")
@@ -373,7 +373,7 @@ def map_combined_to_fields(combined, form_fields):
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (3) Name/address of clinic/hospital")
         elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of date of diagnosis (dd/mm/yyyy) (3)" in name:
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (3) Date of diagnosis (dd/mm/yyyy)")
-        elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of  condition (3)" in name:
+        elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of condition (3)" in name:
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (3) Duration of condition")
         elif "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of treatment received (3)" in name:
             set_field_with_confidence(field, combined, "Details of other health conditions (rows) (3) Treatment received")
@@ -388,7 +388,7 @@ def map_combined_to_fields(combined, form_fields):
 
 # --- Run ---
 
-with open("combined.json") as f:
+with open("dummy_data.json") as f:
     combined = json.load(f)
 with open("form_fields_empty.json") as f:
     form_fields = json.load(f)
