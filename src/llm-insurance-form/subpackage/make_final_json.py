@@ -64,8 +64,42 @@ def map_combined_to_fields(combined, form_fields):
     for field in form_fields["fields"]:
         name = field["field_name"]
 
+        # --- Doctors/hospitals consulted (explicit mappings) ---
+
+        if "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (1)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (1) Date(s) of consultation (dd/mm/yyyy)")
+        elif "Please provide the name of doctor(s) which the Insured has been referred to for this condition (1)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (1) Name of doctor")
+        elif "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (1)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (1) Name and Address of Clinic/Hospital")
+        elif "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (1)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (1) Diagnosis made")
+
+        elif "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (2)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (2) Date(s) of consultation (dd/mm/yyyy)")
+        elif "Please provide the name of doctor(s) which the Insured has been referred to for this condition (2)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (2) Name of doctor")
+        elif "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (2)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (2) Name and Address of Clinic/Hospital")
+        elif "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (2)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (2) Diagnosis made")
+
+        elif "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (3)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (3) Date(s) of consultation (dd/mm/yyyy)")
+        elif "Please provide the name of doctor(s) which the Insured has been referred to for this condition (3)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (3) Name of doctor")
+        elif "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (3)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (3) Name and Address of Clinic/Hospital")
+        elif "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (3)" in name:
+            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (3) Diagnosis made")
+
+        elif "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors? If “Yes”, please provide details, including diagnosis, date of diagnosis, dates of consultation, name and address of doctor/ clinic and source of information" in name:
+            set_field_with_confidence(field, combined, "Malignant, pre-malignant or other related conditions or risk factors details")
+        elif "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors?" in name:
+            set_checkbox_with_confidence(field, combined, "Malignant, pre-malignant or other related conditions or risk factors?")
+
         # --- Period of records ---
-        if "Over what period do your records extend? Start date" in name:
+        elif "Over what period do your records extend? Start date" in name:
             set_date_with_confidence(field, combined, "Over what period do your records extend? Start date (dd/mm/yyyy)", name)
 
         elif "Over what period do your records extend? End date" in name:
@@ -262,71 +296,38 @@ def map_combined_to_fields(combined, form_fields):
             set_checkbox_with_confidence(field, combined, "Is the Insured still on follow-up at your clinic?")
         
         # --- Terminal illness ---
-        elif "terminally ill" in name:
-            set_checkbox_with_confidence(field, combined, "Is the Insured terminally ill (i.e. death expected within 12 months)?")
-        elif "Terminal illness evaluation" in name:
+        elif "Is the Insured terminally ill, ie death is expected within 12 months? If “Yes”, please provide details on the basis of your evaluation" in name:
             set_field_with_confidence(field, combined, "Terminal illness evaluation")
-        elif "Terminal illness assessment date" in name:
+        elif "the Insured terminally ill, ie death is expected within 12 months? If “Yes”, please indicate the date on which the Insured is assessed to be terminally ill" in name:
             set_date_with_confidence(field, combined, "Terminal illness assessment date (dd/mm/yyyy)", name)
-
+        elif "Is the Insured terminally ill, ie death is expected within 12 months?" in name:
+            set_checkbox_with_confidence(field, combined, "Is the Insured terminally ill (i.e. death expected within 12 months)?")
+        
         # --- Hospice ---
+        elif "name of hospice" in name:
+            set_field_with_confidence(field, combined, "Hospice name")
+
+        elif "Is the Insured referred to hospice care? If day care, please state start date" in name:
+            set_date_with_confidence(field, combined, "Hospice inpatient admission date (dd/mm/yyyy)", name)
+        elif "Is the Insured referred to hospice care? If yes, please state if it is inpatient":
+            set_field_with_confidence(field, combined, "Hospice care type - Inpatient")
+
+        elif "Is the Insured referred to hospice care? If day care, please state start date (dd/mm/yyyy)" in name:
+            set_date_with_confidence(field, combined, "Hospice daycare start date (dd/mm/yyyy)", name)
+        elif "Is the Insured referred to hospice care? If yes, please state if it is day care":
+            set_field_with_confidence(field, combined, "Hospice care type - Day care")
+
+    
         elif "hospice care" in name and ("Yes" in name or "No" in name):
             set_checkbox_with_confidence(field, combined, "Is the Insured referred to hospice care?")
-        elif "Hospice name" in name:
-            set_field_with_confidence(field, combined, "Hospice name")
-        elif "Hospice inpatient" in name:
-            set_date_with_confidence(field, combined, "Hospice inpatient admission date (dd/mm/yyyy)", name)
-        elif "Hospice daycare" in name:
-            set_date_with_confidence(field, combined, "Hospice daycare start date (dd/mm/yyyy)", name)
-
-        # --- Doctors/hospitals consulted (explicit mappings) ---
-
-        elif "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (1)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (1) Date(s) of consultation (dd/mm/yyyy)")
-        elif "Please provide the name of doctor(s) which the Insured has been referred to for this condition (1)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (1) Name of doctor")
-        elif "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (1)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (1) Name and Address of Clinic/Hospital")
-        elif "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (1)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (1) Diagnosis made")
-
-        elif "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (2)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (2) Date(s) of consultation (dd/mm/yyyy)")
-        elif "Please provide the name of doctor(s) which the Insured has been referred to for this condition (2)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (2) Name of doctor")
-        elif "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (2)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (2) Name and Address of Clinic/Hospital")
-        elif "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (2)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (2) Diagnosis made")
-
-        elif "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (3)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (3) Date(s) of consultation (dd/mm/yyyy)")
-        elif "Please provide the name of doctor(s) which the Insured has been referred to for this condition (3)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (3) Name of doctor")
-        elif "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (3)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (3) Name and Address of Clinic/Hospital")
-        elif "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (3)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (3) Diagnosis made")
-
-        elif "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (4)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (4) Date(s) of consultation (dd/mm/yyyy)")
-        elif "Please provide the name of doctor(s) which the Insured has been referred to for this condition (4)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (4) Name of doctor")
-        elif "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (4)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (4) Name and Address of Clinic/Hospital")
-        elif "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (4)" in name:
-            set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (4) Diagnosis made")
 
         # --- Family / Medical / Lifestyle ---
-        elif "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors? If “Yes”, please provide details, including diagnosis, date of diagnosis, dates of consultation, name and address of doctor/ clinic and source of information" in name:
-            set_field_with_confidence(field, combined, "Malignant, pre-malignant or other related conditions or risk factors details")
-        elif "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors?" in name:
-            set_checkbox_with_confidence(field, combined, "Malignant, pre-malignant or other related conditions or risk factors?")
+    
         elif "medical history" in name:
             set_field_with_confidence(field, combined, "Medical history that would have increased the risk of cancer")
         elif "family history" in name:
             set_field_with_confidence(field, combined, "Family history that would have increased the risk of Cancer")
-        elif "smoking" in name:
+        elif "Please give details of the Insured’s habits in relation to past and present smoking, including the duration of smoking habits, number of cigarettes smoked  per day and source of this information" in name:
             set_field_with_confidence(field, combined, "Smoking habits")
         elif "alcohol" in name:
             set_field_with_confidence(field, combined, "Alcohol consumption habits")
