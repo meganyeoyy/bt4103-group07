@@ -276,6 +276,10 @@ def map_combined_to_fields(combined, form_fields):
             set_field_with_confidence(field, combined, "Active treatment rejection reason")
 
         # --- Surgeries ---
+        elif "Was radical surgery (total and complete removal of the affected organ) done? If “Yes”, please state the name of the surgery, surgical code/table" in name:
+            set_field_with_confidence(field, combined, "Radical surgery code/table")
+        elif "Was radical surgery (total and complete removal of the affected organ) done? If “Yes”, please state the date surgery was performed" in name:
+            set_date_with_confidence(field, combined, "Radical surgery date date (dd/mm/yyyy)", name)
         elif "radical surgery" in name:
             set_checkbox_with_confidence(field, combined, "Was radical surgery done?")
         elif "surgical code" in name:
