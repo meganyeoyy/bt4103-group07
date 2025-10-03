@@ -1,0 +1,21 @@
+{
+    "fields": [
+        {"field_name": "Was the patient referred to you? Yes", "field_value": "Yes", "field_type": "checkbox", "page": 1},
+        {"field_name": "Was the patient referred to you? No", "field_value": "", "field_type": "checkbox", "page": 1},
+        {"field_name": "Is the condition chronic? Yes", "field_value": "", "field_type": "checkbox", "page": 1},
+        {"field_name": "Is the condition chronic? No", "field_value": "Yes", "field_type": "checkbox", "page": 1},
+        {"field_name": "Has the patient been hospitalised? Yes", "field_value": "Yes", "field_type": "checkbox", "page": 1},
+        {"field_name": "Has the patient been hospitalised? No", "field_value": "", "field_type": "checkbox", "page": 1},
+        {"field_name": "Is the patient still under treatment? Yes", "field_value": "", "field_type": "checkbox", "page": 1},
+        {"field_name": "Is the patient still under treatment? No", "field_value": "Yes", "field_type": "checkbox", "page": 1},
+        {"field_name": "Was surgery recommended? Yes", "field_value": "Yes", "field_type": "checkbox", "page": 1},
+        {"field_name": "Was surgery recommended? No", "field_value": "", "field_type": "checkbox", "page": 1},
+
+        {"field_name": "Name of Insured", "field_value": "Tan Wei Ming", "field_type": "text", "page": 1},
+        {"field_name": "Cancer", "field_value": "Cock cancer", "field_type": "text", "page": 1},
+        {"field_name": "Site", "field_value": "Cock", "field_type": "text", "page": 1},
+        {"field_name": "Primary Diagnosis", "field_value": "Invasive ductal carcinoma", "field_type": "text", "page": 1},
+        {"field_name": "Treatment Summary", "field_value": "Patient underwent chemotherapy and radiotherapy.", "field_type": "text", "page": 1}
+    
+    ]
+}
