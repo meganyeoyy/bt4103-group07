@@ -65,7 +65,6 @@ def map_combined_to_fields(combined, form_fields):
         name = field["field_name"]
 
         # --- Doctors/hospitals consulted (explicit mappings) ---
-
         if "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (1)" in name:
             set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows) (1) Date(s) of consultation (dd/mm/yyyy)")
         elif "Please provide the name of doctor(s) which the Insured has been referred to for this condition (1)" in name:
@@ -163,7 +162,7 @@ def map_combined_to_fields(combined, form_fields):
         elif "histological diagnosis" in name.lower():
             set_field_with_confidence(field, combined, "Histological diagnosis")
 
-        elif "Date of diagnosis" in name:
+        elif "first informed of the diagnosis" in name:
             set_date_with_confidence(field, combined, "Date of diagnosis (dd/mm/yyyy)", name)
 
         elif "where the diagnosis was first made" in name:
@@ -195,17 +194,17 @@ def map_combined_to_fields(combined, form_fields):
             set_checkbox_with_confidence(field, combined, "Was there invasion of adjacent tissues?")
         elif "Were regional lymph nodes involved" in name:
             set_checkbox_with_confidence(field, combined, "Were regional lymph nodes involved?")
+        elif "Were there distant metastases? If “Yes”, please provide full details, including site of any metastases, etc" in name:
+            set_field_with_confidence(field, combined, "Metastases details")
         elif "Were there distant metastases" in name:
             set_checkbox_with_confidence(field, combined, "Were there distant metastases?")
-        elif "metastases details" in name.lower():
-            set_field_with_confidence(field, combined, "Metastases details")
 
         # --- Special conditions (CIS, premalignant, etc.) ---
-        elif "carcinoma-in-situ" in name.lower():
+        elif "Is the condition carcinoma-in-situ?" in name:
             set_checkbox_with_confidence(field, combined, "Is the condition carcinoma-in-situ?")
         elif "Is the condition pre-malignant or non-invasive?" in name:
             set_checkbox_with_confidence(field, combined, "Pre-malignant / non-invasive")
-        elif "borderline malignancy" in name.lower():
+        elif "borderline malignancy" in name:
             set_checkbox_with_confidence(field, combined, "Borderline / suspicious malignancy")
         elif "Cervical Dysplasia" in name:
             set_checkbox_with_confidence(field, combined, "Cervical dysplasia CIN1-3 (without CIS)")
@@ -309,12 +308,12 @@ def map_combined_to_fields(combined, form_fields):
 
         elif "Is the Insured referred to hospice care? If day care, please state start date" in name:
             set_date_with_confidence(field, combined, "Hospice inpatient admission date (dd/mm/yyyy)", name)
-        elif "Is the Insured referred to hospice care? If yes, please state if it is inpatient":
+        elif "Is the Insured referred to hospice care? If yes, please state if it is inpatient" in name:
             set_field_with_confidence(field, combined, "Hospice care type - Inpatient")
 
         elif "Is the Insured referred to hospice care? If day care, please state start date (dd/mm/yyyy)" in name:
             set_date_with_confidence(field, combined, "Hospice daycare start date (dd/mm/yyyy)", name)
-        elif "Is the Insured referred to hospice care? If yes, please state if it is day care":
+        elif "Is the Insured referred to hospice care? If yes, please state if it is day care" in name:
             set_field_with_confidence(field, combined, "Hospice care type - Day care")
 
     
@@ -323,20 +322,23 @@ def map_combined_to_fields(combined, form_fields):
 
         # --- Family / Medical / Lifestyle ---
     
-        elif "medical history" in name:
+        elif "Please give details of the Insured’s medical history which would have increased the risk of Cancer (including nature of illness, date of diagnosis and source of information)" in name:
             set_field_with_confidence(field, combined, "Medical history that would have increased the risk of cancer")
-        elif "family history" in name:
+        elif "Please give details of the Insured’s family history which would have increased the risk of Cancer (including the relationship, nature of illness, date of  diagnosis and source of information)" in name:
             set_field_with_confidence(field, combined, "Family history that would have increased the risk of Cancer")
         elif "Please give details of the Insured’s habits in relation to past and present smoking, including the duration of smoking habits, number of cigarettes smoked  per day and source of this information" in name:
             set_field_with_confidence(field, combined, "Smoking habits")
-        elif "alcohol" in name:
+        elif "Please give details of the Insured’s habits in relation to alcohol consumption, including the type of alcohol, amount of alcohol consumption per day,  duration of such consumption and source of this information" in name:
             set_field_with_confidence(field, combined, "Alcohol consumption habits")
 
         # --- HIV / AIDS ---
-        elif "HIV antibody status" in name:
+        elif "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? If “Yes” please state HIV antibody status" in name:
             set_field_with_confidence(field, combined, "HIV antibody status")
-        elif "HIV/AIDS diagnosis date" in name:
+        elif "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? If “Yes” please state date of diagnosis for HIV/AIDS (dd/mm/yyyy)" in name:
             set_date_with_confidence(field, combined, "HIV/AIDS diagnosis date (dd/mm/yyyy)", name)
+        elif "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)?" in name:
+            set_checkbox_with_confidence(field, combined, "Tumour caused by HIV or AIDS?")
+
 
         # --- Other significant health conditions ---
 
@@ -381,8 +383,6 @@ def map_combined_to_fields(combined, form_fields):
         
         elif "Does Insured have or ever had any other significant health condition(s)?" in name:
             set_checkbox_with_confidence(field, combined, "Any other significant health conditions")
-
-        
 
     return form_fields
 
