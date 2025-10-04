@@ -9,7 +9,7 @@ FIELD_TYPE_MAP = {
     fitz.PDF_WIDGET_TYPE_SIGNATURE: "signature",
 }
 
-def get_fields(file, out_json="form_fields.json"):    
+def get_fields(file, out_json="data/raw-txt/form_fields.json"):    
     pdf = fitz.open(file)
     results = {"fields": []}
 
@@ -26,6 +26,7 @@ def get_fields(file, out_json="form_fields.json"):
                     "field_value": widget.field_value if widget.field_value else "",
                     "field_type": field_type,
                     "page": page_no,
+                    "confidence": ""
                 }
             )
 
@@ -38,4 +39,4 @@ def get_fields(file, out_json="form_fields.json"):
 
 
 if __name__ == '__main__':
-    get_fields("ntuc_form.pdf")
+    get_fields("data/pdf/ntuc_form.pdf")
