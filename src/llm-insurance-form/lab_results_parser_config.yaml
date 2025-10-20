@@ -1,0 +1,39 @@
+pdf_cleaning:
+  header_patterns:
+    - "(?im)^\\s*(?:National Cancer Centre|Singapore General Hospital|.*Hospital.*?)\\s*$"
+  footer_patterns:
+    - "(?im)^\\s*this is a computer generated report.*$"
+    - "(?im)^\\s*printed from:.*$"
+    - "(?im)^\\s*page:\\s*\\d+\\s*$"
+    - "(?im)^\\s*requested by:.*page\\s*\\d+\\s*of\\s*\\d+.*$"
+    - "(?im)End of Report\\s*$"
+
+test_detection:
+  datetime_pattern: "(\\d{1,2}-[A-Za-z]{3}-\\d{4}\\s+\\d{2}:\\d{2})\\s*"
+  date_pattern: "(\\d{1,2}-[A-Za-z]{3}-\\d{4})"
+  name_stopwords:
+    - "Final"
+    - "Report Link"
+    - "Verified"
+    - "Reporting"
+    - "Received"
+    - "HISTORY"
+    - "DIAGNOSIS"
+    - "Additional Info"
+    - "Profile"
+    - "Antibody"
+    - "POCT"
+    - "SGCR"
+    - "Erect"
+
+text_cleanup:
+  remove_non_ascii: true
+  collapse_blank_lines: true
+  collapse_spaces: true
+
+cleanup_words:
+  - "Final"
+  - "Updated"
+  - "I 1"
+  - "SGCR\\d+"
+  - "\\d{2}:\\w{2}\\d{4}"
