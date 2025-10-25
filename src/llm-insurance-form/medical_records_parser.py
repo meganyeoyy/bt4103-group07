@@ -1,66 +1,50 @@
 import json
-import yaml
 import re
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Union
 
 import fitz
-import ocrmypdf
+import yaml
 
-
-def scannedPdfConverter(
-    file_path: Union[str, Path], save_path: Union[str, Path]
-) -> None:
-    """
-    Convert a scanned PDF into a searchable/selectable PDF using OCR.
-
-    Args:
-        file_path (Union[str, Path]): Path to the scanned PDF file.
-        save_path (Union[str, Path]): Path where the converted PDF should be saved.
-
-    Returns:
-        None
-    """
-    ocrmypdf.ocr(
-        file_path, 
-        save_path, 
-        skip_text=True,
-        tesseract_pagesegmode=6,
-        tesseract_oem=3,
-        optimize=1,
-    )
-
-
-################################################
 
 class MedicalRecordsParser:
-    def __init__(self, config_path: Union[str, Path] = "medical_records_parser_config.yaml"):
+    def __init__(
+        self, config_path: Union[str, Path] = "medical_records_parser_config.yaml"
+    ):
         # Load YAML config
         with open(config_path, "r", encoding="utf-8") as f:
             cfg = yaml.safe_load(f)
 
         self.cfg = cfg
         self.DMO_HEADER_REGEX = re.compile(
-            r".{0,10}?"                               # allow up to 10 junk chars before DMO
-            r"DMO\s*"                                 # DMO keyword
-            r"("                                      # <-- Capture section type
+            r".{0,10}?"  # allow up to 10 junk chars before DMO
+            r"DMO\s*"  # DMO keyword
+            r"("  # Capture section type
             r"Consult|Correspondence|Pre[- ]?clerk\s*Consult|"
             r"Inpatient\s*(?:Admission\s*Note|Daily\s*Ward\s*Round(?:\s*V\d+)?)|"
             r"Correspondence\s*Note"
-            r")"                                      # <-- Capture Section type
-            r".{0,50}?\[Charted\s*Location:",          # allow up to 50 chars till the bracket
+            r")"  # Capture Section type
+            r".{0,50}?\[Charted\s*Location:",
             re.IGNORECASE | re.DOTALL,
         )
 
         # metadata patterns
-        self._authored_date_re = re.compile(r"Authored:\s*(\d{1,2}-[A-Za-z]{3}-\d{4})", re.IGNORECASE)
-        self._last_updated_re = re.compile(r"Last Updated:.*?by\s+([A-Za-z\s\-]+)\s*\(Doctor\)", re.IGNORECASE)
+        self._authored_date_re = re.compile(
+            r"Authored:\s*(\d{1,2}-[A-Za-z]{3}-\d{4})", re.IGNORECASE
+        )
+        self._last_updated_re = re.compile(
+            r"Last\s*Updated:.*?by\s+([A-Za-z\s\-]+)\s*\(Doctor\)",
+        )
 
         # ---------- LOAD CONFIGURED PATTERNS / MAPS ----------
         pdf_clean = cfg.get("pdf_cleaning", {})
-        self.hospital_patterns = [re.compile(p, re.IGNORECASE) for p in pdf_clean.get("hospital_patterns", [])]
-        self.footer_patterns = [re.compile(p, re.IGNORECASE) for p in pdf_clean.get("footer_patterns", [])]
+        self.hospital_patterns = [
+            re.compile(p, re.IGNORECASE) for p in pdf_clean.get("hospital_patterns", [])
+        ]
+        self.footer_patterns = [
+            re.compile(p, re.IGNORECASE) for p in pdf_clean.get("footer_patterns", [])
+        ]
 
         section_cfg = cfg.get("section_headers", {})
         self.ignored_headers = section_cfg.get("ignored", [])
@@ -100,26 +84,14 @@ class MedicalRecordsParser:
     # -------------------------
     def match_dmo_section_header(self, line: str) -> Optional[re.Match]:
         clean_line = re.sub(r"^[^\w]*", "", line)
-        
+
         match = self.DMO_HEADER_REGEX.search(clean_line)
         if match:
             return match
         return None
-    
+
     def is_dmo_section_header(self, line: str) -> bool:
         return bool(self.match_dmo_section_header(line))
-
-    def is_ignored_section_header(self, line: str) -> bool:
-        s = line.strip()
-        # keep same semantics as old code (prefix-based ignoring)
-        return (
-            s.upper().startswith("NUR")
-            or s.upper().startswith("PHA")
-            or s.upper().startswith("CTR")
-            or s.upper().startswith("DISTRESS SCREENING NOTE")
-            # also support explicit list from YAML if you want (kept for compatibility)
-            or any(s.upper().startswith(h.upper()) for h in self.ignored_headers)
-        )
 
     def is_last_updated_line(self, line: str) -> bool:
         return line.strip().upper().startswith("LAST UPDATED:")
@@ -139,47 +111,52 @@ class MedicalRecordsParser:
     # -------------------------
     # SECTION EXTRACTION
     # -------------------------
-    def extract_dmo_sections(self, text: str):
+    def extract_dmo_sections(self, text: str) -> list[str]:
         """
-        Extract all DMO sections from the document text based on flexible pattern matching.
+        Extracts all DMO sections from OCR text, ensuring each section includes
+        the 'Last Updated ... (Doctor)' line at the end.
         """
         lines = text.splitlines()
-        dmo_sections = []
-        current_section = []
-        in_dmo = False
+        sections = []
+        current = []
+        inside_dmo = False
 
         for line in lines:
-            # normalize weird spacing/encoding issues
-            line_clean = re.sub(r"\s+", " ", line).strip()
+            line_stripped = line.strip()
 
-            # check for DMO header pattern
-            match = self.DMO_HEADER_REGEX.search(line_clean)
-            if match:
-                # Start a new DMO section
-                if current_section:
-                    dmo_sections.append("\n".join(current_section).strip())
-                    current_section = []
+            # Skip obvious junk lines
+            if self.is_junk_line(line_stripped):
+                continue
 
-                # Remove any garbage before DMO
-                start_idx = match.start()
-                cleaned_line = line_clean[start_idx:].strip()
-                current_section.append(cleaned_line)
-                in_dmo = True
-            elif in_dmo:
-                # Keep adding to current DMO section until another DMO header appears
-                current_section.append(line_clean)
+            # Detect start of DMO section
+            if self.is_dmo_section_header(line):
+                inside_dmo = True
+                # Save previous section if exists
+                if current:
+                    sections.append("\n".join(current).strip())
+                    current = []
+                current.append(line_stripped)
+                continue
 
-        # Add last collected section if any
-        if current_section:
-            dmo_sections.append("\n".join(current_section).strip())
+            # If inside a DMO section, keep collecting lines
+            if inside_dmo:
+                current.append(line_stripped)
+                # Check for Last Updated line that ends the section
+                if self.is_last_updated_line(line_stripped):
+                    inside_dmo = False
+                    sections.append("\n".join(current).strip())
+                    current = []
 
-        return dmo_sections
+        if current:
+            sections.append("\n".join(current).strip())
+
+        return sections
 
     # -------------------------
     # SUBSECTION SPLITTING
     # -------------------------
     def split_into_subsections(self, text: str) -> Dict[str, str]:
-        headers = self.subsection_headers 
+        headers = self.subsection_headers
         normalized_headers = {h.upper(): h for h in headers}
         pattern = "(" + "|".join([re.escape(h) + ":?" for h in headers]) + ")"
 
@@ -275,10 +252,7 @@ class MedicalRecordsParser:
     # -------------------------
     def build_timeline(self, pdf_path: Union[str, Path]) -> Dict[str, List[Dict]]:
         raw_text = self.extract_text_no_header_footer(pdf_path)
-        with open("debug.txt", "w", encoding="utf-8") as f:
-            f.write(raw_text)
         dmo_sections = self.extract_dmo_sections(raw_text)
-        print(dmo_sections)
 
         timeline = defaultdict(list)
         for sec in dmo_sections:
@@ -292,19 +266,22 @@ class MedicalRecordsParser:
 
         return dict(timeline)
 
+
 if __name__ == "__main__":
     # TODO: Changes to be made based on where the files are stored after user upload; part of integration work
     # Example usage as below:
-    scannedPdfConverter(r"../../data/SCM Records/Redacted - SCM_Patient 2.pdf", r"../../data/SCM Records/Converted/Redacted - SCM_Patient 2_Converted.pdf")
+    # scannedPdfConverter(r"../../data/SCM Records/Redacted - SCM_Patient 5.pdf", r"../../data/SCM Records/Converted/Redacted - SCM_Patient 5_Converted.pdf")
 
-    pdf_path = f"../../data/SCM Records/Converted/Redacted - SCM_Patient 3_Converted.pdf"
+    pdf_path = (
+        f"../../data/SCM Records/Converted/Redacted - SCM_Patient 1_Converted.pdf"
+    )
     parser = MedicalRecordsParser()
     timeline = parser.build_timeline(pdf_path)
 
-    print(json.dumps(timeline, indent=2))
+    # print(json.dumps(timeline, indent=2))
     with open(
-        f"../../data/SCM Records/Converted/Patient 3 Medical Records.json",
-        "w",    
+        f"../../data/SCM Records/Converted/Patient 1 Medical Records.json",
+        "w",
         encoding="utf-8",
     ) as f:
         f.write(json.dumps(timeline, indent=2))

@@ -1,32 +1,13 @@
+import json
+import re
+from collections import defaultdict
+from pathlib import Path
+from typing import Dict, List, Union
+
 import fitz
 import yaml
-import re
-import json
-from collections import defaultdict
-from typing import Dict, List, Optional, Tuple, Union
-from pathlib import Path
-
-import ocrmypdf
 
 
-def scannedPdfConverter(
-    file_path: Union[str, Path], save_path: Union[str, Path]
-) -> None:
-    """
-    Convert a scanned PDF into a searchable/selectable PDF using OCR.
-
-    Args:
-        file_path (Union[str, Path]): Path to the scanned PDF file.
-        save_path (Union[str, Path]): Path where the converted PDF should be saved.
-
-    Returns:
-        None
-    """
-    ocrmypdf.ocr(file_path, save_path, skip_text=True)
-    print("File converted successfully!")
-
-
-################################################
 class LabResultParser:
     def __init__(self):
         """Initialize parser and load YAML config."""
@@ -37,7 +18,14 @@ class LabResultParser:
     # 1. PDF TEXT CLEANING
     # =====================================================
     def extract_text_no_header_footer(self, pdf_path: Union[str, Path]) -> str:
-        """Extract PDF text while removing headers and footers."""
+        """
+        Extract PDF text while removing headers and footers.
+
+        Params:
+            pdf_path (Union[str, Path]): Path to the lab results PDF file.
+        Returns:
+            str: Cleaned text extracted from the PDF.
+        """
         doc = fitz.open(pdf_path)
         pages = []
 
@@ -77,7 +65,15 @@ class LabResultParser:
     # 2. TEST NAME CLEANING
     # =====================================================
     def clean_test_name(self, raw_header: str) -> str:
-        """Normalize and clean test names."""
+        """
+        Normalize and clean test names extracted from lab results.
+
+        Params:
+            raw_header (str): Raw test name/header extracted from the PDF.
+
+        Returns:
+            str: Cleaned test name.
+        """
         stopwords = "|".join(self.config["test_detection"]["name_stopwords"])
         match = re.match(rf"(.*?)(?:\s+(?:{stopwords})|$)", raw_header, re.IGNORECASE)
 
@@ -90,7 +86,14 @@ class LabResultParser:
     # 3. PARSE ALL TESTS
     # =====================================================
     def parse_all_tests(self, text: str) -> List[Dict[str, str]]:
-        """Split and group all lab test sections by date."""
+        """
+        Split and group all lab test sections by date.
+
+        Params:
+            text (str): Full raw text extracted from the lab results PDF.
+        Returns:
+            List[Dict[str, str]]: List of dictionaries with keys: date, test_name, raw_details.
+        """
         datetime_pattern = re.compile(
             self.config["test_detection"]["datetime_pattern"], re.DOTALL
         )
@@ -137,7 +140,15 @@ class LabResultParser:
     # 4. TEXT NORMALIZATION
     # =====================================================
     def normalize_test_details(self, text: str) -> str:
-        """Clean up test detail text."""
+        """
+        Clean up test detail text.
+
+        Params:
+            text (str): Raw test detail text.
+
+        Returns:
+            str: Cleaned test detail text.
+        """
         cleanup_words = "|".join(self.config["cleanup_words"])
         text = re.sub(rf"({cleanup_words})\s*", " ", text, flags=re.IGNORECASE)
         text = re.sub(r"\s*\n\s*", "\n", text)
@@ -148,29 +159,46 @@ class LabResultParser:
     # 5. TIMELINE BUILDER
     # =====================================================
     def build_timeline(self, pdf_path: Union[str, Path]) -> Dict[str, List[Dict]]:
-        """Build chronological test results timeline."""
+        """
+        Build chronological test results timeline with the requested nested structure:
+        Date -> [ { "lab results": { Test Name: Text, ... } } ]
+
+        Params:
+            pdf_path (Union[str, Path]): Path to the lab results PDF file.
+
+        Returns:
+            Dict[str, List[Dict]]: Timeline dictionary.
+        """
         raw_text = self.extract_text_no_header_footer(pdf_path)
         tests = self.parse_all_tests(raw_text)
 
-        timeline = defaultdict(list)
+        # 1. Group all individual tests into a temporary dictionary by date.
+        # The value for each date will be a dictionary of {test_name: details}.
+        tests_by_date = defaultdict(dict)
+
         for test in tests:
             cleaned = self.normalize_test_details(test["raw_details"])
-            timeline[test["date"]].append(
-                {"test_name": test["test_name"], "text": cleaned}
-            )
+            # The inner dictionary structure: {test_name: cleaned_text}
+            tests_by_date[test["date"]][test["test_name"]] = cleaned
 
-        return dict(timeline)
+        # 2. Build the final timeline structure: Date -> [ { "lab results": { ... } } ]
+        final_timeline = {}
+        for date, results_dict in tests_by_date.items():
+            final_timeline[date] = [{"lab results": results_dict}]
+
+        return final_timeline
 
 
 if __name__ == "__main__":
+    # Example usage
     pdf_path = (
-        "../../data/Lab Results/Converted/Redacted - Lab Results_Patient4_Converted.pdf"
+        "../../data/Lab Results/Converted/Redacted - Lab Results_Patient2_Converted.pdf"
     )
     parser = LabResultParser()
     timeline = parser.build_timeline(pdf_path)
 
     with open(
-        "../../data/Lab Results/Converted/Patient 4 Lab Results.json",
+        "../../data/Lab Results/Converted/Patient 2 Lab Results.json",
         "w",
         encoding="utf-8",
     ) as f:
