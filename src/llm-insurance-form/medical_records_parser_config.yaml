@@ -25,11 +25,6 @@ section_headers:
     - "MANAGEMENT FOR THIS VISIT"
     - "PATIENT STATUS"
 
-metadata:
-  dmo_header_regex: "^DMO\\s+(Consult|Correspondence|Pre-clerk Consult)\\s+Note\\s+(NCC|NCC-Memo)\\s*\\[Charted Location:.*?\\]"
-  authored_date_pattern: "Authored:\\s*(\\d{1,2}-[A-Za-z]{3}-\\d{4})"
-  last_updated_pattern: "Last Updated:.*?by\\s+([A-Za-z\\s\\-]+)\\s*\\(Doctor\\)"
-
 normalization:
   month_map:
     Jan: "01"
@@ -61,3 +56,4 @@ normalization:
     Pt: "Patient"
     s/b: "seen by"
     c/o: "complaints of"
+  

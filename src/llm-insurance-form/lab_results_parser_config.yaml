@@ -14,17 +14,6 @@ test_detection:
   name_stopwords:
     - "Final"
     - "Report Link"
-    - "Verified"
-    - "Reporting"
-    - "Received"
-    - "HISTORY"
-    - "DIAGNOSIS"
-    - "Additional Info"
-    - "Profile"
-    - "Antibody"
-    - "POCT"
-    - "SGCR"
-    - "Erect"
 
 text_cleanup:
   remove_non_ascii: true
@@ -34,6 +23,3 @@ text_cleanup:
 cleanup_words:
   - "Final"
   - "Updated"
-  - "I 1"
-  - "SGCR\\d+"
-  - "\\d{2}:\\w{2}\\d{4}"
