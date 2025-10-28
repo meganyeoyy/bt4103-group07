@@ -72,8 +72,10 @@ def evaluate_files(gt_path, pred_path):
     # handling checkbox qns
     for qn in checkbox_questions:
         gt_yn = collapse_yesno(gt_dict, qn)
-        pred_yn = collapse_yesno(pred_dict, qn)
+        if gt_yn == "":  # skip unanswered yn qn in gt
+            continue
 
+        pred_yn = collapse_yesno(pred_dict, qn)
 
         gt_binary = 1 if gt_yn == "Yes" else 0
         pred_binary = 1 if pred_yn == "Yes" else 0
@@ -95,11 +97,13 @@ def evaluate_files(gt_path, pred_path):
             continue
         else:
             gt_text = gt_field_details.get("field_value", "")
+
+            if not gt_text or not gt_text.strip():  # only score when GT has value
+                continue
+            
             pred_field_details = pred_dict.get(field_name, {})
             pred_text = pred_field_details.get("field_value", "")
 
-            if not gt_text and not pred_text:
-                continue
 
             similarity = cosine_similarity(get_embedding(gt_text), get_embedding(pred_text))
 
@@ -115,8 +119,13 @@ def evaluate_files(gt_path, pred_path):
     return results, y_true, y_pred
 
 if __name__ == "__main__":
-    gt_path = "data/eval/gt.json"
-    pred_path = "data/eval/pred.json"
+    gt_path = "data/eval/ntuc_gt_patient_1.json"
+    pred_path = "data/eval/ntuc_norag_patient_1.json"
+
+
+    # Strip everything before and including "eval/"
+    gt_name = gt_path.split("eval/")[-1]
+    pred_name = pred_path.split("eval/")[-1]
 
     eval_results, y_true, y_pred = evaluate_files(gt_path, pred_path)
 
@@ -126,8 +135,10 @@ if __name__ == "__main__":
     f1 = f1_score(y_true, y_pred)
 
     sim_scores = [r["similarity"] for r in eval_results if r["type"] == "text"]
-    avg_similarity = sum(sim_scores) / len(sim_scores)
+    avg_similarity = sum(sim_scores) / len(sim_scores) if sim_scores else 0.0
 
+
+    print(f"Evaluating:\n GT:   {gt_name}\n Pred: {pred_name}\n")
     print("\n--- Aggregate Results---")
     print(f"Overall F1 (Yes/No): {f1:.3f}")
     print(f"Average Similarity (Free text): {avg_similarity:.3f}")

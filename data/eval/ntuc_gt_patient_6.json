@@ -1,0 +1,970 @@
+{
+    "fields": [
+        {
+            "field_name": "Are you the Insured’s usual doctor? Yes",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 1
+        },
+        {
+            "field_name": "Are you the Insured’s usual doctor? No",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 1
+        },
+        {
+            "field_name": "Over what period do your records extend? Start date (dd/mm/yyyy)",
+            "field_value": "22/04/2025",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "Over what period do your records extend? End date (dd/mm/yyyy)",
+            "field_value": "16/09/2025",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "When did the Insured first consult you for this condition? (dd/mm/yyyy)",
+            "field_value": "22/04/2025",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "When you first saw the Insured, what were the symptoms presented? (1)",
+            "field_value": "No symptoms",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "When you first saw the Insured, what were the duration of symptoms? (1)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "When you first saw the Insured, what were the symptoms presented and their duration? Please state date of onset of symptoms (dd/mm/yyyy) (1)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "When you first saw the Insured, what were the symptoms presented? (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "When you first saw the Insured, what were the duration of symptoms? (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "When you first saw the Insured, what were the symptoms presented and their duration? Please state date of onset of symptoms (dd/mm/yyyy) (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "For the symptoms presented, their duration and the start date, what who is the source of this information?",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? Yes",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? No",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name of Doctor (1)",
+            "field_value": "Lim Kim Wei",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name and address of clinic / hospital (1)",
+            "field_value": "SGH",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Date(s) of consultation (dd/mm/yyyy) (1)",
+            "field_value": "05-05-2025",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Diagnosis made (1)",
+            "field_value": "Adenocarima",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name of Doctor (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name and address of clinic / hospital (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Date(s) of consultation (dd/mm/yyyy) (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Diagnosis made (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name of Doctor (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name and address of clinic / hospital (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Date(s) of consultation (dd/mm/yyyy) (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Diagnosis made (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "What is the histological diagnosis of the disease?",
+            "field_value": "Gastric adenocarima",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Date of diagnosis (dd/mm/yyyy)",
+            "field_value": "06/03/2025",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Please provide the name and address of doctor and clinic/hospital where the diagnosis was first made",
+            "field_value": "Lim Kim Wei, Singapore General Hospital 169 608 Centre for Digestie and Live Diseases Clinic",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Please provide the date when the Insured was first informed of the diagnosis (dd/mm/yyyy): ",
+            "field_value": "22/04/2025",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Was a biopsy of the tumour performed? Yes",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Was a biopsy of the tumour performed? No",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Was a biopsy of the tumour performed? If “Yes”, please state the date of biopsy (dd/mm/yyyy)",
+            "field_value": "06/03/2025",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Was a biopsy of the tumour performed? If “No”, please state why and how the diagnosis was confirmed",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "What was the site or organ involved?",
+            "field_value": "Stomach",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "What is the staging of the tumour? Please provide full details using appropriate staging classification (eg TNM Classification, etc)",
+            "field_value": "Stage 4 with metastasis to lymph node",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Has the cancer spread beyond the layer of cells in which it began? Yes",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Has the cancer spread beyond the layer of cells in which it began? No",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Was the disease completely localised? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Was the disease completely localised? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Was there invasion of adjacent tissues? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Was there invasion of adjacent tissues? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Were regional lymph nodes involved? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Were regional lymph nodes involved? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Were there distant metastases? Yes",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Were there distant metastases? No",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Were there distant metastases? If “Yes”, please provide full details, including site of any metastases, etc",
+            "field_value": "retropancreatic lymph node",
+            "field_type": "text",
+            "page": 2
+        },
+        {
+            "field_name": "Is the condition carcinoma-in-situ? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Is the condition carcinoma-in-situ? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Is the condition pre-malignant or non-invasive? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Is the condition pre-malignant or non-invasive? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Is the condition having borderline malignancy or is suspicious of malignancy only? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Is the condition having borderline malignancy or is suspicious of malignancy only? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Is the condition Cervical Dysplasia CIN 1, CIN 2, CIN 3 (severe dysplasia without Carcinoma-in-situ)? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Is the condition Cervical Dysplasia CIN 1, CIN 2, CIN 3 (severe dysplasia without Carcinoma-in-situ)? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 2
+        },
+        {
+            "field_name": "Is the condition Carcinoma-in-situ of the Biliary system? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Carcinoma-in-situ of the Biliary system? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Hyperkeratoses, basal cell and squamous skin cancers? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Hyperkeratoses, basal cell and squamous skin cancers? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Bladder Cancer described as TNM classification T1N0M0 or below? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Bladder Cancer described as TNM classification T1N0M0 or below? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Papillary Micro-carcinoma of the Bladder? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Papillary Micro-carcinoma of the Bladder? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Prostate cancer described as TNM classification T1N0M0, T1 or another equivalent or lesser classification? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Prostate cancer described as TNM classification T1N0M0, T1 or another equivalent or lesser classification? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Thyroid Cancer described as TNM classification T1N0M0 or below? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Thyroid Cancer described as TNM classification T1N0M0 or below? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Thyroid Cancer described as TNM classification T1N0M0 or below? If “Yes”, please state the size in diameter (cm)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Papillary Micro-carcinoma of the Thyroid? Yes",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Papillary Micro-carcinoma of the Thyroid? No",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Is the condition Papillary Micro-carcinoma of the Thyroid? If “Yes”, please state the size in diameter (cm)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "If the diagnosis is leukaemia, please state type of leukaemia",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "If the diagnosis is leukaemia, please state type of RAI staging",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "If the diagnosis is malignant melanoma, please give full details of the  size, thickness (Breslow classification) (mm)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "If the diagnosis is malignant melanoma, please give full details of depth of invasion (Clark level) ",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Has the condition caused invasion beyond the epidermis? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Has the condition caused invasion beyond the epidermis? No",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "If the diagnosis is Gastro-Intestinal Stroma Tumour (GIST), please state tumour classification (TNM classification)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "If the diagnosis is Gastro-Intestinal Stroma Tumour (GIST), please state Mitotic count (in HPFs) ",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide details of all investigations performed and enclose copies of all reports, eg biopsy reports, cytology and histopathology reports, X-rays,  CT and MRI scans, other imaging studies, laboratory evidence, surgical reports and other relevant hospital reports",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide full details of all type of treatment provided (1)",
+            "field_value": "capecitabine, oxaliplatin, nivolumab",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide full details of date of treatment provided (dd/mm/yyyy) (1)",
+            "field_value": "24/04/2025",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide full details of duration of treatment provided (1)",
+            "field_value": "4.5 months",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide full details of all type of treatment provided (2)",
+            "field_value": "capecitabine, nivolumab",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide full details of date of treatment provided (dd/mm/yyyy) (2)",
+            "field_value": "18/09/2025",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide full details of duration of treatment provided (2)",
+            "field_value": "currently ongoing",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide full details of all type of treatment provided (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide full details of date of treatment provided (dd/mm/yyyy) (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Please provide full details of duration of treatment provided (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Has active treatment and therapy now been rejected in favour of relief of symptoms? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Has active treatment and therapy now been rejected in favour of relief of symptoms? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Has active treatment and therapy now been rejected in favour of relief of symptoms? If “Yes”, please provide full details why this view/course of action is taken",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Was radical surgery (total and complete removal of the affected organ) done? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Was radical surgery (total and complete removal of the affected organ) done? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "Was radical surgery (total and complete removal of the affected organ) done? If “Yes”, please state the name of the surgery, surgical code/table",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Was radical surgery (total and complete removal of the affected organ) done? If “Yes”, please state the date surgery was performed (dd/mm/yyyy)",
+            "field_value": "Yes",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "For mastectomy cases, was reconstructive surgery done or recommended? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "For mastectomy cases, was reconstructive surgery done or recommended? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 3
+        },
+        {
+            "field_name": "For mastectomy cases, was reconstructive surgery done or recommended? If “Yes”, please state date surgery was performed (dd/mm/yyyy) ",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3
+        },
+        {
+            "field_name": "Is the Insured still on follow-up at your clinic? Yes",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured still on follow-up at your clinic? No",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured still on follow-up at your clinic? If “Yes”, please provide state date of next appointment (dd/mm/yyyy) ",
+            "field_value": "07/10/2025",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured still on follow-up at your clinic? If \"No”, please provide date of discharge (dd/mm/yyyy) ",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? If “Yes”, please provide details on the basis of your evaluation",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? If “Yes”, please indicate the date on which the Insured is assessed to be terminally ill (dd/mm/yyyy) ",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured referred to hospice care? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured referred to hospice care? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured referred to hospice care? If yes, please state the name of hospice",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured referred to hospice care? If inpatient, please state date of admission (dd/mm/yyyy)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured referred to hospice care? If yes, please state if it is inpatient",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured referred to hospice care? If day care, please state start date (dd/mm/yyyy)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Is the Insured referred to hospice care? If yes, please state if it is day care",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide the name of doctor(s) which the Insured has been referred to for this condition (1)",
+            "field_value": "Matthew Ng",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (1)",
+            "field_value": "National Cancer Centre Singpaore",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (1)",
+            "field_value": "16-09-2025",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (1)",
+            "field_value": "Gastric adenocarima",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide the name of doctor(s) which the Insured has been referred to for this condition (2)",
+            "field_value": "Lim Kim Wei",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (2)",
+            "field_value": "Singapore General Hospital",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (2)",
+            "field_value": "27-05-2025",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (2)",
+            "field_value": "Gastric adenocarima",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide the name of doctor(s) which the Insured has been referred to for this condition (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors? If “Yes”, please provide details, including diagnosis, date of diagnosis, dates of consultation, name and address of doctor/ clinic and source of information",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please give details of the Insured’s medical history which would have increased the risk of Cancer (including nature of illness, date of diagnosis and source of information)",
+            "field_value": "Nil",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please give details of the Insured’s family history which would have increased the risk of Cancer (including the relationship, nature of illness, date of  diagnosis and source of information)",
+            "field_value": "Nil",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please give details of the Insured’s habits in relation to past and present smoking, including the duration of smoking habits, number of cigarettes smoked  per day and source of this information",
+            "field_value": "Ex smoker. 2 pack years. from patient",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Please give details of the Insured’s habits in relation to alcohol consumption, including the type of alcohol, amount of alcohol consumption per day,  duration of such consumption and source of this information",
+            "field_value": "Nil",
+            "field_type": "text",
+            "page": 4
+        },
+        {
+            "field_name": "Is the tumour or cancer in any way caused directly or indirectly by alcohol or drug abuse? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Is the tumour or cancer in any way caused directly or indirectly by alcohol or drug abuse? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 4
+        },
+        {
+            "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 5
+        },
+        {
+            "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 5
+        },
+        {
+            "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? If “Yes” please state HIV antibody status",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? If “Yes” please state date of diagnosis for HIV/AIDS (dd/mm/yyyy)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? Yes",
+            "field_value": "",
+            "field_type": "checkbox",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? No",
+            "field_value": "Yes",
+            "field_type": "checkbox",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of diagnosis (1)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide name of doctor that diagnosed (1)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Name and address of clinic/ hospital (1)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of date of diagnosis (dd/mm/yyyy) (1)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of  condition (1)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of treatment received (1)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of diagnosis (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide name of doctor that diagnosed (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Name and address of clinic/ hospital (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of date of diagnosis (dd/mm/yyyy) (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of  condition (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of treatment received (2)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of diagnosis (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide name of doctor that diagnosed (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Name and address of clinic/ hospital (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of date of diagnosis (dd/mm/yyyy) (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of  condition (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of treatment received (3)",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "Please provide us with any other additional information that will enable us to assess this claim",
+            "field_value": "Attached",
+            "field_type": "text",
+            "page": 5
+        },
+        {
+            "field_name": "date of completed form",
+            "field_value": "",
+            "field_type": "text",
+            "page": 5
+        }
+    ]
+}
