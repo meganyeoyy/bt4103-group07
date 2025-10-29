@@ -7,9 +7,10 @@ FIELD_TYPE_MAP = {
     fitz.PDF_WIDGET_TYPE_CHECKBOX: "checkbox",
     fitz.PDF_WIDGET_TYPE_TEXT: "text",
     fitz.PDF_WIDGET_TYPE_SIGNATURE: "signature",
+    fitz.PDF_WIDGET_TYPE_RADIOBUTTON: "checkbox_delete",
 }
 
-def get_fields(file, out_json=f"data/raw-txt/GE_form_fields.json"):    
+def get_fields(file, out_json=f"data/raw-txt/GE_form_fields_empty.json"):    
     pdf = fitz.open(file)
     results = {"fields": []}
 
@@ -41,4 +42,5 @@ def get_fields(file, out_json=f"data/raw-txt/GE_form_fields.json"):
 if __name__ == '__main__':
     # get_fields("data/pdf/ntuc_form.pdf")
     # get_fields("data/pdf/AIA Death.pdf")
-    get_fields("data/pdf/Great Eastern.pdf")
+    # get_fields("data/pdf/Great Eastern.pdf")
+    get_fields("data/pdf/great_eastern_form.pdf")
