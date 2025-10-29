@@ -1,12 +1,18 @@
 import requests
 import time
 import os
+from pathlib import Path
+
 
 BASE_URL = "https://yukiko-wreathless-helpfully.ngrok-free.dev"
 
+input_path = Path("data/SCM Records/NTUC_Redacted - SCM_Patient 4.pdf")
+filename = input_path.name
+
 # Step 1. Upload the PDF
-with open("document.pdf", "rb") as f:
-    files = {"file": ("document.pdf", f, "application/pdf")}
+
+with open(input_path, "rb") as f:
+    files = {"file": (filename, f, "application/pdf")}
     res = requests.post(f"{BASE_URL}/ask", files=files, verify=False)
     job_id = res.json()["job_id"]
     print("Job submitted:", job_id)
