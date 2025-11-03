@@ -16,21 +16,12 @@ def _set_on_off(widget, should_check: bool) -> None:
         should_check: Boolean indicating whether to check (True) or uncheck (False)
     """
     try:
-        # Radio buttons require their specific on_state value (not just True)
-        # Each radio button has a unique identifier like "Value_iqqq", "Yes", etc.
-        if widget.field_type == fitz.PDF_WIDGET_TYPE_RADIOBUTTON:
-            if should_check:
-                # Use the widget's unique on_state value to enable it
-                widget.field_value = widget.on_state()
-            else:
-                # Use False or off_state to disable it
-                widget.field_value = False
-        else:
-            # For checkboxes: use on_state/off_state strings
-            on_val  = widget.on_state()  if hasattr(widget, "on_state")  else "Yes"
-            off_val = widget.off_state() if hasattr(widget, "off_state") else "Off"
-            widget.field_value = on_val if should_check else off_val
+        # Get the widget's "on" and "off" state values (usually "Yes"/"Off")
+        on_val  = widget.on_state()  if hasattr(widget, "on_state")  else "Yes"
+        off_val = widget.off_state() if hasattr(widget, "off_state") else "Off"
         
+        # Set the appropriate value
+        widget.field_value = on_val if should_check else off_val
         widget.update()  # Apply the change to the PDF
     except Exception as e:
         print(f"[warn] could not set widget '{widget.field_name}': {e}")
@@ -99,23 +90,22 @@ def fill_from_json(input_pdf: str, json_path: str, output_pdf: str, flatten: boo
     # ------------------------------------------------------------------------
     # STEP 2: Build lookup maps for efficient field matching
     # ------------------------------------------------------------------------
-    # Map (page_number, field_name) -> (field_value, field_type) for exact page+name matches
-    exact_map: Dict[Tuple[int, str], Tuple[str, str]] = {}
-    # Map field_name -> list of (value, field_type) tuples (for fields appearing on multiple pages)
+    # Map (page_number, field_name) -> field_value for exact page+name matches
+    exact_map: Dict[Tuple[int, str], str] = {}
+    # Map field_name -> list of values (for fields appearing on multiple pages)
     name_map: Dict[str, list] = {}
     
     for it in fields:
         page = int(it.get("page", 0))
         name = (it.get("field_name") or "").strip()
         val  = it.get("field_value", "")
-        ftype = it.get("field_type", "")
         
         # Store in exact map if both page and name are available
         if page and name:
-            exact_map[(page, name)] = (val, ftype)
+            exact_map[(page, name)] = val
         # Store in name map for all fields with names
         if name:
-            name_map.setdefault(name, []).append((val, ftype))
+            name_map.setdefault(name, []).append(val)
 
     # ------------------------------------------------------------------------
     # STEP 3: Open the PDF document
@@ -135,20 +125,19 @@ def fill_from_json(input_pdf: str, json_path: str, output_pdf: str, flatten: boo
                 continue  # Skip widgets without names
 
             # ----------------------------------------------------------------
-            # STEP 4a: Find the value and field type for this field
+            # STEP 4a: Find the value for this field
             # ----------------------------------------------------------------
             value = None
-            json_field_type = None
             
             # First, try exact match (page + field name)
             if (page_no, fname) in exact_map:
-                value, json_field_type = exact_map[(page_no, fname)]
+                value = exact_map[(page_no, fname)]
             else:
                 # If no exact match, try matching by name alone
                 # Only use this if the field name appears exactly once in the JSON
                 vals = name_map.get(fname)
                 if vals and len(vals) == 1:
-                    value, json_field_type = vals[0]
+                    value = vals[0]
             
             if value is None:
                 continue  # No value found for this field, skip it
@@ -158,20 +147,8 @@ def fill_from_json(input_pdf: str, json_path: str, output_pdf: str, flatten: boo
             # ----------------------------------------------------------------
             t = w.field_type
             try:
-                print(json_field_type, str(value))
-                # CHECKBOX_DELETE: Radio button used for "delete accordingly" system
-                # This is a special field type for Great Eastern forms
-                # Logic: If field_value is NOT "Off" → block/delete the option (radio button = True)
-                #        If field_value is "Off" (default) → keep option visible (radio button = False)
-                # Example for Female patient:
-                #   "Gender: M" → field_value = "Yes" → blocked (should_check = True)
-                #   "Gender: F" → field_value = "Off" → visible (should_check = False)
-                if json_field_type == "checkbox_delete":
-                    should_check = (str(value).strip().lower() != "off")
-                    _set_on_off(w, should_check)
-
                 # TEXT FIELD: Regular text input
-                elif t == fitz.PDF_WIDGET_TYPE_TEXT:
+                if t == fitz.PDF_WIDGET_TYPE_TEXT:
                     # Use auto-fit function to prevent text cutoff
                     _fit_text_to_width(w, "" if value is None else str(value), max_fs=11.0, min_fs=6.0)
 
@@ -243,7 +220,7 @@ def fill_from_json(input_pdf: str, json_path: str, output_pdf: str, flatten: boo
 if __name__ == "__main__":
     # Define file paths
     INPUT_PDF  = "data/pdf/great_eastern_form.pdf"
-    JSON_PATH  = "data/raw-txt/form_fields_filled-4.json"
+    JSON_PATH  = "data/raw-txt/GE_form_fields_filled.json"
     OUTPUT_PDF = f"data/pdf/out/great_eastern_form_filled_{datetime.datetime.now().strftime('%d-%m-%Y %H%M')}.pdf"
 
     # Execute the form filling process

@@ -1,6 +1,20 @@
 {
     "fields": [
         {
+            "field_name": "Name of insured",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "NRIC / Passport No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
             "field_name": "Date of Birth (ddmmyyyy)",
             "field_value": "",
             "field_type": "text",
@@ -78,41 +92,6 @@
             "confidence": ""
         },
         {
-            "field_name": "Diagnosis was first made by (name of Doctor):",
-            "field_value": "",
-            "field_type": "text",
-            "page": 1,
-            "confidence": ""
-        },
-        {
-            "field_name": "date of completed form",
-            "field_value": "",
-            "field_type": "text",
-            "page": 1,
-            "confidence": ""
-        },
-        {
-            "field_name": "Name of insured",
-            "field_value": "",
-            "field_type": "text",
-            "page": 1,
-            "confidence": ""
-        },
-        {
-            "field_name": "NRIC / Passport No",
-            "field_value": "",
-            "field_type": "text",
-            "page": 1,
-            "confidence": ""
-        },
-        {
-            "field_name": "Are you the Life Assured's usual medical doctor? If \"yes\", since what date (ddmmyyyy)?",
-            "field_value": "",
-            "field_type": "text",
-            "page": 1,
-            "confidence": ""
-        },
-        {
             "field_name": "What is the source of the above information? If \"Referring Doctor / Others\", please specify name (1)",
             "field_value": "",
             "field_type": "text",
@@ -148,21 +127,77 @@
             "confidence": ""
         },
         {
-            "field_name": "Actual diagnosis",
+            "field_name": "Diagnosis was first made by (name of Doctor)",
             "field_value": "",
             "field_type": "text",
-            "page": 2,
-            "confidence": ""
-        },
-        {
-            "field_name": "What is the staging of the tumour?",
-            "field_value": "",
-            "field_type": "text",
-            "page": 2,
+            "page": 1,
             "confidence": ""
         },
         {
             "field_name": "date of completed form",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "Are you the Life Assured's usual medical doctor? If \"yes\", since what date (ddmmyyyy)?",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "Gender: M",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "Gender: F",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "Are you the Life Assured's usual medical doctor? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "Are you the Life Assured's usual medical doctor? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "What is the source of the above information? Patient",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "What is the source of the above information? Referring Doctor",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "What is the source of the above information? Others",
+            "field_value": "",
+            "field_type": "text",
+            "page": 1,
+            "confidence": ""
+        },
+        {
+            "field_name": "Actual diagnosis",
             "field_value": "",
             "field_type": "text",
             "page": 2,
@@ -176,7 +211,14 @@
             "confidence": ""
         },
         {
-            "field_name": "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse? If \"yes\", please give details:",
+            "field_name": "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse? If \"yes\", please give details",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "What is the staging of the tumour?",
             "field_value": "",
             "field_type": "text",
             "page": 2,
@@ -211,17 +253,108 @@
             "confidence": ""
         },
         {
-            "field_name": "What other forms of treatment did the Life Assured undergo (eg chemotherapy, radiotherapy etc)?",
+            "field_name": "date of completed form",
             "field_value": "",
             "field_type": "text",
-            "page": 3,
+            "page": 2,
             "confidence": ""
         },
         {
-            "field_name": "If diagnosis is leukaemia, please provide the type of leukaemia",
+            "field_name": "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse? Yes",
             "field_value": "",
             "field_type": "text",
-            "page": 3,
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Was the cancer completely localised? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Was the cancer completely localised? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Was there invasion of tissues? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Was there invasion of tissues? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Were regional lymph nodes involved? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Were regional lymph nodes involved? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Were there distant metastases? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Were there distant metastases? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Did the Life Assured undergo any surgery? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Did the Life Assured undergo any surgery? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Was there any other mode of treatment, other than surgery, which could be undertaken to treat the Life Assured's condition? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
+            "confidence": ""
+        },
+        {
+            "field_name": "Was there any other mode of treatment, other than surgery, which could be undertaken to treat the Life Assured's condition? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 2,
             "confidence": ""
         },
         {
@@ -233,6 +366,20 @@
         },
         {
             "field_name": "Has the Life Assured underwent other mode of treatment? If \"No\", please state why not",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3,
+            "confidence": ""
+        },
+        {
+            "field_name": "What other forms of treatment did the Life Assured undergo (eg chemotherapy, radiotherapy etc)?",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3,
+            "confidence": ""
+        },
+        {
+            "field_name": "If diagnosis is leukaemia, please provide the type of leukaemia",
             "field_value": "",
             "field_type": "text",
             "page": 3,
@@ -267,17 +414,45 @@
             "confidence": ""
         },
         {
-            "field_name": "Please provide any other information which may be of assistance to us in assessing this claim",
+            "field_name": "Has the Life Assured underwent other mode of treatment? Yes",
             "field_value": "",
             "field_type": "text",
-            "page": 4,
+            "page": 3,
             "confidence": ""
         },
         {
-            "field_name": "date of completed form",
+            "field_name": "Has the Life Assured underwent other mode of treatment? No",
             "field_value": "",
             "field_type": "text",
-            "page": 4,
+            "page": 3,
+            "confidence": ""
+        },
+        {
+            "field_name": "Is the diagnosis related to Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3,
+            "confidence": ""
+        },
+        {
+            "field_name": "Is the diagnosis related to Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3,
+            "confidence": ""
+        },
+        {
+            "field_name": "Is the Life Assured mentally incapacitated in accordance to the Mental Capacity Act (Chapter 177A of Singapore)? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3,
+            "confidence": ""
+        },
+        {
+            "field_name": "Is the Life Assured mentally incapacitated in accordance to the Mental Capacity Act (Chapter 177A of Singapore)? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 3,
             "confidence": ""
         },
         {
@@ -309,14 +484,14 @@
             "confidence": ""
         },
         {
-            "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (2)",
+            "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (2)",
             "field_value": "",
             "field_type": "text",
             "page": 4,
             "confidence": ""
         },
         {
-            "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (2)",
+            "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (2)",
             "field_value": "",
             "field_type": "text",
             "page": 4,
@@ -330,14 +505,14 @@
             "confidence": ""
         },
         {
-            "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (3)",
+            "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (3)",
             "field_value": "",
             "field_type": "text",
             "page": 4,
             "confidence": ""
         },
         {
-            "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (3)",
+            "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (3)",
             "field_value": "",
             "field_type": "text",
             "page": 4,
@@ -415,6 +590,48 @@
         },
         {
             "field_name": "Please give details of the Life Assured's habit in relation to alcohol consumption including the amount of alcohol consumption per day and source of information",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4,
+            "confidence": ""
+        },
+        {
+            "field_name": "Please provide any other information which may be of assistance to us in assessing this claim",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4,
+            "confidence": ""
+        },
+        {
+            "field_name": "date of completed form",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4,
+            "confidence": ""
+        },
+        {
+            "field_name": "Does the Life Assured have any other medical conditions? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4,
+            "confidence": ""
+        },
+        {
+            "field_name": "Does the Life Assured have any other medical conditions? No",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4,
+            "confidence": ""
+        },
+        {
+            "field_name": "Does the Life Assured have any family history? Yes",
+            "field_value": "",
+            "field_type": "text",
+            "page": 4,
+            "confidence": ""
+        },
+        {
+            "field_name": "Does the Life Assured have any family history? No",
             "field_value": "",
             "field_type": "text",
             "page": 4,
