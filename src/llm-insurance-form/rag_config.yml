@@ -1,0 +1,88 @@
+# RAG Query Configuration by Insurance Company
+rag_queries:
+  ntuc:
+    field_set_1:
+      - "Over what period do your records extend? Start date (dd/mm/yyyy):"
+      - "Over what period do your records extend? End date (dd/mm/yyyy):"
+      - "When did the Insured first consult you for this condition? (dd/mm/yyyy)"
+      - "When you first saw the Insured, what were the symptoms presented and their duration?, symptoms presented, Duration of symptom, Date symptoms first occurred (dd/mm/yyyy)"
+    
+    field_set_2:
+      - "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you?"
+      - "Details of other doctors consulted (rows), Name of doctor, Name and address of clinic / hospital, Date(s) of consultation (dd/mm/yyyy), Diagnosis made"
+      - "Histological diagnosis of disease, Date of diagnosis (dd/mm/yyyy), Doctor and clinic / hospital where diagnosis was first made, Date Insured was first informed of diagnosis (dd/mm/yyyy)"
+      - "Was a biopsy of the tumour performed?, Biopsy date (dd/mm/yyyy), If No, how was the diagnosis confirmed?"
+      - "Site or organ involved"
+      - "Staging of tumour, Has the cancer spread beyond the layer of cells?, Was the disease completely localised?, Was there invasion of adjacent tissues?, Were regional lymph nodes involved?, Were there distant metastases?, Metastases details"
+      - "Is the condition carcinoma-in-situ?"
+      - "Is the condition Pre-malignant / non-invasive"
+      - "Is the condition Borderline / suspicious malignancy"
+      - "Is the condition Cervical dysplasia CIN1-3 (without CIS)"
+
+    field_set_3:
+      - "Is the condition Carcinoma-in-situ of biliary system"
+      - "Is the condition Hyperkeratoses, basal/squamous skin cancers"
+      - "Is the condition Bladder cancer T1N0M0 or below, Bladder papillary micro-carcinoma"
+      - "Is the condition Prostate cancer T1N0M0, T1, or a equivalent or lesser classification?, T1 subclass"
+      - "Is the condition Thyriod cancer T1N0M0 or below?, Thyriod diameter, Is Thyroid papillary micro-carcinoma?, Thyroid papillary micro-carcinoma size"
+      - "If the diagnosis is Leukaemia, state type, Leukaemia RAI staging"
+      - "If the diagnosis is Melanoma, size/thickness (Breslow mm), Melanoma Clark level, Has the condition caused invasion beyond the epidermis?"
+      - "If the condition is GIST TNM, classification, GIST mitotic count (HPF)"
+      - "Has the patient received treatment for this illness?, Treatment type, Date of treatment (dd/mm/yyyy), Duration of treatment, Has active treatment and therapy been rejected in favour of symptoms relief, Active treatment rejection reason"
+      - "Was radical surgery done?, Radical surgery code/table, Radical surgery date (dd/mm/yyyy)"
+    
+    field_set_4:
+      - "Is the Insured still on follow-up at your clinic? (follow-up/discharge), Next appointment date (dd/mm/yyyy), Discharge date (dd/mm/yyyy)"
+      - "Is the Insured terminally ill (i.e. death expected within 12 months)?, Terminal illness evaluation, Terminal illness assessment date (dd/mm/yyyy)"
+      - "Is the Insured referred to hospice care? Hospice name, Hospice inpatient admission date (dd/mm/yyyy), Hospice daycare start date (dd/mm/yyyy), Hospice care type"
+      - "Details of Doctors and clinics / hospitals consulted for this condition, Name of doctorName and Address of Clinic/Hospital, Date(s) of consultation (dd/mm/yyyy), Diagnosis made"
+      - "Has insured ever had Malignant, pre-malignant or other related conditions or risk factors?, Malignant, pre-malignant or other related conditions or risk factors details"
+      - "Details of Medical history that would have increased the risk of cancer"
+      - "Details of Family history that would have increased the risk of Cancer"
+      - "Details of habits related to Smoking habits"
+      - "Details of habits related to Alcohol consumption habits"
+      - "Is the tumour or cancer in any way caused directly or indirectly by alcohol or drug abuse?, Alcohol/drug abuse details"
+    
+    field_set_5:
+      - "Tumour caused by HIV or AIDS?, HIV antibody status, HIV/AIDS diagnosis date (dd/mm/yyyy)"
+      - "Any other significant health conditions"
+      - "Details of other health conditions (rows), Diagnosis, Name of doctor, Name/address of clinic/hospital, Date of diagnosis (dd/mm/yyyy), Duration of condition, Treatment received"
+  ge:
+    field_set_1:
+      - "Date when insured first consulted you for cancer (ddmmyyyy)"
+      - "Symptoms presented and the date they first appeared?, Duration of symptom, What is the source of the above information? If Referring Doctor / Others, specify name & address"
+      - "What is the source of the above information? If Referring Doctor / Others, specify name & address"
+      - "Date when Cancer was FIRST diagnosed (ddmmyyyy), Diagnosis was first made by (name of Doctor)"
+
+    field_set_2:
+      - "Actual diagnosis, the final medical diagnosis in the diagnosis summary."
+      - "Date when insured first became aware of this illness (ddmmyyyy)"
+      - "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse? If illness caused directly or indirectly by alcohol or drug abuse, please give details"
+      - "What is the staging of the tumour?"
+      - "Please state the tumour classification"
+      - "Was the cancer completely localised? Was there invasion of tissues? Were regional lymph nodes involved? Were there distant metastases?"
+      - "Did the Life Assured undergo any surgery? Date of surgery (ddmmyyyy), Surgical procedure performed"
+      - "Was there any other mode of treatment, other than surgery, which could be undertaken to treat the Life Assured's condition? Type of treatment other than surgery that could be undertaken to treat condition"
+
+    field_set_3:
+      - "Has the Life Assured underwent other mode of treatment? Date of other treatment (ddmmyyyy), Reason for no other mode of treatment"
+      - "What other forms of treatment did the Life Assured undergo (eg chemotherapy, radiotherapy etc)?"
+      - "If diagnosis is leukaemia, please provide the type of leukaemia"
+      - "If the diagnosis is malignant melanoma, please give full details of size, thickness (Breslow classification) and/or depth of invasion (Clark level)"
+      - "Is the diagnosis related to Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? Date of diagnosis for HIV/AIDS (ddmmyyyy)"
+      - "Life Assured's mental and cognitive abiliites"
+      - "Is Life Assured mentally incapacitated?"
+
+    field_set_4:
+    - "Does Life Assured have any other medical conditions? Diagnosis date (dd/mm/yyyy) Name & address of treating doctor"
+    - "Does Life Assured have any family history? Relationship to Life Assured, Family history condition, Age of onset"
+    - "Details of the Life Assured's habits in relation to cigarette smoking, including the duration of smoking habit, number of cigarettes smoked per day and source of information"
+    - "Details of the Life Assured's habit in relation to alcohol consumption including the amount of alcohol consumption per day and source of information"
+    - "Please provide any other information which may be of assistance to us in assessing this claim"
+
+
+# RAG Configuration
+rag_config:
+  top_k: 2
+  chunk_size: 256
+  overlap: 8

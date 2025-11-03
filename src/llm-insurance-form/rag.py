@@ -1,3 +1,5 @@
+import yaml
+import os
 import re
 from typing import List, Dict
 from dataclasses import dataclass
@@ -478,6 +480,15 @@ class MedicalRAGRetriever:
 def retrieve_rag(timeline, field_sets, top_k=2, chunk_size=256, overlap=8):
     
     ensure_nltk_data()
+
+    # Load configuration
+    with open("rag_config.yml", 'r', encoding='utf-8') as file:
+        config = yaml.safe_load(file)
+        rag_config = config.get('rag_config', {})
+
+    top_k = rag_config.get('top_k')
+    chunk_size = rag_config.get('chunk_size')
+    overlap = rag_config.get('overlap')
 
     # Process using the timeline variable
     all_processed_chunks = process_all_medical_records(timeline, chunk_size, overlap)
