@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  color: var(--muted);
+}
+.primary {
+  background: var(--brand);
+  border: 1px solid #7dd3fc;
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 700;
+}

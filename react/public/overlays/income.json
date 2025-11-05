@@ -1,0 +1,6829 @@
+{
+  "fields": [
+    {
+      "field_name": "Name of Insured",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 47.0,
+        "y0": 184.8900146484375,
+        "x1": 390.0,
+        "y1": 198.8900146484375,
+        "width": 343.0,
+        "height": 14.0
+      },
+      "top_left": {
+        "x": 47.0,
+        "y": 184.8900146484375
+      },
+      "center": {
+        "x": 218.5,
+        "y": 191.8900146484375
+      },
+      "top_left_pct": {
+        "x": 7.89549720178464,
+        "y": 21.96130271549131
+      },
+      "center_pct": {
+        "x": 36.7056625231903,
+        "y": 22.79276524363676
+      },
+      "size_pct": {
+        "w": 57.62033064281131,
+        "h": 1.6629250562909006
+      }
+    },
+    {
+      "field_name": "NRIC number",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 398.0,
+        "y0": 183.8900146484375,
+        "x1": 543.0,
+        "y1": 197.8900146484375,
+        "width": 145.0,
+        "height": 14.0
+      },
+      "top_left": {
+        "x": 398.0,
+        "y": 183.8900146484375
+      },
+      "center": {
+        "x": 470.5,
+        "y": 190.8900146484375
+      },
+      "top_left_pct": {
+        "x": 66.859742261921,
+        "y": 21.842522354327677
+      },
+      "center_pct": {
+        "x": 79.03896666892922,
+        "y": 22.673984882473125
+      },
+      "size_pct": {
+        "w": 24.35844881401644,
+        "h": 1.6629250562909006
+      }
+    },
+    {
+      "field_name": "Address of Insured",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 45.0,
+        "y0": 215.8900146484375,
+        "x1": 549.0,
+        "y1": 237.8900146484375,
+        "width": 504.0,
+        "height": 22.0
+      },
+      "top_left": {
+        "x": 45.0,
+        "y": 215.8900146484375
+      },
+      "center": {
+        "x": 297.0,
+        "y": 226.8900146484375
+      },
+      "top_left_pct": {
+        "x": 7.55951859745338,
+        "y": 25.64349391156402
+      },
+      "center_pct": {
+        "x": 49.8928227431923,
+        "y": 26.95007788436401
+      },
+      "size_pct": {
+        "w": 84.66660829147784,
+        "h": 2.6131679455999866
+      }
+    },
+    {
+      "field_name": "Name of Insured",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 48.0,
+        "y0": 496.8900146484375,
+        "x1": 422.0,
+        "y1": 514.8900146484375,
+        "width": 374.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 48.0,
+        "y": 496.8900146484375
+      },
+      "center": {
+        "x": 235.0,
+        "y": 505.8900146484375
+      },
+      "top_left_pct": {
+        "x": 8.063486503950271,
+        "y": 59.020775398545666
+      },
+      "center_pct": {
+        "x": 39.4774860089232,
+        "y": 60.08979864901839
+      },
+      "size_pct": {
+        "w": 62.827999009945856,
+        "h": 2.1380465009454435
+      }
+    },
+    {
+      "field_name": "NRIC number",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 426.0,
+        "y0": 496.8900146484375,
+        "x1": 551.0,
+        "y1": 514.8900146484375,
+        "width": 125.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 426.0,
+        "y": 496.8900146484375
+      },
+      "center": {
+        "x": 488.5,
+        "y": 505.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.56344272255866,
+        "y": 59.020775398545666
+      },
+      "center_pct": {
+        "x": 82.06277410791057,
+        "y": 60.08979864901839
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.1380465009454435
+      }
+    },
+    {
+      "field_name": "Are you the Insured’s usual doctor? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 536.8900146484375,
+        "x1": 492.0,
+        "y1": 547.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 536.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 542.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 63.77198984509109
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 64.42528183149109
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Are you the Insured’s usual doctor? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 510.0,
+        "y0": 536.8900146484375,
+        "x1": 521.0,
+        "y1": 547.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 510.0,
+        "y": 536.8900146484375
+      },
+      "center": {
+        "x": 515.5,
+        "y": 542.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.67454410447162,
+        "y": 63.77198984509109
+      },
+      "center_pct": {
+        "x": 86.5984852663826,
+        "y": 64.42528183149109
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Over what period do your records extend? Start date (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 192.0,
+        "y0": 580.8900146484375,
+        "x1": 218.0,
+        "y1": 593.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 192.0,
+        "y": 580.8900146484375
+      },
+      "center": {
+        "x": 205.0,
+        "y": 587.3900146484375
+      },
+      "top_left_pct": {
+        "x": 32.253946015801084,
+        "y": 68.99832573629106
+      },
+      "center_pct": {
+        "x": 34.43780694395428,
+        "y": 69.7703980838547
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Over what period do your records extend? Start date (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 225.0,
+        "y0": 580.8900146484375,
+        "x1": 267.0,
+        "y1": 593.8900146484375,
+        "width": 42.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 225.0,
+        "y": 580.8900146484375
+      },
+      "center": {
+        "x": 246.0,
+        "y": 587.3900146484375
+      },
+      "top_left_pct": {
+        "x": 37.797592987266896,
+        "y": 68.99832573629106
+      },
+      "center_pct": {
+        "x": 41.325368332745136,
+        "y": 69.7703980838547
+      },
+      "size_pct": {
+        "w": 7.055550690956487,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Over what period do your records extend? End date (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 350.0,
+        "y0": 580.8900146484375,
+        "x1": 376.0,
+        "y1": 593.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 350.0,
+        "y": 580.8900146484375
+      },
+      "center": {
+        "x": 363.0,
+        "y": 587.3900146484375
+      },
+      "top_left_pct": {
+        "x": 58.79625575797073,
+        "y": 68.99832573629106
+      },
+      "center_pct": {
+        "x": 60.98011668612392,
+        "y": 69.7703980838547
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Over what period do your records extend? End date (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 383.0,
+        "y0": 580.8900146484375,
+        "x1": 409.0,
+        "y1": 593.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 383.0,
+        "y": 580.8900146484375
+      },
+      "center": {
+        "x": 396.0,
+        "y": 587.3900146484375
+      },
+      "top_left_pct": {
+        "x": 64.33990272943653,
+        "y": 68.99832573629106
+      },
+      "center_pct": {
+        "x": 66.52376365758973,
+        "y": 69.7703980838547
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Over what period do your records extend? End date (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 417.0,
+        "y0": 580.8900146484375,
+        "x1": 462.0,
+        "y1": 593.8900146484375,
+        "width": 45.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 417.0,
+        "y": 580.8900146484375
+      },
+      "center": {
+        "x": 439.5,
+        "y": 587.3900146484375
+      },
+      "top_left_pct": {
+        "x": 70.05153900306797,
+        "y": 68.99832573629106
+      },
+      "center_pct": {
+        "x": 73.83129830179467,
+        "y": 69.7703980838547
+      },
+      "size_pct": {
+        "w": 7.55951859745338,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "When did the Insured first consult you for this condition? (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 299.0,
+        "y0": 609.8900146484375,
+        "x1": 325.0,
+        "y1": 622.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 299.0,
+        "y": 609.8900146484375
+      },
+      "center": {
+        "x": 312.0,
+        "y": 616.3900146484375
+      },
+      "top_left_pct": {
+        "x": 50.228801347523564,
+        "y": 72.4429562100365
+      },
+      "center_pct": {
+        "x": 52.41266227567676,
+        "y": 73.21502855760014
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "When did the Insured first consult you for this condition? (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 333.0,
+        "y0": 609.8900146484375,
+        "x1": 359.0,
+        "y1": 622.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 333.0,
+        "y": 609.8900146484375
+      },
+      "center": {
+        "x": 346.0,
+        "y": 616.3900146484375
+      },
+      "top_left_pct": {
+        "x": 55.940437621155006,
+        "y": 72.4429562100365
+      },
+      "center_pct": {
+        "x": 58.12429854930821,
+        "y": 73.21502855760014
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "When did the Insured first consult you for this condition? (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 366.0,
+        "y0": 609.8900146484375,
+        "x1": 411.0,
+        "y1": 622.8900146484375,
+        "width": 45.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 366.0,
+        "y": 609.8900146484375
+      },
+      "center": {
+        "x": 388.5,
+        "y": 616.3900146484375
+      },
+      "top_left_pct": {
+        "x": 61.48408459262081,
+        "y": 72.4429562100365
+      },
+      "center_pct": {
+        "x": 65.2638438913475,
+        "y": 73.21502855760014
+      },
+      "size_pct": {
+        "w": 7.55951859745338,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "When you first saw the Insured, what were the symptoms presented? (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 52.0,
+        "y0": 676.8900146484375,
+        "x1": 295.0,
+        "y1": 700.8900146484375,
+        "width": 243.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 52.0,
+        "y": 676.8900146484375
+      },
+      "center": {
+        "x": 173.5,
+        "y": 688.8900146484375
+      },
+      "top_left_pct": {
+        "x": 8.735443712612794,
+        "y": 80.40124040800009
+      },
+      "center_pct": {
+        "x": 29.14614392573692,
+        "y": 81.82660474196372
+      },
+      "size_pct": {
+        "w": 40.821400426248246,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "When you first saw the Insured, what were the duration of symptoms? (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 300.0,
+        "y0": 676.8900146484375,
+        "x1": 422.0,
+        "y1": 700.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 300.0,
+        "y": 676.8900146484375
+      },
+      "center": {
+        "x": 361.0,
+        "y": 688.8900146484375
+      },
+      "top_left_pct": {
+        "x": 50.396790649689194,
+        "y": 80.40124040800009
+      },
+      "center_pct": {
+        "x": 60.64413808179266,
+        "y": 81.82660474196372
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "When you first saw the Insured, what were the symptoms presented and their duration? Please state date of onset of symptoms (dd/mm/yyyy) (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 428.0,
+        "y0": 677.8900146484375,
+        "x1": 550.0,
+        "y1": 701.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 428.0,
+        "y": 677.8900146484375
+      },
+      "center": {
+        "x": 489.0,
+        "y": 689.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.89942132688991,
+        "y": 80.52002076916374
+      },
+      "center_pct": {
+        "x": 82.14676875899339,
+        "y": 81.94538510312736
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "When you first saw the Insured, what were the symptoms presented? (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 51.0,
+        "y0": 704.8900146484375,
+        "x1": 294.0,
+        "y1": 728.8900146484375,
+        "width": 243.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 51.0,
+        "y": 704.8900146484375
+      },
+      "center": {
+        "x": 172.5,
+        "y": 716.8900146484375
+      },
+      "top_left_pct": {
+        "x": 8.567454410447164,
+        "y": 83.72709052058191
+      },
+      "center_pct": {
+        "x": 28.978154623571285,
+        "y": 85.15245485454554
+      },
+      "size_pct": {
+        "w": 40.821400426248246,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "When you first saw the Insured, what were the duration of symptoms? (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 299.0,
+        "y0": 705.8900146484375,
+        "x1": 421.0,
+        "y1": 729.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 299.0,
+        "y": 705.8900146484375
+      },
+      "center": {
+        "x": 360.0,
+        "y": 717.8900146484375
+      },
+      "top_left_pct": {
+        "x": 50.228801347523564,
+        "y": 83.84587088174553
+      },
+      "center_pct": {
+        "x": 60.47614877962704,
+        "y": 85.27123521570917
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "When you first saw the Insured, what were the symptoms presented and their duration? Please state date of onset of symptoms (dd/mm/yyyy) (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 427.0,
+        "y0": 704.8900146484375,
+        "x1": 549.0,
+        "y1": 728.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 427.0,
+        "y": 704.8900146484375
+      },
+      "center": {
+        "x": 488.0,
+        "y": 716.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.73143202472428,
+        "y": 83.72709052058191
+      },
+      "center_pct": {
+        "x": 81.97877945682775,
+        "y": 85.15245485454554
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "For the symptoms presented, their duration and the start date, what who is the source of this information?",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 55.0,
+        "y0": 745.8900146484375,
+        "x1": 548.0,
+        "y1": 792.8900146484375,
+        "width": 493.0,
+        "height": 47.0
+      },
+      "top_left": {
+        "x": 55.0,
+        "y": 745.8900146484375
+      },
+      "center": {
+        "x": 301.5,
+        "y": 769.3900146484375
+      },
+      "top_left_pct": {
+        "x": 9.239411619109687,
+        "y": 88.59708532829097
+      },
+      "center_pct": {
+        "x": 50.64877460293764,
+        "y": 91.38842381563641
+      },
+      "size_pct": {
+        "w": 82.81872596765591,
+        "h": 5.58267697469088
+      }
+    },
+    {
+      "field_name": "Over what period do your records extend? Start date (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 159.0,
+        "y0": 580.8900146484375,
+        "x1": 185.0,
+        "y1": 593.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 159.0,
+        "y": 580.8900146484375
+      },
+      "center": {
+        "x": 172.0,
+        "y": 587.3900146484375
+      },
+      "top_left_pct": {
+        "x": 26.710299044335272,
+        "y": 68.99832573629106
+      },
+      "center_pct": {
+        "x": 28.89415997248847,
+        "y": 69.7703980838547
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 73.8900146484375,
+        "x1": 492.0,
+        "y1": 84.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 73.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 79.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 8.776682626327743
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 9.429974612727738
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 74.8900146484375,
+        "x1": 522.0,
+        "y1": 85.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 74.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 80.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 8.89546298749138
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 9.548754973891375
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name of Doctor (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 44.0,
+        "y0": 122.8900146484375,
+        "x1": 169.0,
+        "y1": 143.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 44.0,
+        "y": 122.8900146484375
+      },
+      "center": {
+        "x": 106.5,
+        "y": 133.3900146484375
+      },
+      "top_left_pct": {
+        "x": 7.391529295287748,
+        "y": 14.596920323345893
+      },
+      "center_pct": {
+        "x": 17.890860680639666,
+        "y": 15.84411411556407
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name and address of clinic / hospital (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 173.0,
+        "y0": 122.8900146484375,
+        "x1": 295.0,
+        "y1": 146.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 173.0,
+        "y": 122.8900146484375
+      },
+      "center": {
+        "x": 234.0,
+        "y": 134.8900146484375
+      },
+      "top_left_pct": {
+        "x": 29.062149274654104,
+        "y": 14.596920323345893
+      },
+      "center_pct": {
+        "x": 39.30949670675757,
+        "y": 16.022284657309523
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Date(s) of consultation (dd/mm/yyyy) (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 302.0,
+        "y0": 122.8900146484375,
+        "x1": 424.0,
+        "y1": 146.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 302.0,
+        "y": 122.8900146484375
+      },
+      "center": {
+        "x": 363.0,
+        "y": 134.8900146484375
+      },
+      "top_left_pct": {
+        "x": 50.73276925402045,
+        "y": 14.596920323345893
+      },
+      "center_pct": {
+        "x": 60.98011668612392,
+        "y": 16.022284657309523
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Diagnosis made (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 428.0,
+        "y0": 122.8900146484375,
+        "x1": 550.0,
+        "y1": 146.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 428.0,
+        "y": 122.8900146484375
+      },
+      "center": {
+        "x": 489.0,
+        "y": 134.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.89942132688991,
+        "y": 14.596920323345893
+      },
+      "center_pct": {
+        "x": 82.14676875899339,
+        "y": 16.022284657309523
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name of Doctor (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 45.0,
+        "y0": 149.8900146484375,
+        "x1": 170.0,
+        "y1": 170.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 45.0,
+        "y": 149.8900146484375
+      },
+      "center": {
+        "x": 107.5,
+        "y": 160.3900146484375
+      },
+      "top_left_pct": {
+        "x": 7.55951859745338,
+        "y": 17.80399007476406
+      },
+      "center_pct": {
+        "x": 18.058849982805295,
+        "y": 19.051183866982235
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name and address of clinic / hospital (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 173.0,
+        "y0": 147.8900146484375,
+        "x1": 295.0,
+        "y1": 171.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 173.0,
+        "y": 147.8900146484375
+      },
+      "center": {
+        "x": 234.0,
+        "y": 159.8900146484375
+      },
+      "top_left_pct": {
+        "x": 29.062149274654104,
+        "y": 17.56642935243679
+      },
+      "center_pct": {
+        "x": 39.30949670675757,
+        "y": 18.991793686400417
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Date(s) of consultation (dd/mm/yyyy) (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 302.0,
+        "y0": 148.8900146484375,
+        "x1": 424.0,
+        "y1": 172.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 302.0,
+        "y": 148.8900146484375
+      },
+      "center": {
+        "x": 363.0,
+        "y": 160.8900146484375
+      },
+      "top_left_pct": {
+        "x": 50.73276925402045,
+        "y": 17.685209713600425
+      },
+      "center_pct": {
+        "x": 60.98011668612392,
+        "y": 19.110574047564054
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Diagnosis made (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 428.0,
+        "y0": 147.8900146484375,
+        "x1": 550.0,
+        "y1": 171.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 428.0,
+        "y": 147.8900146484375
+      },
+      "center": {
+        "x": 489.0,
+        "y": 159.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.89942132688991,
+        "y": 17.56642935243679
+      },
+      "center_pct": {
+        "x": 82.14676875899339,
+        "y": 18.991793686400417
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name of Doctor (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 45.0,
+        "y0": 174.8900146484375,
+        "x1": 170.0,
+        "y1": 195.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 45.0,
+        "y": 174.8900146484375
+      },
+      "center": {
+        "x": 107.5,
+        "y": 185.3900146484375
+      },
+      "top_left_pct": {
+        "x": 7.55951859745338,
+        "y": 20.773499103854952
+      },
+      "center_pct": {
+        "x": 18.058849982805295,
+        "y": 22.02069289607313
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Name and address of clinic / hospital (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 172.0,
+        "y0": 173.8900146484375,
+        "x1": 294.0,
+        "y1": 197.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 172.0,
+        "y": 173.8900146484375
+      },
+      "center": {
+        "x": 233.0,
+        "y": 185.8900146484375
+      },
+      "top_left_pct": {
+        "x": 28.89415997248847,
+        "y": 20.654718742691315
+      },
+      "center_pct": {
+        "x": 39.14150740459194,
+        "y": 22.080083076654947
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Date(s) of consultation (dd/mm/yyyy) (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 301.0,
+        "y0": 173.8900146484375,
+        "x1": 423.0,
+        "y1": 197.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 301.0,
+        "y": 173.8900146484375
+      },
+      "center": {
+        "x": 362.0,
+        "y": 185.8900146484375
+      },
+      "top_left_pct": {
+        "x": 50.564779951854824,
+        "y": 20.654718742691315
+      },
+      "center_pct": {
+        "x": 60.81212738395829,
+        "y": 22.080083076654947
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you? If “Yes”, please provide details: Diagnosis made (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 428.0,
+        "y0": 173.8900146484375,
+        "x1": 550.0,
+        "y1": 197.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 428.0,
+        "y": 173.8900146484375
+      },
+      "center": {
+        "x": 489.0,
+        "y": 185.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.89942132688991,
+        "y": 20.654718742691315
+      },
+      "center_pct": {
+        "x": 82.14676875899339,
+        "y": 22.080083076654947
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "What is the histological diagnosis of the disease?",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 46.0,
+        "y0": 228.8900146484375,
+        "x1": 550.0,
+        "y1": 272.8900146484375,
+        "width": 504.0,
+        "height": 44.0
+      },
+      "top_left": {
+        "x": 46.0,
+        "y": 228.8900146484375
+      },
+      "center": {
+        "x": 298.0,
+        "y": 250.8900146484375
+      },
+      "top_left_pct": {
+        "x": 7.72750789961901,
+        "y": 27.187638606691284
+      },
+      "center_pct": {
+        "x": 50.06081204535793,
+        "y": 29.80080655229127
+      },
+      "size_pct": {
+        "w": 84.66660829147784,
+        "h": 5.226335891199973
+      }
+    },
+    {
+      "field_name": "Date of diagnosis (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 184.0,
+        "y0": 288.8900146484375,
+        "x1": 210.0,
+        "y1": 301.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 184.0,
+        "y": 288.8900146484375
+      },
+      "center": {
+        "x": 197.0,
+        "y": 295.3900146484375
+      },
+      "top_left_pct": {
+        "x": 30.91003159847604,
+        "y": 34.31446027650943
+      },
+      "center_pct": {
+        "x": 33.09389252662924,
+        "y": 35.086532624073065
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Date of diagnosis (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 218.0,
+        "y0": 288.8900146484375,
+        "x1": 244.0,
+        "y1": 301.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 218.0,
+        "y": 288.8900146484375
+      },
+      "center": {
+        "x": 231.0,
+        "y": 295.3900146484375
+      },
+      "top_left_pct": {
+        "x": 36.62166787210748,
+        "y": 34.31446027650943
+      },
+      "center_pct": {
+        "x": 38.80552880026068,
+        "y": 35.086532624073065
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Date of diagnosis (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 251.0,
+        "y0": 288.8900146484375,
+        "x1": 295.0,
+        "y1": 301.8900146484375,
+        "width": 44.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 251.0,
+        "y": 288.8900146484375
+      },
+      "center": {
+        "x": 273.0,
+        "y": 295.3900146484375
+      },
+      "top_left_pct": {
+        "x": 42.16531484357329,
+        "y": 34.31446027650943
+      },
+      "center_pct": {
+        "x": 45.86107949121717,
+        "y": 35.086532624073065
+      },
+      "size_pct": {
+        "w": 7.391529295287748,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Please provide the name and address of doctor and clinic/hospital where the diagnosis was first made",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 45.0,
+        "y0": 322.8900146484375,
+        "x1": 549.0,
+        "y1": 366.8900146484375,
+        "width": 504.0,
+        "height": 44.0
+      },
+      "top_left": {
+        "x": 45.0,
+        "y": 322.8900146484375
+      },
+      "center": {
+        "x": 297.0,
+        "y": 344.8900146484375
+      },
+      "top_left_pct": {
+        "x": 7.55951859745338,
+        "y": 38.35299255607305
+      },
+      "center_pct": {
+        "x": 49.8928227431923,
+        "y": 40.96616050167303
+      },
+      "size_pct": {
+        "w": 84.66660829147784,
+        "h": 5.226335891199973
+      }
+    },
+    {
+      "field_name": "Please provide the date when the Insured was first informed of the diagnosis (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 377.0,
+        "y0": 380.8900146484375,
+        "x1": 403.0,
+        "y1": 393.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 377.0,
+        "y": 380.8900146484375
+      },
+      "center": {
+        "x": 390.0,
+        "y": 387.3900146484375
+      },
+      "top_left_pct": {
+        "x": 63.33196691644275,
+        "y": 45.242253503563916
+      },
+      "center_pct": {
+        "x": 65.51582784459595,
+        "y": 46.01432585112755
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Was a biopsy of the tumour performed? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 402.8900146484375,
+        "x1": 492.0,
+        "y1": 413.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 402.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 408.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 47.855421449163906
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 48.5087134355639
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Was a biopsy of the tumour performed? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 401.8900146484375,
+        "x1": 522.0,
+        "y1": 412.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 401.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 407.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 47.73664108800027
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 48.38993307440027
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Was a biopsy of the tumour performed? If “Yes”, please state the date of biopsy (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 255.0,
+        "y0": 408.8900146484375,
+        "x1": 281.0,
+        "y1": 421.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 255.0,
+        "y": 408.8900146484375
+      },
+      "center": {
+        "x": 268.0,
+        "y": 415.3900146484375
+      },
+      "top_left_pct": {
+        "x": 42.83727205223581,
+        "y": 48.56810361614572
+      },
+      "center_pct": {
+        "x": 45.02113298038901,
+        "y": 49.340175963709356
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Was a biopsy of the tumour performed? If “Yes”, please state the date of biopsy (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 289.0,
+        "y0": 408.8900146484375,
+        "x1": 315.0,
+        "y1": 421.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 289.0,
+        "y": 408.8900146484375
+      },
+      "center": {
+        "x": 302.0,
+        "y": 415.3900146484375
+      },
+      "top_left_pct": {
+        "x": 48.54890832586726,
+        "y": 48.56810361614572
+      },
+      "center_pct": {
+        "x": 50.73276925402045,
+        "y": 49.340175963709356
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Was a biopsy of the tumour performed? If “Yes”, please state the date of biopsy (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 321.0,
+        "y0": 408.8900146484375,
+        "x1": 366.0,
+        "y1": 421.8900146484375,
+        "width": 45.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 321.0,
+        "y": 408.8900146484375
+      },
+      "center": {
+        "x": 343.5,
+        "y": 415.3900146484375
+      },
+      "top_left_pct": {
+        "x": 53.92456599516744,
+        "y": 48.56810361614572
+      },
+      "center_pct": {
+        "x": 57.70432529389412,
+        "y": 49.340175963709356
+      },
+      "size_pct": {
+        "w": 7.55951859745338,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Was a biopsy of the tumour performed? If “No”, please state why and how the diagnosis was confirmed",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 48.0,
+        "y0": 440.8900146484375,
+        "x1": 456.0,
+        "y1": 471.8900146484375,
+        "width": 408.0,
+        "height": 31.0
+      },
+      "top_left": {
+        "x": 48.0,
+        "y": 440.8900146484375
+      },
+      "center": {
+        "x": 252.0,
+        "y": 456.3900146484375
+      },
+      "top_left_pct": {
+        "x": 8.063486503950271,
+        "y": 52.369075173382065
+      },
+      "center_pct": {
+        "x": 42.33330414573892,
+        "y": 54.21017077141842
+      },
+      "size_pct": {
+        "w": 68.53963528357731,
+        "h": 3.682191196072708
+      }
+    },
+    {
+      "field_name": "What was the site or organ involved?",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 52.0,
+        "y0": 486.8900146484375,
+        "x1": 546.0,
+        "y1": 531.8900146484375,
+        "width": 494.0,
+        "height": 45.0
+      },
+      "top_left": {
+        "x": 52.0,
+        "y": 486.8900146484375
+      },
+      "center": {
+        "x": 299.0,
+        "y": 509.3900146484375
+      },
+      "top_left_pct": {
+        "x": 8.735443712612794,
+        "y": 57.832971786909305
+      },
+      "center_pct": {
+        "x": 50.228801347523564,
+        "y": 60.50552991309112
+      },
+      "size_pct": {
+        "w": 82.98671526982154,
+        "h": 5.345116252363609
+      }
+    },
+    {
+      "field_name": "(What is the staging of the tumour? Please provide full details using appropriate staging classification (eg TNM Classification, etc)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 53.0,
+        "y0": 551.8900146484375,
+        "x1": 547.0,
+        "y1": 596.8900146484375,
+        "width": 494.0,
+        "height": 45.0
+      },
+      "top_left": {
+        "x": 53.0,
+        "y": 551.8900146484375
+      },
+      "center": {
+        "x": 300.0,
+        "y": 574.3900146484375
+      },
+      "top_left_pct": {
+        "x": 8.903433014778424,
+        "y": 65.55369526254563
+      },
+      "center_pct": {
+        "x": 50.396790649689194,
+        "y": 68.22625338872743
+      },
+      "size_pct": {
+        "w": 82.98671526982154,
+        "h": 5.345116252363609
+      }
+    },
+    {
+      "field_name": "Has the cancer spread beyond the layer of cells in which it began? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 603.8900146484375,
+        "x1": 492.0,
+        "y1": 614.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 603.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 609.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 71.73027404305469
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 72.38356602945468
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Has the cancer spread beyond the layer of cells in which it began? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 604.8900146484375,
+        "x1": 522.0,
+        "y1": 615.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 604.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 610.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 71.84905440421832
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 72.50234639061833
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Was the disease completely localised? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 620.8900146484375,
+        "x1": 493.0,
+        "y1": 631.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 620.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 626.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 73.7495401828365
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 74.4028321692365
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Was the disease completely localised? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 620.8900146484375,
+        "x1": 522.0,
+        "y1": 631.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 620.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 626.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 73.7495401828365
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 74.4028321692365
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Was there invasion of adjacent tissues? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 637.8900146484375,
+        "x1": 493.0,
+        "y1": 648.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 637.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 643.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 75.7688063226183
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 76.42209830901831
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Was there invasion of adjacent tissues? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 512.0,
+        "y0": 637.8900146484375,
+        "x1": 523.0,
+        "y1": 648.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 512.0,
+        "y": 637.8900146484375
+      },
+      "center": {
+        "x": 517.5,
+        "y": 643.3900146484375
+      },
+      "top_left_pct": {
+        "x": 86.0105227088029,
+        "y": 75.7688063226183
+      },
+      "center_pct": {
+        "x": 86.93446387071387,
+        "y": 76.42209830901831
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Were regional lymph nodes involved? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 654.8900146484375,
+        "x1": 493.0,
+        "y1": 665.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 654.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 660.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 77.78807246240011
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 78.44136444880012
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Were regional lymph nodes involved? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 654.8900146484375,
+        "x1": 522.0,
+        "y1": 665.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 654.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 660.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 77.78807246240011
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 78.44136444880012
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Were there distant metastases? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 672.8900146484375,
+        "x1": 492.0,
+        "y1": 683.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 672.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 678.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 79.92611896334556
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 80.57941094974555
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Were there distant metastases? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 512.0,
+        "y0": 670.8900146484375,
+        "x1": 523.0,
+        "y1": 681.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 512.0,
+        "y": 670.8900146484375
+      },
+      "center": {
+        "x": 517.5,
+        "y": 676.3900146484375
+      },
+      "top_left_pct": {
+        "x": 86.0105227088029,
+        "y": 79.68855824101828
+      },
+      "center_pct": {
+        "x": 86.93446387071387,
+        "y": 80.34185022741829
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Were there distant metastases? If “Yes”, please provide full details, including site of any metastases, etc",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 46.0,
+        "y0": 690.8900146484375,
+        "x1": 458.0,
+        "y1": 729.8900146484375,
+        "width": 412.0,
+        "height": 39.0
+      },
+      "top_left": {
+        "x": 46.0,
+        "y": 690.8900146484375
+      },
+      "center": {
+        "x": 252.0,
+        "y": 710.3900146484375
+      },
+      "top_left_pct": {
+        "x": 7.72750789961901,
+        "y": 82.06416546429101
+      },
+      "center_pct": {
+        "x": 42.33330414573892,
+        "y": 84.3803825069819
+      },
+      "size_pct": {
+        "w": 69.21159249223983,
+        "h": 4.632434085381795
+      }
+    },
+    {
+      "field_name": "Is the condition carcinoma-in-situ? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 737.8900146484375,
+        "x1": 493.0,
+        "y1": 748.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 737.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 743.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 87.64684243898189
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 88.30013442538188
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition carcinoma-in-situ? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 736.8900146484375,
+        "x1": 522.0,
+        "y1": 747.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 736.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 742.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 87.52806207781825
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 88.18135406421824
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition pre-malignant or non-invasive? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 754.8900146484375,
+        "x1": 493.0,
+        "y1": 765.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 754.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 760.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 89.6661085787637
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 90.31940056516369
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition pre-malignant or non-invasive? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 754.8900146484375,
+        "x1": 522.0,
+        "y1": 765.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 754.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 760.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 89.6661085787637
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 90.31940056516369
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition having borderline malignancy or is suspicious of malignancy only? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 771.8900146484375,
+        "x1": 493.0,
+        "y1": 782.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 771.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 777.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 91.6853747185455
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 92.3386667049455
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition having borderline malignancy or is suspicious of malignancy only? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 771.8900146484375,
+        "x1": 522.0,
+        "y1": 782.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 771.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 777.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 91.6853747185455
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 92.3386667049455
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Cervical Dysplasia CIN 1, CIN 2, CIN 3 (severe dysplasia without Carcinoma-in-situ)? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 787.8900146484375,
+        "x1": 493.0,
+        "y1": 798.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 787.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 793.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 93.58586049716367
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 94.23915248356367
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Cervical Dysplasia CIN 1, CIN 2, CIN 3 (severe dysplasia without Carcinoma-in-situ)? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 512.0,
+        "y0": 787.8900146484375,
+        "x1": 523.0,
+        "y1": 798.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 512.0,
+        "y": 787.8900146484375
+      },
+      "center": {
+        "x": 517.5,
+        "y": 793.3900146484375
+      },
+      "top_left_pct": {
+        "x": 86.0105227088029,
+        "y": 93.58586049716367
+      },
+      "center_pct": {
+        "x": 86.93446387071387,
+        "y": 94.23915248356367
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Please provide the date when the Insured was first informed of the diagnosis (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 411.0,
+        "y0": 380.8900146484375,
+        "x1": 437.0,
+        "y1": 393.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 411.0,
+        "y": 380.8900146484375
+      },
+      "center": {
+        "x": 424.0,
+        "y": 387.3900146484375
+      },
+      "top_left_pct": {
+        "x": 69.0436031900742,
+        "y": 45.242253503563916
+      },
+      "center_pct": {
+        "x": 71.22746411822739,
+        "y": 46.01432585112755
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Please provide the date when the Insured was first informed of the diagnosis (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 443.0,
+        "y0": 380.8900146484375,
+        "x1": 487.0,
+        "y1": 393.8900146484375,
+        "width": 44.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 443.0,
+        "y": 380.8900146484375
+      },
+      "center": {
+        "x": 465.0,
+        "y": 387.3900146484375
+      },
+      "top_left_pct": {
+        "x": 74.41926085937438,
+        "y": 45.242253503563916
+      },
+      "center_pct": {
+        "x": 78.11502550701826,
+        "y": 46.01432585112755
+      },
+      "size_pct": {
+        "w": 7.391529295287748,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the condition Carcinoma-in-situ of the Biliary system? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 73.8900146484375,
+        "x1": 493.0,
+        "y1": 84.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 73.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 79.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 8.776682626327743
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 9.429974612727738
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Carcinoma-in-situ of the Biliary system? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 72.8900146484375,
+        "x1": 522.0,
+        "y1": 83.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 72.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 78.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 8.657902265164106
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 9.311194251564103
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Hyperkeratoses, basal cell and squamous skin cancers? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 90.8900146484375,
+        "x1": 493.0,
+        "y1": 101.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 90.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 96.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 10.79594876610955
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 11.449240752509548
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Hyperkeratoses, basal cell and squamous skin cancers? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 90.8900146484375,
+        "x1": 522.0,
+        "y1": 101.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 90.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 96.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 10.79594876610955
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 11.449240752509548
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Bladder Cancer described as TNM classification T1N0M0 or below? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 106.8900146484375,
+        "x1": 493.0,
+        "y1": 117.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 106.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 112.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 12.696434544727722
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 13.34972653112772
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Bladder Cancer described as TNM classification T1N0M0 or below? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 107.8900146484375,
+        "x1": 522.0,
+        "y1": 118.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 107.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 113.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 12.81521490589136
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 13.468506892291355
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Papillary Micro-carcinoma of the Bladder? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 123.8900146484375,
+        "x1": 492.0,
+        "y1": 134.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 123.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 129.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 14.71570068450953
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 15.368992670909526
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Papillary Micro-carcinoma of the Bladder? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 124.8900146484375,
+        "x1": 522.0,
+        "y1": 135.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 124.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 130.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 14.834481045673165
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 15.487773032073163
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Prostate cancer described as TNM classification T1N0M0, T1 or another equivalent or lesser classification? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 140.8900146484375,
+        "x1": 493.0,
+        "y1": 151.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 140.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 146.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 16.734966824291337
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 17.388258810691333
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Prostate cancer described as TNM classification T1N0M0, T1 or another equivalent or lesser classification? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 141.8900146484375,
+        "x1": 522.0,
+        "y1": 152.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 141.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 147.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 16.853747185454974
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 17.50703917185497
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Thyroid Cancer described as TNM classification T1N0M0 or below? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 172.8900146484375,
+        "x1": 492.0,
+        "y1": 183.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 172.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 178.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 20.535938381527682
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 21.189230367927678
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Thyroid Cancer described as TNM classification T1N0M0 or below? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 173.8900146484375,
+        "x1": 522.0,
+        "y1": 184.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 173.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 179.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 20.654718742691315
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 21.308010729091315
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Papillary Micro-carcinoma of the Thyroid? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 205.8900146484375,
+        "x1": 493.0,
+        "y1": 216.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 205.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 211.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 24.455690299927664
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 25.10898228632766
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Papillary Micro-carcinoma of the Thyroid? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 205.8900146484375,
+        "x1": 522.0,
+        "y1": 216.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 205.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 211.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 24.455690299927664
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 25.10898228632766
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the condition Papillary Micro-carcinoma of the Thyroid? If “Yes”, please state the size in diameter (cm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 212.0,
+        "y0": 217.8900146484375,
+        "x1": 290.0,
+        "y1": 230.8900146484375,
+        "width": 78.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 212.0,
+        "y": 217.8900146484375
+      },
+      "center": {
+        "x": 251.0,
+        "y": 224.3900146484375
+      },
+      "top_left_pct": {
+        "x": 35.613732059113694,
+        "y": 25.881054633891292
+      },
+      "center_pct": {
+        "x": 42.16531484357329,
+        "y": 26.65312698145492
+      },
+      "size_pct": {
+        "w": 13.10316556891919,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "If the diagnosis is leukaemia, please state type of leukaemia",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 143.0,
+        "y0": 251.8900146484375,
+        "x1": 533.0,
+        "y1": 264.8900146484375,
+        "width": 390.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 143.0,
+        "y": 251.8900146484375
+      },
+      "center": {
+        "x": 338.0,
+        "y": 258.3900146484375
+      },
+      "top_left_pct": {
+        "x": 24.02247020968518,
+        "y": 29.919586913454904
+      },
+      "center_pct": {
+        "x": 56.780384131983155,
+        "y": 30.69165926101854
+      },
+      "size_pct": {
+        "w": 65.51582784459595,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "If the diagnosis is leukaemia, please state type of RAI staging",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 118.0,
+        "y0": 269.8900146484375,
+        "x1": 533.0,
+        "y1": 282.8900146484375,
+        "width": 415.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 118.0,
+        "y": 269.8900146484375
+      },
+      "center": {
+        "x": 325.5,
+        "y": 276.3900146484375
+      },
+      "top_left_pct": {
+        "x": 19.822737655544415,
+        "y": 32.05763341440035
+      },
+      "center_pct": {
+        "x": 54.68051785491277,
+        "y": 32.829705761963986
+      },
+      "size_pct": {
+        "w": 69.71556039873673,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "If the diagnosis is malignant melanoma, please give full details of the  size, thickness (Breslow classification) (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 221.0,
+        "y0": 304.8900146484375,
+        "x1": 542.0,
+        "y1": 317.8900146484375,
+        "width": 321.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 221.0,
+        "y": 304.8900146484375
+      },
+      "center": {
+        "x": 381.5,
+        "y": 311.3900146484375
+      },
+      "top_left_pct": {
+        "x": 37.12563577860437,
+        "y": 36.2149460551276
+      },
+      "center_pct": {
+        "x": 64.08791877618809,
+        "y": 36.987018402691234
+      },
+      "size_pct": {
+        "w": 53.92456599516744,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "If the diagnosis is malignant melanoma, please give full details of depth of invasion (Clark level) ",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 176.0,
+        "y0": 323.8900146484375,
+        "x1": 542.0,
+        "y1": 336.8900146484375,
+        "width": 366.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 176.0,
+        "y": 323.8900146484375
+      },
+      "center": {
+        "x": 359.0,
+        "y": 330.3900146484375
+      },
+      "top_left_pct": {
+        "x": 29.566117181150993,
+        "y": 38.47177291723668
+      },
+      "center_pct": {
+        "x": 60.3081594774614,
+        "y": 39.24384526480031
+      },
+      "size_pct": {
+        "w": 61.48408459262081,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Has the condition caused invasion beyond the epidermis? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 346.8900146484375,
+        "x1": 493.0,
+        "y1": 357.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 346.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 352.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 41.2037212240003
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 41.857013210400304
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Has the condition caused invasion beyond the epidermis? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 345.8900146484375,
+        "x1": 522.0,
+        "y1": 356.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 345.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 351.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 41.08494086283667
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 41.73823284923666
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "If the diagnosis is Gastro-Intestinal Stroma Tumour (GIST), please state tumour classification (TNM classification)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 212.0,
+        "y0": 373.8900146484375,
+        "x1": 546.0,
+        "y1": 386.8900146484375,
+        "width": 334.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 212.0,
+        "y": 373.8900146484375
+      },
+      "center": {
+        "x": 379.0,
+        "y": 380.3900146484375
+      },
+      "top_left_pct": {
+        "x": 35.613732059113694,
+        "y": 44.410790975418465
+      },
+      "center_pct": {
+        "x": 63.66794552077402,
+        "y": 45.1828633229821
+      },
+      "size_pct": {
+        "w": 56.10842692332063,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "If the diagnosis is Gastro-Intestinal Stroma Tumour (GIST), please state Mitotic count (in HPFs) ",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 155.0,
+        "y0": 390.8900146484375,
+        "x1": 546.0,
+        "y1": 403.8900146484375,
+        "width": 391.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 155.0,
+        "y": 390.8900146484375
+      },
+      "center": {
+        "x": 350.5,
+        "y": 397.3900146484375
+      },
+      "top_left_pct": {
+        "x": 26.038341835672753,
+        "y": 46.43005711520027
+      },
+      "center_pct": {
+        "x": 58.88025040905354,
+        "y": 47.20212946276391
+      },
+      "size_pct": {
+        "w": 65.68381714676158,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Please provide details of all investigations performed and enclose copies of all reports, eg biopsy reports, cytology and histopathology reports, X-rays,  CT and MRI scans, other imaging studies, laboratory evidence, surgical reports and other relevant hospital reports",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 58.0,
+        "y0": 434.8900146484375,
+        "x1": 546.0,
+        "y1": 479.8900146484375,
+        "width": 488.0,
+        "height": 45.0
+      },
+      "top_left": {
+        "x": 58.0,
+        "y": 434.8900146484375
+      },
+      "center": {
+        "x": 302.0,
+        "y": 457.3900146484375
+      },
+      "top_left_pct": {
+        "x": 9.743379525606578,
+        "y": 51.65639300640025
+      },
+      "center_pct": {
+        "x": 50.73276925402045,
+        "y": 54.32895113258205
+      },
+      "size_pct": {
+        "w": 81.97877945682775,
+        "h": 5.345116252363609
+      }
+    },
+    {
+      "field_name": "Please provide full details of all type of treatment provided (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 48.0,
+        "y0": 536.8900146484375,
+        "x1": 295.0,
+        "y1": 559.8900146484375,
+        "width": 247.0,
+        "height": 23.0
+      },
+      "top_left": {
+        "x": 48.0,
+        "y": 536.8900146484375
+      },
+      "center": {
+        "x": 171.5,
+        "y": 548.3900146484375
+      },
+      "top_left_pct": {
+        "x": 8.063486503950271,
+        "y": 63.77198984509109
+      },
+      "center_pct": {
+        "x": 28.810165321405655,
+        "y": 65.1379639984729
+      },
+      "size_pct": {
+        "w": 41.49335763491077,
+        "h": 2.731948306763622
+      }
+    },
+    {
+      "field_name": "Please provide full details of date of treatment provided (dd/mm/yyyy) (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 299.0,
+        "y0": 538.8900146484375,
+        "x1": 424.0,
+        "y1": 559.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 299.0,
+        "y": 538.8900146484375
+      },
+      "center": {
+        "x": 361.5,
+        "y": 549.3900146484375
+      },
+      "top_left_pct": {
+        "x": 50.228801347523564,
+        "y": 64.00955056741837
+      },
+      "center_pct": {
+        "x": 60.72813273287547,
+        "y": 65.25674435963654
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Please provide full details of duration of treatment provided (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 427.0,
+        "y0": 537.8900146484375,
+        "x1": 552.0,
+        "y1": 558.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 427.0,
+        "y": 537.8900146484375
+      },
+      "center": {
+        "x": 489.5,
+        "y": 548.3900146484375
+      },
+      "top_left_pct": {
+        "x": 71.73143202472428,
+        "y": 63.89077020625473
+      },
+      "center_pct": {
+        "x": 82.23076341007621,
+        "y": 65.1379639984729
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Please provide full details of all type of treatment provided (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 49.0,
+        "y0": 561.8900146484375,
+        "x1": 296.0,
+        "y1": 584.8900146484375,
+        "width": 247.0,
+        "height": 23.0
+      },
+      "top_left": {
+        "x": 49.0,
+        "y": 561.8900146484375
+      },
+      "center": {
+        "x": 172.5,
+        "y": 573.3900146484375
+      },
+      "top_left_pct": {
+        "x": 8.2314758061159,
+        "y": 66.74149887418199
+      },
+      "center_pct": {
+        "x": 28.978154623571285,
+        "y": 68.1074730275638
+      },
+      "size_pct": {
+        "w": 41.49335763491077,
+        "h": 2.731948306763622
+      }
+    },
+    {
+      "field_name": "Please provide full details of date of treatment provided (dd/mm/yyyy) (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 299.0,
+        "y0": 563.8900146484375,
+        "x1": 424.0,
+        "y1": 584.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 299.0,
+        "y": 563.8900146484375
+      },
+      "center": {
+        "x": 361.5,
+        "y": 574.3900146484375
+      },
+      "top_left_pct": {
+        "x": 50.228801347523564,
+        "y": 66.97905959650926
+      },
+      "center_pct": {
+        "x": 60.72813273287547,
+        "y": 68.22625338872743
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Please provide full details of duration of treatment provided (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 428.0,
+        "y0": 563.8900146484375,
+        "x1": 553.0,
+        "y1": 584.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 428.0,
+        "y": 563.8900146484375
+      },
+      "center": {
+        "x": 490.5,
+        "y": 574.3900146484375
+      },
+      "top_left_pct": {
+        "x": 71.89942132688991,
+        "y": 66.97905959650926
+      },
+      "center_pct": {
+        "x": 82.39875271224183,
+        "y": 68.22625338872743
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Please provide full details of all type of treatment provided (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 48.0,
+        "y0": 587.8900146484375,
+        "x1": 295.0,
+        "y1": 610.8900146484375,
+        "width": 247.0,
+        "height": 23.0
+      },
+      "top_left": {
+        "x": 48.0,
+        "y": 587.8900146484375
+      },
+      "center": {
+        "x": 171.5,
+        "y": 599.3900146484375
+      },
+      "top_left_pct": {
+        "x": 8.063486503950271,
+        "y": 69.82978826443652
+      },
+      "center_pct": {
+        "x": 28.810165321405655,
+        "y": 71.19576241781833
+      },
+      "size_pct": {
+        "w": 41.49335763491077,
+        "h": 2.731948306763622
+      }
+    },
+    {
+      "field_name": "Please provide full details of date of treatment provided (dd/mm/yyyy) (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 300.0,
+        "y0": 588.8900146484375,
+        "x1": 425.0,
+        "y1": 609.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 300.0,
+        "y": 588.8900146484375
+      },
+      "center": {
+        "x": 362.5,
+        "y": 599.3900146484375
+      },
+      "top_left_pct": {
+        "x": 50.396790649689194,
+        "y": 69.94856862560015
+      },
+      "center_pct": {
+        "x": 60.89612203504111,
+        "y": 71.19576241781833
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Please provide full details of duration of treatment provided (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 427.0,
+        "y0": 588.8900146484375,
+        "x1": 552.0,
+        "y1": 609.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 427.0,
+        "y": 588.8900146484375
+      },
+      "center": {
+        "x": 489.5,
+        "y": 599.3900146484375
+      },
+      "top_left_pct": {
+        "x": 71.73143202472428,
+        "y": 69.94856862560015
+      },
+      "center_pct": {
+        "x": 82.23076341007621,
+        "y": 71.19576241781833
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Has active treatment and therapy now been rejected in favour of relief of symptoms? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 615.8900146484375,
+        "x1": 492.0,
+        "y1": 626.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 615.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 621.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 73.15563837701832
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 73.80893036341831
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Has active treatment and therapy now been rejected in favour of relief of symptoms? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 614.8900146484375,
+        "x1": 522.0,
+        "y1": 625.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 614.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 620.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 73.03685801585469
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 73.69015000225468
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Has active treatment and therapy now been rejected in favour of relief of symptoms? If “Yes”, please provide full details why this view/course of action is taken",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 55.0,
+        "y0": 636.8900146484375,
+        "x1": 451.0,
+        "y1": 675.8900146484375,
+        "width": 396.0,
+        "height": 39.0
+      },
+      "top_left": {
+        "x": 55.0,
+        "y": 636.8900146484375
+      },
+      "center": {
+        "x": 253.0,
+        "y": 656.3900146484375
+      },
+      "top_left_pct": {
+        "x": 9.239411619109687,
+        "y": 75.65002596145467
+      },
+      "center_pct": {
+        "x": 42.50129344790455,
+        "y": 77.96624300414557
+      },
+      "size_pct": {
+        "w": 66.52376365758973,
+        "h": 4.632434085381795
+      }
+    },
+    {
+      "field_name": "Was radical surgery (total and complete removal of the affected organ) done? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 685.8900146484375,
+        "x1": 492.0,
+        "y1": 696.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 685.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 691.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 81.47026365847282
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 82.12355564487281
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Was radical surgery (total and complete removal of the affected organ) done? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 685.8900146484375,
+        "x1": 522.0,
+        "y1": 696.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 685.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 691.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 81.47026365847282
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 82.12355564487281
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Was radical surgery (total and complete removal of the affected organ) done? If “Yes”, please state the name of the surgery, surgical code/table",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 51.0,
+        "y0": 712.8900146484375,
+        "x1": 456.0,
+        "y1": 748.8900146484375,
+        "width": 405.0,
+        "height": 36.0
+      },
+      "top_left": {
+        "x": 51.0,
+        "y": 712.8900146484375
+      },
+      "center": {
+        "x": 253.5,
+        "y": 730.8900146484375
+      },
+      "top_left_pct": {
+        "x": 8.567454410447164,
+        "y": 84.67733340989099
+      },
+      "center_pct": {
+        "x": 42.58528809898737,
+        "y": 86.81537991083643
+      },
+      "size_pct": {
+        "w": 68.03566737708042,
+        "h": 4.276093001890887
+      }
+    },
+    {
+      "field_name": "Was radical surgery (total and complete removal of the affected organ) done? If “Yes”, please state the date surgery was performed (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 233.0,
+        "y0": 748.8900146484375,
+        "x1": 259.0,
+        "y1": 761.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 233.0,
+        "y": 748.8900146484375
+      },
+      "center": {
+        "x": 246.0,
+        "y": 755.3900146484375
+      },
+      "top_left_pct": {
+        "x": 39.14150740459194,
+        "y": 88.95342641178188
+      },
+      "center_pct": {
+        "x": 41.325368332745136,
+        "y": 89.72549875934551
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Was radical surgery (total and complete removal of the affected organ) done? If “Yes”, please state the date surgery was performed (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 265.0,
+        "y0": 748.8900146484375,
+        "x1": 291.0,
+        "y1": 761.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 265.0,
+        "y": 748.8900146484375
+      },
+      "center": {
+        "x": 278.0,
+        "y": 755.3900146484375
+      },
+      "top_left_pct": {
+        "x": 44.51716507389212,
+        "y": 88.95342641178188
+      },
+      "center_pct": {
+        "x": 46.70102600204532,
+        "y": 89.72549875934551
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Was radical surgery (total and complete removal of the affected organ) done? If “Yes”, please state the date surgery was performed (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 299.0,
+        "y0": 748.8900146484375,
+        "x1": 339.0,
+        "y1": 761.8900146484375,
+        "width": 40.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 299.0,
+        "y": 748.8900146484375
+      },
+      "center": {
+        "x": 319.0,
+        "y": 755.3900146484375
+      },
+      "top_left_pct": {
+        "x": 50.228801347523564,
+        "y": 88.95342641178188
+      },
+      "center_pct": {
+        "x": 53.588587390836175,
+        "y": 89.72549875934551
+      },
+      "size_pct": {
+        "w": 6.7195720866252255,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "For mastectomy cases, was reconstructive surgery done or recommended? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 769.8900146484375,
+        "x1": 493.0,
+        "y1": 780.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 769.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 775.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 91.44781399621823
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 92.10110598261822
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "For mastectomy cases, was reconstructive surgery done or recommended? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 510.0,
+        "y0": 771.8900146484375,
+        "x1": 521.0,
+        "y1": 782.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 510.0,
+        "y": 771.8900146484375
+      },
+      "center": {
+        "x": 515.5,
+        "y": 777.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.67454410447162,
+        "y": 91.6853747185455
+      },
+      "center_pct": {
+        "x": 86.5984852663826,
+        "y": 92.3386667049455
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "For mastectomy cases, was reconstructive surgery done or recommended? If “Yes”, please state date surgery was performed (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 300.0,
+        "y0": 782.8900146484375,
+        "x1": 326.0,
+        "y1": 795.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 300.0,
+        "y": 782.8900146484375
+      },
+      "center": {
+        "x": 313.0,
+        "y": 789.3900146484375
+      },
+      "top_left_pct": {
+        "x": 50.396790649689194,
+        "y": 92.99195869134549
+      },
+      "center_pct": {
+        "x": 52.580651577842396,
+        "y": 93.76403103890912
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "For mastectomy cases, was reconstructive surgery done or recommended? If “Yes”, please state date surgery was performed (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 333.0,
+        "y0": 782.8900146484375,
+        "x1": 359.0,
+        "y1": 795.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 333.0,
+        "y": 782.8900146484375
+      },
+      "center": {
+        "x": 346.0,
+        "y": 789.3900146484375
+      },
+      "top_left_pct": {
+        "x": 55.940437621155006,
+        "y": 92.99195869134549
+      },
+      "center_pct": {
+        "x": 58.12429854930821,
+        "y": 93.76403103890912
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "For mastectomy cases, was reconstructive surgery done or recommended? If “Yes”, please state date surgery was performed (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 366.0,
+        "y0": 782.8900146484375,
+        "x1": 407.0,
+        "y1": 795.8900146484375,
+        "width": 41.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 366.0,
+        "y": 782.8900146484375
+      },
+      "center": {
+        "x": 386.5,
+        "y": 789.3900146484375
+      },
+      "top_left_pct": {
+        "x": 61.48408459262081,
+        "y": 92.99195869134549
+      },
+      "center_pct": {
+        "x": 64.92786528701625,
+        "y": 93.76403103890912
+      },
+      "size_pct": {
+        "w": 6.887561388790857,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the condition Thyroid Cancer described as TNM classification T1N0M0 or below? If “Yes”, please state the size in diameter (cm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 211.0,
+        "y0": 185.8900146484375,
+        "x1": 289.0,
+        "y1": 198.8900146484375,
+        "width": 78.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 211.0,
+        "y": 185.8900146484375
+      },
+      "center": {
+        "x": 250.0,
+        "y": 192.3900146484375
+      },
+      "top_left_pct": {
+        "x": 35.445742756948064,
+        "y": 22.080083076654947
+      },
+      "center_pct": {
+        "x": 41.99732554140766,
+        "y": 22.85215542421858
+      },
+      "size_pct": {
+        "w": 13.10316556891919,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured still on follow-up at your clinic? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 73.8900146484375,
+        "x1": 492.0,
+        "y1": 84.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 73.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 79.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 8.776682626327743
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 9.429974612727738
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the Insured still on follow-up at your clinic? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 73.8900146484375,
+        "x1": 522.0,
+        "y1": 84.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 73.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 79.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 8.776682626327743
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 9.429974612727738
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the Insured still on follow-up at your clinic? If “Yes”, please provide state date of next appointment (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 290.0,
+        "y0": 85.8900146484375,
+        "x1": 316.0,
+        "y1": 98.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 290.0,
+        "y": 85.8900146484375
+      },
+      "center": {
+        "x": 303.0,
+        "y": 92.3900146484375
+      },
+      "top_left_pct": {
+        "x": 48.71689762803288,
+        "y": 10.202046960291373
+      },
+      "center_pct": {
+        "x": 50.90075855618609,
+        "y": 10.974119307855004
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured still on follow-up at your clinic? If “Yes”, please provide state date of next appointment (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 323.0,
+        "y0": 85.8900146484375,
+        "x1": 349.0,
+        "y1": 98.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 323.0,
+        "y": 85.8900146484375
+      },
+      "center": {
+        "x": 336.0,
+        "y": 92.3900146484375
+      },
+      "top_left_pct": {
+        "x": 54.260544599498694,
+        "y": 10.202046960291373
+      },
+      "center_pct": {
+        "x": 56.444405527651895,
+        "y": 10.974119307855004
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured still on follow-up at your clinic? If “Yes”, please provide state date of next appointment (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 355.0,
+        "y0": 85.8900146484375,
+        "x1": 396.0,
+        "y1": 98.8900146484375,
+        "width": 41.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 355.0,
+        "y": 85.8900146484375
+      },
+      "center": {
+        "x": 375.5,
+        "y": 92.3900146484375
+      },
+      "top_left_pct": {
+        "x": 59.636202268798876,
+        "y": 10.202046960291373
+      },
+      "center_pct": {
+        "x": 63.079982963194304,
+        "y": 10.974119307855004
+      },
+      "size_pct": {
+        "w": 6.887561388790857,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured still on follow-up at your clinic? If \"No”, please provide date of discharge (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 277.0,
+        "y0": 103.8900146484375,
+        "x1": 303.0,
+        "y1": 116.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 277.0,
+        "y": 103.8900146484375
+      },
+      "center": {
+        "x": 290.0,
+        "y": 110.3900146484375
+      },
+      "top_left_pct": {
+        "x": 46.53303669987969,
+        "y": 12.340093461236815
+      },
+      "center_pct": {
+        "x": 48.71689762803288,
+        "y": 13.112165808800446
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured still on follow-up at your clinic? If \"No”, please provide date of discharge (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 309.0,
+        "y0": 103.8900146484375,
+        "x1": 351.0,
+        "y1": 116.8900146484375,
+        "width": 42.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 309.0,
+        "y": 103.8900146484375
+      },
+      "center": {
+        "x": 330.0,
+        "y": 110.3900146484375
+      },
+      "top_left_pct": {
+        "x": 51.90869436917986,
+        "y": 12.340093461236815
+      },
+      "center_pct": {
+        "x": 55.43646971465811,
+        "y": 13.112165808800446
+      },
+      "size_pct": {
+        "w": 7.055550690956487,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? No",
+      "field_value": "Off",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 126.8900146484375,
+        "x1": 522.0,
+        "y1": 137.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 126.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 132.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 15.072041768000439
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 15.725333754400433
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 226.8900146484375,
+        "x1": 492.0,
+        "y1": 237.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 226.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 232.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 26.95007788436401
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 27.60336987076401
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 226.8900146484375,
+        "x1": 522.0,
+        "y1": 237.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 226.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 232.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 26.95007788436401
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 27.60336987076401
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? If yes, please state the name of hospice",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 132.0,
+        "y0": 250.8900146484375,
+        "x1": 449.0,
+        "y1": 263.8900146484375,
+        "width": 317.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 132.0,
+        "y": 250.8900146484375
+      },
+      "center": {
+        "x": 290.5,
+        "y": 257.3900146484375
+      },
+      "top_left_pct": {
+        "x": 22.174587885863247,
+        "y": 29.80080655229127
+      },
+      "center_pct": {
+        "x": 48.8008922791157,
+        "y": 30.572878899854906
+      },
+      "size_pct": {
+        "w": 53.252608786504915,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? If inpatient, please state date of admission (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 232.0,
+        "y0": 268.8900146484375,
+        "x1": 258.0,
+        "y1": 281.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 232.0,
+        "y": 268.8900146484375
+      },
+      "center": {
+        "x": 245.0,
+        "y": 275.3900146484375
+      },
+      "top_left_pct": {
+        "x": 38.97351810242631,
+        "y": 31.938853053236716
+      },
+      "center_pct": {
+        "x": 41.157379030579506,
+        "y": 32.71092540080034
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? If inpatient, please state date of admission (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 266.0,
+        "y0": 268.8900146484375,
+        "x1": 292.0,
+        "y1": 281.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 266.0,
+        "y": 268.8900146484375
+      },
+      "center": {
+        "x": 279.0,
+        "y": 275.3900146484375
+      },
+      "top_left_pct": {
+        "x": 44.68515437605775,
+        "y": 31.938853053236716
+      },
+      "center_pct": {
+        "x": 46.86901530421095,
+        "y": 32.71092540080034
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? If inpatient, please state date of admission (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 299.0,
+        "y0": 268.8900146484375,
+        "x1": 340.0,
+        "y1": 281.8900146484375,
+        "width": 41.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 299.0,
+        "y": 268.8900146484375
+      },
+      "center": {
+        "x": 319.5,
+        "y": 275.3900146484375
+      },
+      "top_left_pct": {
+        "x": 50.228801347523564,
+        "y": 31.938853053236716
+      },
+      "center_pct": {
+        "x": 53.67258204191899,
+        "y": 32.71092540080034
+      },
+      "size_pct": {
+        "w": 6.887561388790857,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? If yes, please state if it is inpatient",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 74.0,
+        "y0": 273.8900146484375,
+        "x1": 85.0,
+        "y1": 284.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 74.0,
+        "y": 273.8900146484375
+      },
+      "center": {
+        "x": 79.5,
+        "y": 279.3900146484375
+      },
+      "top_left_pct": {
+        "x": 12.431208360256669,
+        "y": 32.53275485905489
+      },
+      "center_pct": {
+        "x": 13.355149522167636,
+        "y": 33.18604684545489
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? If day care, please state start date (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 204.0,
+        "y0": 286.8900146484375,
+        "x1": 230.0,
+        "y1": 299.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 204.0,
+        "y": 286.8900146484375
+      },
+      "center": {
+        "x": 217.0,
+        "y": 293.3900146484375
+      },
+      "top_left_pct": {
+        "x": 34.269817641788656,
+        "y": 34.076899554182155
+      },
+      "center_pct": {
+        "x": 36.45367856994185,
+        "y": 34.84897190174579
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? If day care, please state start date (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 237.0,
+        "y0": 286.8900146484375,
+        "x1": 263.0,
+        "y1": 299.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 237.0,
+        "y": 286.8900146484375
+      },
+      "center": {
+        "x": 250.0,
+        "y": 293.3900146484375
+      },
+      "top_left_pct": {
+        "x": 39.81346461325446,
+        "y": 34.076899554182155
+      },
+      "center_pct": {
+        "x": 41.99732554140766,
+        "y": 34.84897190174579
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? If day care, please state start date (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 271.0,
+        "y0": 286.8900146484375,
+        "x1": 312.0,
+        "y1": 299.8900146484375,
+        "width": 41.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 271.0,
+        "y": 286.8900146484375
+      },
+      "center": {
+        "x": 291.5,
+        "y": 293.3900146484375
+      },
+      "top_left_pct": {
+        "x": 45.52510088688591,
+        "y": 34.076899554182155
+      },
+      "center_pct": {
+        "x": 48.96888158128133,
+        "y": 34.84897190174579
+      },
+      "size_pct": {
+        "w": 6.887561388790857,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured referred to hospice care? If yes, please state if it is day care",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 74.0,
+        "y0": 291.8900146484375,
+        "x1": 85.0,
+        "y1": 302.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 74.0,
+        "y": 291.8900146484375
+      },
+      "center": {
+        "x": 79.5,
+        "y": 297.3900146484375
+      },
+      "top_left_pct": {
+        "x": 12.431208360256669,
+        "y": 34.67080136000034
+      },
+      "center_pct": {
+        "x": 13.355149522167636,
+        "y": 35.32409334640033
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 301.0,
+        "y0": 348.8900146484375,
+        "x1": 423.0,
+        "y1": 372.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 301.0,
+        "y": 348.8900146484375
+      },
+      "center": {
+        "x": 362.0,
+        "y": 360.8900146484375
+      },
+      "top_left_pct": {
+        "x": 50.564779951854824,
+        "y": 41.44128194632757
+      },
+      "center_pct": {
+        "x": 60.81212738395829,
+        "y": 42.86664628029121
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Please provide the name of doctor(s) which the Insured has been referred to for this condition (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 44.0,
+        "y0": 350.8900146484375,
+        "x1": 169.0,
+        "y1": 371.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 44.0,
+        "y": 350.8900146484375
+      },
+      "center": {
+        "x": 106.5,
+        "y": 361.3900146484375
+      },
+      "top_left_pct": {
+        "x": 7.391529295287748,
+        "y": 41.678842668654845
+      },
+      "center_pct": {
+        "x": 17.890860680639666,
+        "y": 42.92603646087302
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 173.0,
+        "y0": 349.8900146484375,
+        "x1": 295.0,
+        "y1": 373.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 173.0,
+        "y": 349.8900146484375
+      },
+      "center": {
+        "x": 234.0,
+        "y": 361.8900146484375
+      },
+      "top_left_pct": {
+        "x": 29.062149274654104,
+        "y": 41.56006230749121
+      },
+      "center_pct": {
+        "x": 39.30949670675757,
+        "y": 42.985426641454836
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 428.0,
+        "y0": 349.8900146484375,
+        "x1": 550.0,
+        "y1": 371.8900146484375,
+        "width": 122.0,
+        "height": 22.0
+      },
+      "top_left": {
+        "x": 428.0,
+        "y": 349.8900146484375
+      },
+      "center": {
+        "x": 489.0,
+        "y": 360.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.89942132688991,
+        "y": 41.56006230749121
+      },
+      "center_pct": {
+        "x": 82.14676875899339,
+        "y": 42.86664628029121
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.6131679455999866
+      }
+    },
+    {
+      "field_name": "Please provide the name of doctor(s) which the Insured has been referred to for this condition (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 44.0,
+        "y0": 375.8900146484375,
+        "x1": 169.0,
+        "y1": 396.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 44.0,
+        "y": 375.8900146484375
+      },
+      "center": {
+        "x": 106.5,
+        "y": 386.3900146484375
+      },
+      "top_left_pct": {
+        "x": 7.391529295287748,
+        "y": 44.64835169774574
+      },
+      "center_pct": {
+        "x": 17.890860680639666,
+        "y": 45.895545489963915
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 173.0,
+        "y0": 374.8900146484375,
+        "x1": 295.0,
+        "y1": 398.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 173.0,
+        "y": 374.8900146484375
+      },
+      "center": {
+        "x": 234.0,
+        "y": 386.8900146484375
+      },
+      "top_left_pct": {
+        "x": 29.062149274654104,
+        "y": 44.5295713365821
+      },
+      "center_pct": {
+        "x": 39.30949670675757,
+        "y": 45.95493567054573
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 301.0,
+        "y0": 374.8900146484375,
+        "x1": 423.0,
+        "y1": 398.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 301.0,
+        "y": 374.8900146484375
+      },
+      "center": {
+        "x": 362.0,
+        "y": 386.8900146484375
+      },
+      "top_left_pct": {
+        "x": 50.564779951854824,
+        "y": 44.5295713365821
+      },
+      "center_pct": {
+        "x": 60.81212738395829,
+        "y": 45.95493567054573
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 429.0,
+        "y0": 374.8900146484375,
+        "x1": 551.0,
+        "y1": 398.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 429.0,
+        "y": 374.8900146484375
+      },
+      "center": {
+        "x": 490.0,
+        "y": 386.8900146484375
+      },
+      "top_left_pct": {
+        "x": 72.06741062905554,
+        "y": 44.5295713365821
+      },
+      "center_pct": {
+        "x": 82.31475806115901,
+        "y": 45.95493567054573
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Please provide the name of doctor(s) which the Insured has been referred to for this condition (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 44.0,
+        "y0": 402.8900146484375,
+        "x1": 169.0,
+        "y1": 423.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 44.0,
+        "y": 402.8900146484375
+      },
+      "center": {
+        "x": 106.5,
+        "y": 413.3900146484375
+      },
+      "top_left_pct": {
+        "x": 7.391529295287748,
+        "y": 47.855421449163906
+      },
+      "center_pct": {
+        "x": 17.890860680639666,
+        "y": 49.10261524138208
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "Please provide the name and address of clinics/hospitals to which the Insured has attended for this condition (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 173.0,
+        "y0": 400.8900146484375,
+        "x1": 295.0,
+        "y1": 424.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 173.0,
+        "y": 400.8900146484375
+      },
+      "center": {
+        "x": 234.0,
+        "y": 412.8900146484375
+      },
+      "top_left_pct": {
+        "x": 29.062149274654104,
+        "y": 47.61786072683664
+      },
+      "center_pct": {
+        "x": 39.30949670675757,
+        "y": 49.04322506080026
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 300.0,
+        "y0": 400.8900146484375,
+        "x1": 422.0,
+        "y1": 424.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 300.0,
+        "y": 400.8900146484375
+      },
+      "center": {
+        "x": 361.0,
+        "y": 412.8900146484375
+      },
+      "top_left_pct": {
+        "x": 50.396790649689194,
+        "y": 47.61786072683664
+      },
+      "center_pct": {
+        "x": 60.64413808179266,
+        "y": 49.04322506080026
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Please provide details of diagnosis made during the consultation(s) at listed clinics/hospitals to which the Insured has attended for this condition (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 430.0,
+        "y0": 400.8900146484375,
+        "x1": 552.0,
+        "y1": 424.8900146484375,
+        "width": 122.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 430.0,
+        "y": 400.8900146484375
+      },
+      "center": {
+        "x": 491.0,
+        "y": 412.8900146484375
+      },
+      "top_left_pct": {
+        "x": 72.23539993122118,
+        "y": 47.61786072683664
+      },
+      "center_pct": {
+        "x": 82.48274736332465,
+        "y": 49.04322506080026
+      },
+      "size_pct": {
+        "w": 20.494694864206938,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 444.8900146484375,
+        "x1": 492.0,
+        "y1": 455.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 444.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 450.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 52.84419661803661
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 53.497488604436604
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 444.8900146484375,
+        "x1": 522.0,
+        "y1": 455.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 444.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 450.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 52.84419661803661
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 53.497488604436604
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Has the Insured ever had any malignant, pre-malignant or other related conditions or risk factors? If “Yes”, please provide details, including diagnosis, date of diagnosis, dates of consultation, name and address of doctor/ clinic and source of information",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 53.0,
+        "y0": 473.8900146484375,
+        "x1": 458.0,
+        "y1": 509.8900146484375,
+        "width": 405.0,
+        "height": 36.0
+      },
+      "top_left": {
+        "x": 53.0,
+        "y": 473.8900146484375
+      },
+      "center": {
+        "x": 255.5,
+        "y": 491.8900146484375
+      },
+      "top_left_pct": {
+        "x": 8.903433014778424,
+        "y": 56.288827091782046
+      },
+      "center_pct": {
+        "x": 42.92126670331863,
+        "y": 58.42687359272749
+      },
+      "size_pct": {
+        "w": 68.03566737708042,
+        "h": 4.276093001890887
+      }
+    },
+    {
+      "field_name": "Please give details of the Insured’s habits in relation to past and present smoking, including the duration of smoking habits, number of cigarettes smoked  per day and source of this information",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 57.0,
+        "y0": 663.8900146484375,
+        "x1": 540.0,
+        "y1": 699.8900146484375,
+        "width": 483.0,
+        "height": 36.0
+      },
+      "top_left": {
+        "x": 57.0,
+        "y": 663.8900146484375
+      },
+      "center": {
+        "x": 298.5,
+        "y": 681.8900146484375
+      },
+      "top_left_pct": {
+        "x": 9.575390223440946,
+        "y": 78.85709571287283
+      },
+      "center_pct": {
+        "x": 50.144806696440746,
+        "y": 80.99514221381828
+      },
+      "size_pct": {
+        "w": 81.13883294599961,
+        "h": 4.276093001890887
+      }
+    },
+    {
+      "field_name": "Is the tumour or cancer in any way caused directly or indirectly by alcohol or drug abuse? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 768.8900146484375,
+        "x1": 492.0,
+        "y1": 779.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 768.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 774.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 91.32903363505459
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 91.98232562145459
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the Insured still on follow-up at your clinic? If \"No\", please provide date of discharge (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 243.0,
+        "y0": 103.8900146484375,
+        "x1": 269.0,
+        "y1": 116.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 243.0,
+        "y": 103.8900146484375
+      },
+      "center": {
+        "x": 256.0,
+        "y": 110.3900146484375
+      },
+      "top_left_pct": {
+        "x": 40.821400426248246,
+        "y": 12.340093461236815
+      },
+      "center_pct": {
+        "x": 43.00526135440145,
+        "y": 13.112165808800446
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 482.0,
+        "y0": 127.8900146484375,
+        "x1": 493.0,
+        "y1": 138.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 482.0,
+        "y": 127.8900146484375
+      },
+      "center": {
+        "x": 487.5,
+        "y": 133.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.97084364383397,
+        "y": 15.190822129164072
+      },
+      "center_pct": {
+        "x": 81.89478480574493,
+        "y": 15.84411411556407
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? If “Yes”, please provide details on the basis of your evaluation",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 52.0,
+        "y0": 154.8900146484375,
+        "x1": 457.0,
+        "y1": 190.8900146484375,
+        "width": 405.0,
+        "height": 36.0
+      },
+      "top_left": {
+        "x": 52.0,
+        "y": 154.8900146484375
+      },
+      "center": {
+        "x": 254.5,
+        "y": 172.8900146484375
+      },
+      "top_left_pct": {
+        "x": 8.735443712612794,
+        "y": 18.397891880582236
+      },
+      "center_pct": {
+        "x": 42.753277401153,
+        "y": 20.535938381527682
+      },
+      "size_pct": {
+        "w": 68.03566737708042,
+        "h": 4.276093001890887
+      }
+    },
+    {
+      "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? If “Yes”, please indicate the date on which the Insured is assessed to be terminally ill (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 126.0,
+        "y0": 204.8900146484375,
+        "x1": 152.0,
+        "y1": 217.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 126.0,
+        "y": 204.8900146484375
+      },
+      "center": {
+        "x": 139.0,
+        "y": 211.3900146484375
+      },
+      "top_left_pct": {
+        "x": 21.16665207286946,
+        "y": 24.336909938764027
+      },
+      "center_pct": {
+        "x": 23.35051300102266,
+        "y": 25.10898228632766
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? If “Yes”, please indicate the date on which the Insured is assessed to be terminally ill (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 159.0,
+        "y0": 204.8900146484375,
+        "x1": 185.0,
+        "y1": 217.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 159.0,
+        "y": 204.8900146484375
+      },
+      "center": {
+        "x": 172.0,
+        "y": 211.3900146484375
+      },
+      "top_left_pct": {
+        "x": 26.710299044335272,
+        "y": 24.336909938764027
+      },
+      "center_pct": {
+        "x": 28.89415997248847,
+        "y": 25.10898228632766
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the Insured terminally ill, ie death is expected within 12 months? If “Yes”, please indicate the date on which the Insured is assessed to be terminally ill (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 191.0,
+        "y0": 204.8900146484375,
+        "x1": 226.0,
+        "y1": 217.8900146484375,
+        "width": 35.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 191.0,
+        "y": 204.8900146484375
+      },
+      "center": {
+        "x": 208.5,
+        "y": 211.3900146484375
+      },
+      "top_left_pct": {
+        "x": 32.085956713635454,
+        "y": 24.336909938764027
+      },
+      "center_pct": {
+        "x": 35.025769501533986,
+        "y": 25.10898228632766
+      },
+      "size_pct": {
+        "w": 5.879625575797073,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Please give details of the Insured’s medical history which would have increased the risk of Cancer (including nature of illness, date of diagnosis and source of information)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 57.0,
+        "y0": 539.8900146484375,
+        "x1": 540.0,
+        "y1": 575.8900146484375,
+        "width": 483.0,
+        "height": 36.0
+      },
+      "top_left": {
+        "x": 57.0,
+        "y": 539.8900146484375
+      },
+      "center": {
+        "x": 298.5,
+        "y": 557.8900146484375
+      },
+      "top_left_pct": {
+        "x": 9.575390223440946,
+        "y": 64.128330928582
+      },
+      "center_pct": {
+        "x": 50.144806696440746,
+        "y": 66.26637742952745
+      },
+      "size_pct": {
+        "w": 81.13883294599961,
+        "h": 4.276093001890887
+      }
+    },
+    {
+      "field_name": "Please give details of the Insured’s family history which would have increased the risk of Cancer (including the relationship, nature of illness, date of  diagnosis and source of information)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 57.0,
+        "y0": 601.8900146484375,
+        "x1": 540.0,
+        "y1": 637.8900146484375,
+        "width": 483.0,
+        "height": 36.0
+      },
+      "top_left": {
+        "x": 57.0,
+        "y": 601.8900146484375
+      },
+      "center": {
+        "x": 298.5,
+        "y": 619.8900146484375
+      },
+      "top_left_pct": {
+        "x": 9.575390223440946,
+        "y": 71.49271332072742
+      },
+      "center_pct": {
+        "x": 50.144806696440746,
+        "y": 73.63075982167287
+      },
+      "size_pct": {
+        "w": 81.13883294599961,
+        "h": 4.276093001890887
+      }
+    },
+    {
+      "field_name": "Please give details of the Insured’s habits in relation to alcohol consumption, including the type of alcohol, amount of alcohol consumption per day,  duration of such consumption and source of this information",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 57.0,
+        "y0": 726.8900146484375,
+        "x1": 540.0,
+        "y1": 762.8900146484375,
+        "width": 483.0,
+        "height": 36.0
+      },
+      "top_left": {
+        "x": 57.0,
+        "y": 726.8900146484375
+      },
+      "center": {
+        "x": 298.5,
+        "y": 744.8900146484375
+      },
+      "top_left_pct": {
+        "x": 9.575390223440946,
+        "y": 86.34025846618188
+      },
+      "center_pct": {
+        "x": 50.144806696440746,
+        "y": 88.47830496712733
+      },
+      "size_pct": {
+        "w": 81.13883294599961,
+        "h": 4.276093001890887
+      }
+    },
+    {
+      "field_name": "Is the tumour or cancer in any way caused directly or indirectly by alcohol or drug abuse? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.0,
+        "y0": 768.8900146484375,
+        "x1": 522.0,
+        "y1": 779.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 511.0,
+        "y": 768.8900146484375
+      },
+      "center": {
+        "x": 516.5,
+        "y": 774.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.84253340663726,
+        "y": 91.32903363505459
+      },
+      "center_pct": {
+        "x": 86.76647456854822,
+        "y": 91.98232562145459
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? If “Yes” please state HIV antibody status",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 140.0,
+        "y0": 98.8900146484375,
+        "x1": 457.0,
+        "y1": 111.8900146484375,
+        "width": 317.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 140.0,
+        "y": 98.8900146484375
+      },
+      "center": {
+        "x": 298.5,
+        "y": 105.3900146484375
+      },
+      "top_left_pct": {
+        "x": 23.518502303188292,
+        "y": 11.746191655418636
+      },
+      "center_pct": {
+        "x": 50.144806696440746,
+        "y": 12.518264002982269
+      },
+      "size_pct": {
+        "w": 53.252608786504915,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? If “Yes” please state date of diagnosis for HIV/AIDS (dd/mm/yyyy): (dd)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 224.0,
+        "y0": 115.8900146484375,
+        "x1": 250.0,
+        "y1": 128.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 224.0,
+        "y": 115.8900146484375
+      },
+      "center": {
+        "x": 237.0,
+        "y": 122.3900146484375
+      },
+      "top_left_pct": {
+        "x": 37.629603685101266,
+        "y": 13.765457795200446
+      },
+      "center_pct": {
+        "x": 39.81346461325446,
+        "y": 14.537530142764076
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? If “Yes” please state date of diagnosis for HIV/AIDS (dd/mm/yyyy): (mm)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 258.0,
+        "y0": 115.8900146484375,
+        "x1": 284.0,
+        "y1": 128.8900146484375,
+        "width": 26.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 258.0,
+        "y": 115.8900146484375
+      },
+      "center": {
+        "x": 271.0,
+        "y": 122.3900146484375
+      },
+      "top_left_pct": {
+        "x": 43.34123995873271,
+        "y": 13.765457795200446
+      },
+      "center_pct": {
+        "x": 45.52510088688591,
+        "y": 14.537530142764076
+      },
+      "size_pct": {
+        "w": 4.367721856306397,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? If “Yes” please state date of diagnosis for HIV/AIDS (dd/mm/yyyy): (yyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 291.0,
+        "y0": 115.8900146484375,
+        "x1": 333.0,
+        "y1": 128.8900146484375,
+        "width": 42.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 291.0,
+        "y": 115.8900146484375
+      },
+      "center": {
+        "x": 312.0,
+        "y": 122.3900146484375
+      },
+      "top_left_pct": {
+        "x": 48.88488693019852,
+        "y": 13.765457795200446
+      },
+      "center_pct": {
+        "x": 52.41266227567676,
+        "y": 14.537530142764076
+      },
+      "size_pct": {
+        "w": 7.055550690956487,
+        "h": 1.5441446951272648
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 137.8900146484375,
+        "x1": 492.0,
+        "y1": 148.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 137.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 143.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 16.37862574080043
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 17.031917727200426
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 510.0,
+        "y0": 137.8900146484375,
+        "x1": 521.0,
+        "y1": 148.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 510.0,
+        "y": 137.8900146484375
+      },
+      "center": {
+        "x": 515.5,
+        "y": 143.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.67454410447162,
+        "y": 16.37862574080043
+      },
+      "center_pct": {
+        "x": 86.5984852663826,
+        "y": 17.031917727200426
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of diagnosis (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 45.0,
+        "y0": 186.8900146484375,
+        "x1": 134.0,
+        "y1": 210.8900146484375,
+        "width": 89.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 45.0,
+        "y": 186.8900146484375
+      },
+      "center": {
+        "x": 89.5,
+        "y": 198.8900146484375
+      },
+      "top_left_pct": {
+        "x": 7.55951859745338,
+        "y": 22.198863437818584
+      },
+      "center_pct": {
+        "x": 15.035042543823943,
+        "y": 23.62422777178221
+      },
+      "size_pct": {
+        "w": 14.951047892741126,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide name of doctor that diagnosed (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 141.0,
+        "y0": 187.8900146484375,
+        "x1": 230.0,
+        "y1": 211.8900146484375,
+        "width": 89.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 141.0,
+        "y": 187.8900146484375
+      },
+      "center": {
+        "x": 185.5,
+        "y": 199.8900146484375
+      },
+      "top_left_pct": {
+        "x": 23.686491605353922,
+        "y": 22.317643798982218
+      },
+      "center_pct": {
+        "x": 31.162015551724487,
+        "y": 23.743008132945846
+      },
+      "size_pct": {
+        "w": 14.951047892741126,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Name and address of clinic/ hospital (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 237.0,
+        "y0": 187.8900146484375,
+        "x1": 350.0,
+        "y1": 211.8900146484375,
+        "width": 113.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 237.0,
+        "y": 187.8900146484375
+      },
+      "center": {
+        "x": 293.5,
+        "y": 199.8900146484375
+      },
+      "top_left_pct": {
+        "x": 39.81346461325446,
+        "y": 22.317643798982218
+      },
+      "center_pct": {
+        "x": 49.30486018561259,
+        "y": 23.743008132945846
+      },
+      "size_pct": {
+        "w": 18.982791144716263,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of date of diagnosis (dd/mm/yyyy) (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 355.0,
+        "y0": 188.8900146484375,
+        "x1": 423.0,
+        "y1": 212.8900146484375,
+        "width": 68.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 355.0,
+        "y": 188.8900146484375
+      },
+      "center": {
+        "x": 389.0,
+        "y": 200.8900146484375
+      },
+      "top_left_pct": {
+        "x": 59.636202268798876,
+        "y": 22.436424160145855
+      },
+      "center_pct": {
+        "x": 65.34783854243032,
+        "y": 23.861788494109483
+      },
+      "size_pct": {
+        "w": 11.423272547262883,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of treatment received (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 484.0,
+        "y0": 188.8900146484375,
+        "x1": 550.0,
+        "y1": 212.8900146484375,
+        "width": 66.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 484.0,
+        "y": 188.8900146484375
+      },
+      "center": {
+        "x": 517.0,
+        "y": 200.8900146484375
+      },
+      "top_left_pct": {
+        "x": 81.30682224816523,
+        "y": 22.436424160145855
+      },
+      "center_pct": {
+        "x": 86.85046921963104,
+        "y": 23.861788494109483
+      },
+      "size_pct": {
+        "w": 11.087293942931623,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of diagnosis (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 45.0,
+        "y0": 216.8900146484375,
+        "x1": 134.0,
+        "y1": 240.8900146484375,
+        "width": 89.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 45.0,
+        "y": 216.8900146484375
+      },
+      "center": {
+        "x": 89.5,
+        "y": 228.8900146484375
+      },
+      "top_left_pct": {
+        "x": 7.55951859745338,
+        "y": 25.76227427272765
+      },
+      "center_pct": {
+        "x": 15.035042543823943,
+        "y": 27.187638606691284
+      },
+      "size_pct": {
+        "w": 14.951047892741126,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide name of doctor that diagnosed (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 142.0,
+        "y0": 216.8900146484375,
+        "x1": 231.0,
+        "y1": 240.8900146484375,
+        "width": 89.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 142.0,
+        "y": 216.8900146484375
+      },
+      "center": {
+        "x": 186.5,
+        "y": 228.8900146484375
+      },
+      "top_left_pct": {
+        "x": 23.85448090751955,
+        "y": 25.76227427272765
+      },
+      "center_pct": {
+        "x": 31.330004853890113,
+        "y": 27.187638606691284
+      },
+      "size_pct": {
+        "w": 14.951047892741126,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Name and address of clinic/ hospital (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 236.0,
+        "y0": 216.8900146484375,
+        "x1": 349.0,
+        "y1": 240.8900146484375,
+        "width": 113.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 236.0,
+        "y": 216.8900146484375
+      },
+      "center": {
+        "x": 292.5,
+        "y": 228.8900146484375
+      },
+      "top_left_pct": {
+        "x": 39.64547531108883,
+        "y": 25.76227427272765
+      },
+      "center_pct": {
+        "x": 49.13687088344697,
+        "y": 27.187638606691284
+      },
+      "size_pct": {
+        "w": 18.982791144716263,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of date of diagnosis (dd/mm/yyyy) (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 356.0,
+        "y0": 216.8900146484375,
+        "x1": 424.0,
+        "y1": 240.8900146484375,
+        "width": 68.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 356.0,
+        "y": 216.8900146484375
+      },
+      "center": {
+        "x": 390.0,
+        "y": 228.8900146484375
+      },
+      "top_left_pct": {
+        "x": 59.804191570964505,
+        "y": 25.76227427272765
+      },
+      "center_pct": {
+        "x": 65.51582784459595,
+        "y": 27.187638606691284
+      },
+      "size_pct": {
+        "w": 11.423272547262883,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of treatment received (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 485.0,
+        "y0": 216.8900146484375,
+        "x1": 551.0,
+        "y1": 240.8900146484375,
+        "width": 66.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 485.0,
+        "y": 216.8900146484375
+      },
+      "center": {
+        "x": 518.0,
+        "y": 228.8900146484375
+      },
+      "top_left_pct": {
+        "x": 81.47481155033086,
+        "y": 25.76227427272765
+      },
+      "center_pct": {
+        "x": 87.01845852179667,
+        "y": 27.187638606691284
+      },
+      "size_pct": {
+        "w": 11.087293942931623,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of diagnosis (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 45.0,
+        "y0": 244.8900146484375,
+        "x1": 134.0,
+        "y1": 268.8900146484375,
+        "width": 89.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 45.0,
+        "y": 244.8900146484375
+      },
+      "center": {
+        "x": 89.5,
+        "y": 256.8900146484375
+      },
+      "top_left_pct": {
+        "x": 7.55951859745338,
+        "y": 29.088124385309456
+      },
+      "center_pct": {
+        "x": 15.035042543823943,
+        "y": 30.513488719273084
+      },
+      "size_pct": {
+        "w": 14.951047892741126,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide name of doctor that diagnosed (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 141.0,
+        "y0": 245.8900146484375,
+        "x1": 230.0,
+        "y1": 269.8900146484375,
+        "width": 89.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 141.0,
+        "y": 245.8900146484375
+      },
+      "center": {
+        "x": 185.5,
+        "y": 257.8900146484375
+      },
+      "top_left_pct": {
+        "x": 23.686491605353922,
+        "y": 29.20690474647309
+      },
+      "center_pct": {
+        "x": 31.162015551724487,
+        "y": 30.632269080436718
+      },
+      "size_pct": {
+        "w": 14.951047892741126,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Name and address of clinic/ hospital (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 237.0,
+        "y0": 245.8900146484375,
+        "x1": 350.0,
+        "y1": 269.8900146484375,
+        "width": 113.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 237.0,
+        "y": 245.8900146484375
+      },
+      "center": {
+        "x": 293.5,
+        "y": 257.8900146484375
+      },
+      "top_left_pct": {
+        "x": 39.81346461325446,
+        "y": 29.20690474647309
+      },
+      "center_pct": {
+        "x": 49.30486018561259,
+        "y": 30.632269080436718
+      },
+      "size_pct": {
+        "w": 18.982791144716263,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of date of diagnosis (dd/mm/yyyy) (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 356.0,
+        "y0": 244.8900146484375,
+        "x1": 424.0,
+        "y1": 268.8900146484375,
+        "width": 68.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 356.0,
+        "y": 244.8900146484375
+      },
+      "center": {
+        "x": 390.0,
+        "y": 256.8900146484375
+      },
+      "top_left_pct": {
+        "x": 59.804191570964505,
+        "y": 29.088124385309456
+      },
+      "center_pct": {
+        "x": 65.51582784459595,
+        "y": 30.513488719273084
+      },
+      "size_pct": {
+        "w": 11.423272547262883,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of treatment received (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 485.0,
+        "y0": 245.8900146484375,
+        "x1": 551.0,
+        "y1": 269.8900146484375,
+        "width": 66.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 485.0,
+        "y": 245.8900146484375
+      },
+      "center": {
+        "x": 518.0,
+        "y": 257.8900146484375
+      },
+      "top_left_pct": {
+        "x": 81.47481155033086,
+        "y": 29.20690474647309
+      },
+      "center_pct": {
+        "x": 87.01845852179667,
+        "y": 30.632269080436718
+      },
+      "size_pct": {
+        "w": 11.087293942931623,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Please provide us with any other additional information that will enable us to assess this claim",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 49.0,
+        "y0": 287.8900146484375,
+        "x1": 546.0,
+        "y1": 331.8900146484375,
+        "width": 497.0,
+        "height": 44.0
+      },
+      "top_left": {
+        "x": 49.0,
+        "y": 287.8900146484375
+      },
+      "center": {
+        "x": 297.5,
+        "y": 309.8900146484375
+      },
+      "top_left_pct": {
+        "x": 8.2314758061159,
+        "y": 34.19567991534579
+      },
+      "center_pct": {
+        "x": 49.976817394275116,
+        "y": 36.80884786094578
+      },
+      "size_pct": {
+        "w": 83.49068317631843,
+        "h": 5.226335891199973
+      }
+    },
+    {
+      "field_name": "date of completed form",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 374.0,
+        "y0": 399.8900146484375,
+        "x1": 499.0,
+        "y1": 420.8900146484375,
+        "width": 125.0,
+        "height": 21.0
+      },
+      "top_left": {
+        "x": 374.0,
+        "y": 399.8900146484375
+      },
+      "center": {
+        "x": 436.5,
+        "y": 410.3900146484375
+      },
+      "top_left_pct": {
+        "x": 62.827999009945856,
+        "y": 47.499080365672995
+      },
+      "center_pct": {
+        "x": 73.32733039529778,
+        "y": 48.74627415789117
+      },
+      "size_pct": {
+        "w": 20.99866277070383,
+        "h": 2.4943875844363506
+      }
+    },
+    {
+      "field_name": "signature of doctor",
+      "field_value": "",
+      "field_type": "signature",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 56.0,
+        "y0": 370.8900146484375,
+        "x1": 267.0,
+        "y1": 418.8900146484375,
+        "width": 211.0,
+        "height": 48.0
+      },
+      "top_left": {
+        "x": 56.0,
+        "y": 370.8900146484375
+      },
+      "center": {
+        "x": 161.5,
+        "y": 394.8900146484375
+      },
+      "top_left_pct": {
+        "x": 9.407400921275316,
+        "y": 44.05444989192756
+      },
+      "center_pct": {
+        "x": 27.130272299749347,
+        "y": 46.90517855985482
+      },
+      "size_pct": {
+        "w": 35.445742756948064,
+        "h": 5.701457335854516
+      }
+    },
+    {
+      "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? Yes",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 481.0,
+        "y0": 73.8900146484375,
+        "x1": 492.0,
+        "y1": 84.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 481.0,
+        "y": 73.8900146484375
+      },
+      "center": {
+        "x": 486.5,
+        "y": 79.3900146484375
+      },
+      "top_left_pct": {
+        "x": 80.80285434166834,
+        "y": 8.776682626327743
+      },
+      "center_pct": {
+        "x": 81.72679550357931,
+        "y": 9.429974612727738
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Is the tumour in the presence of Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? No",
+      "field_value": "",
+      "field_type": "checkbox",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 510.0,
+        "y0": 72.8900146484375,
+        "x1": 521.0,
+        "y1": 83.8900146484375,
+        "width": 11.0,
+        "height": 11.0
+      },
+      "top_left": {
+        "x": 510.0,
+        "y": 72.8900146484375
+      },
+      "center": {
+        "x": 515.5,
+        "y": 78.3900146484375
+      },
+      "top_left_pct": {
+        "x": 85.67454410447162,
+        "y": 8.657902265164106
+      },
+      "center_pct": {
+        "x": 86.5984852663826,
+        "y": 9.311194251564103
+      },
+      "size_pct": {
+        "w": 1.847882323821937,
+        "h": 1.3065839727999933
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of condition (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 427.0,
+        "y0": 187.8900146484375,
+        "x1": 480.0,
+        "y1": 211.8900146484375,
+        "width": 53.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 427.0,
+        "y": 187.8900146484375
+      },
+      "center": {
+        "x": 453.5,
+        "y": 199.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.73143202472428,
+        "y": 22.317643798982218
+      },
+      "center_pct": {
+        "x": 76.18314853211349,
+        "y": 23.743008132945846
+      },
+      "size_pct": {
+        "w": 8.903433014778424,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of condition (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 428.0,
+        "y0": 215.8900146484375,
+        "x1": 481.0,
+        "y1": 239.8900146484375,
+        "width": 53.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 428.0,
+        "y": 215.8900146484375
+      },
+      "center": {
+        "x": 454.5,
+        "y": 227.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.89942132688991,
+        "y": 25.64349391156402
+      },
+      "center_pct": {
+        "x": 76.35113783427913,
+        "y": 27.06885824552765
+      },
+      "size_pct": {
+        "w": 8.903433014778424,
+        "h": 2.850728667927258
+      }
+    },
+    {
+      "field_name": "Does Insured have or ever had any other significant health condition(s)? If “Yes”, please provide details of Duration of condition (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 5,
+      "confidence": "",
+      "bbox": {
+        "x0": 428.0,
+        "y0": 245.8900146484375,
+        "x1": 481.0,
+        "y1": 269.8900146484375,
+        "width": 53.0,
+        "height": 24.0
+      },
+      "top_left": {
+        "x": 428.0,
+        "y": 245.8900146484375
+      },
+      "center": {
+        "x": 454.5,
+        "y": 257.8900146484375
+      },
+      "top_left_pct": {
+        "x": 71.89942132688991,
+        "y": 29.20690474647309
+      },
+      "center_pct": {
+        "x": 76.35113783427913,
+        "y": 30.632269080436718
+      },
+      "size_pct": {
+        "w": 8.903433014778424,
+        "h": 2.850728667927258
+      }
+    }
+  ]
+}

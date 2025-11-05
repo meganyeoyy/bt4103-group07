@@ -1,0 +1,18 @@
+.uploader {
+  padding: 18px;
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  background: #fafafa;
+  text-align: center;
+  min-height: 84px; /* taller than before */
+}
+.uploader.drag {
+  background: #f0f9ff;
+  border-color: var(--brand);
+}
+.dash {
+  font-weight: 600;
+}
+.hint {
+  margin-top: 4px;
+}

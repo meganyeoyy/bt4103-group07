@@ -1,0 +1,116 @@
+.insurer {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* NEW: fill the .card.section height set in App.css */
+}
+
+/* Header */
+.insurer .panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+.insurer .panelTitle {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* PDF container: let it flex to fill parent; DON'T force height */
+.pdfFrame {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* fills below the header */
+  /* removed: height: 100%; */
+}
+
+/* REMOVE this rule to avoid inner/parent height conflicts:
+.grid.no-source .insurer .pdfFrame {
+  height: 1100px;
+} 
+   Control expanded height via App.css (.grid.no-source .card.section) instead. */
+
+/* Viewport wraps the iframe and flex-fills */
+.pdfViewport {
+  flex: 1;
+  /* removed: height: 100%; */
+  overflow: auto;
+  background: #fff;
+}
+
+.pdfEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.footRow {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.foot {
+  color: var(--muted);
+}
+
+.ghost {
+  border: 1px solid var(--border);
+  background: #464646;
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.previewPlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #f8fafc;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+}
+
+.fileName {
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.placeholder {
+  color: var(--muted);
+}
+
+.spinner.large {
+  width: 32px;
+  height: 32px;
+  border-width: 3px;
+  border: 3px solid var(--border);
+  border-top-color: var(--brand);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 12px;
+}
+
+.placeholder.big {
+  font-size: 15px;
+  font-weight: 500;
+  color: #374151;
+  text-align: center;
+}
+
+.previewPlaceholder strong {
+  color: var(--brand);
+}

@@ -1,0 +1,18 @@
+.templ {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.templ label {
+  font-weight: 600;
+}
+.templ select {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: white;
+}
+.templ .selected {
+  color: var(--muted);
+  font-size: 12px;
+}

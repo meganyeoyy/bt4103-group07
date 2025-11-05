@@ -1,0 +1,25 @@
+.chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.chip {
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 12px;
+  background: #eef2ff;
+  border: 1px solid #e0e7ff;
+}
+.good {
+  background: #ecfdf5;
+  border-color: #a7f3d0;
+}
+.warn {
+  background: #fef3c7;
+  border-color: #fde68a;
+}
+.bad {
+  background: #fee2e2;
+  border-color: #fecaca;
+}
