@@ -1,0 +1,108 @@
+FIELD JSON WITH INLINE META (guidance in comments — DO NOT return comments):
+
+{
+"Did the Insured consult any other doctors for this illness or its symptoms before he/she consulted you?": {
+    "value": "",           // Allowed values: "Yes" / "No" / "" (unknown)
+    "confidence": 0.0
+},
+"Details of other doctors consulted (rows 0..3)": [
+    // Rules:
+    // - If no consultation → return []
+    // - If consultations exist → return 1..3 row objects (as many as are clearly present, capped at 3)
+    {
+        "Name of doctor": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Name and address of clinic / hospital": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Date(s) of consultation (dd/mm/yyyy)": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Diagnosis made": {
+            "value": "",
+            "confidence": 0.0
+        }
+    }
+    // Add a second/third object ONLY if multiple consultations are clearly present
+],
+"Histological diagnosis": {
+    "value": "",           // Extract overall diagnosis from DIAGNOSIS SUMMARY
+    "confidence": 0.0
+},
+"Date of diagnosis (dd/mm/yyyy)": {
+    "value": "",           // Copy date associated with diagnosis given
+    "confidence": 0.0
+},
+"Doctor/clinic where diagnosis was first made": {
+    "value": "",           // Look for doctor/clinic names for the first diagnosis or biopsy.
+    "confidence": 0.0
+},
+"Date Insured was first informed of diagnosis (dd/mm/yyyy)": {
+    "value": "",
+    "confidence": 0.0
+},
+"Was a biopsy of the tumour performed?": {
+    "value": "",           // "Yes" if "biopsy", "cnb", "TBLB", or "Surgical resection" is mentioned.
+    "confidence": 0.0
+},
+"Biopsy date (dd/mm/yyyy)": {
+    "value": "",           // Only if previous == "Yes"; keep original date format of biopsy
+    "confidence": 0.0
+},
+"If No, how was the diagnosis confirmed?": {
+    "value": "",           // Only if previous == "No"; copy explanation verbatim if present
+    "confidence": 0.0
+},
+"Site or organ involved": {
+    "value": "",           // Extract from "Primary Site" in "DIAGNOSIS SUMMARY". Patient site ONLY.
+    "confidence": 0.0
+},
+"Staging": {
+    "value": "",           // Extract TNM staging from "DIAGNOSIS SUMMARY" or "CLINICAL AND TREATMENT SUMMARY".
+    "confidence": 0.0
+},
+"Has the cancer spread beyond the layer of cells?": {
+    "value": "",           // "Yes" if diagnosis is "Invasive" or staging is T1 or higher. "No" if "in-situ".
+    "confidence": 0.0
+},
+"Was the disease completely localised?": {
+    "value": "",           // "Yes" if staging is N0 AND M0. "No" if N is 1+ OR M is 1+.
+    "confidence": 0.0
+},
+"Was there invasion of adjacent tissues?": {
+    "value": "",           // "Yes" if staging is T4.
+    "confidence": 0.0
+},
+"Were regional lymph nodes involved?": {
+    "value": "",           // "N0" means "No". "N1" or "N2" means "Yes". Prioritize final staging over speculative notes.
+    "confidence": 0.0
+},
+"Were there distant metastases?": {
+    "value": "",           // "M0" means "No". "M1" means "Yes". Prioritize final staging.
+    "confidence": 0.0
+},
+"Metastases details": {
+    "value": "",           // Only if previous == "Yes"; copy verbatim details (e.g., "liver and lung metastases")
+    "confidence": 0.0
+},
+"Is the condition carcinoma-in-situ?": {
+    "value": "",           // Allowed: "Yes" / "No"
+    "confidence": 0.0
+},
+"Pre-malignant / non-invasive": {
+    "value": "",           // Allowed: "Yes" / "No"
+    "confidence": 0.0
+},
+"Borderline / suspicious malignancy": {
+    "value": "",           // Allowed: "Yes" / "No"
+    "confidence": 0.0
+},
+"Cervical dysplasia CIN1-3 (without CIS)": {
+    "value": "",           // Allowed: "Yes" / "No"
+    "confidence": 0.0
+}
+}

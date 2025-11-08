@@ -1,0 +1,66 @@
+FIELD JSON WITH INLINE META (guidance in comments — DO NOT return comments):
+
+{
+    "Date when insured first consulted you for cancer (ddmmyyyy)": {
+        "value": "",                // Find the EARLIEST "Visit/Appointment Date" or "Authored:" date
+        "confidence": 0.0
+    },
+
+    "Please state symptoms presented and date symptoms first appeared (rows 0..3)": [
+        // Rules:
+        // - If no symptoms are stated → return [].
+        // - If exactly one symptom is stated → return ONE object (length = 1).
+        // - If three or more symptoms are stated → return THREE objects (take the first three).
+        // - Keep date strings exactly as in the notes; do not reformat.
+        {
+            "Symptom": {
+              // CRITICAL: Initial symptom that led to the diagnosis.
+              // DO NOT extract treatment side effects (e.g., "nausea", "mucositis", "rash") that appear after a treatment is mentioned.
+                "value": "",
+                "confidence": 0.0
+            },
+            "Duration of symptom": {
+                "value": "",               // Copy duration associated with this symptom
+                "confidence": 0.0
+            },
+            "Date symptoms first started (dd/mm/yyyy)": {
+                "value": "",               // Keep date text as-is
+                "confidence": 0.0
+            }
+        }
+        // Add a second object ONLY if multiple distinct symptoms are clearly present
+    ],
+
+    "Source of above information": {
+        "value": "",                // State the source. Allowed: "Patient" / "Referring Doctor" / "Others" (unknown)
+        "confidence": 0.0
+    },
+
+    "What is the source of the above information? If Referring Doctor / Others, specify name & address (rows 0..2)": [
+        // Rules:
+        // - If no referring doctors or Others are stated → return [].
+        // - If one referring doctor is stated → return ONE object (length = 1).
+        // - If two or more are stated → return up to TWO objects (take the first two).
+        {
+            "Name": {
+                "value": "",               // Name of the referring doctor.
+                "confidence": 0.0
+            },
+            "Address": {
+                "value": "",               // Address of the referring doctor.
+                "confidence": 0.0
+            }
+      }
+      // Add a second and third object ONLY if there are multiple disticnt sources to capture.
+
+    ],
+
+    "Date when Cancer was FIRST diagnosed (DD/MM/YYYY)": {
+        "value": "",                // Date of initial cancer diagnosis. Format as DD/MM/YYYY.
+        "confidence": 0.0
+    },
+    "Diagnosis was first made by (name of Doctor)": {
+        "value": "",                // Name of the doctor who made the initial diagnosis.
+        "confidence": 0.0
+    }
+}

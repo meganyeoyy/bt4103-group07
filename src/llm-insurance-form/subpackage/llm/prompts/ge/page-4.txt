@@ -1,0 +1,70 @@
+FIELD JSON WITH INLINE META (guidance in comments — DO NOT return comments):
+
+{
+    "Does Life Assured have any other medical conditions?": {
+        "value": "",                // Check "PMHx" or "Other Med History". "nil" = "No". "HTN" etc. = "Yes".
+        "confidence": 0.0
+    }
+
+    "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3)": [
+        // Rules:
+        // - If no other conditions are stated → return [].
+        // - If one other condition is stated → return ONE object (length = 1).
+        // - If three or more are stated → return up to THREE objects (take the first three).
+        {
+            "Medical condition": {
+                "value": "",
+                "confidence": 0.0
+            },
+            "Diagnosis date (dd/mm/yyyy)": {
+                "value": "",
+                "confidence": 0.0
+            },
+            "Name & address of treating doctor": {
+                "value": "",
+                "confidence": 0.0
+            }
+        }
+        // Add a second and third object ONLY if there are multiple distinct medical conditions
+    ],
+
+    "Does Life Assured have any family history?": {
+        "value": "",                // Allowed: "Yes" / "No" / "" (unknown)
+        "confidence": 0.0
+    }
+
+    "Family History (rows 0..3)": [
+        // Rules:
+        // - If no family history is stated → return [].
+        // - If one family member is stated → return ONE object (length = 1).
+        // - If two or more are stated → return up to THREE objects (take the first three).
+        {
+            "Relationship to Life Assured": {
+                "value": "",
+                "confidence": 0.0
+            },
+            "Family history condition": {
+                "value": "",
+                "confidence": 0.0
+            },
+            "Age of onset": {
+                "value": "",
+                "confidence": 0.0
+            }
+        }
+        // Add a second and third object ONLY if there are multiple distinct family history
+    ],
+    "Details of the Life Assured’s habits in relation to cigarette smoking, including the duration of smoking habit, number of cigarettes smoked per day and source of information": {
+        "value": "",                // e.g., "Smoker, 10 years, 1 pack/day" or "Non-smoker".
+        "confidence": 0.0
+    },
+    "Details of the Life Assured’s habit in relation to alcohol consumption including the amount of alcohol consumption per day and source of information": {
+        "value": "",                // e.g., "Social drinker, 2-3 units/week" or "No alcohol consumption".
+        "confidence": 0.0
+    },
+    "Please provide any other information which may be of assistance to us in assessing this claim": {
+        "value": "",                // Any other relevant medical notes or summary.
+        "confidence": 0.0
+    }
+
+}

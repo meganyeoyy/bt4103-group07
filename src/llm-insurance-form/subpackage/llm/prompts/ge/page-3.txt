@@ -1,0 +1,46 @@
+FIELD JSON WITH INLINE META (guidance in comments — DO NOT return comments):
+
+{
+
+    "Has the Life Assured underwent other mode of treatment?": {
+        "value": "",                // Allowed: "Yes" / "No" / "" (unknown)
+        "confidence": 0.0
+    },
+
+    "Date of other treatment (ddmmyyyy)": {
+        "value": "",                // Only if previous == "Yes"; keep original date format
+        "confidence": 0.0
+    },
+    "Reason for no other mode of treatment": {
+        "value": "",                // If no other mode of treatment, provide reason
+        "confidence": 0.0
+    },
+    "What other forms of treatment did the Life Assured undergo (eg chemotherapy, radiotherapy etc)?": {
+        "value": "",                // List other treatments like chemotherapy, radiotherapy.
+        "confidence": 0.0
+    },
+    "If diagnosis is leukaemia, please provide the type of leukaemia": {
+        "value": "",                // Specify type, e.g., AML, CML.
+        "confidence": 0.0
+    },
+    "If the diagnosis is malignant melanoma, please give full details of size, thickness (Breslow classification) and/or depth of invasion (Clark level)": {
+        "value": "",                // Provide specifics for melanoma, e.g., "Breslow 0.5mm, Clark Level II".
+        "confidence": 0.0
+    },
+    "Is the diagnosis related to Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)?": {
+        "value": "",                // Allowed: "Yes" / "No" / "" (unknown)
+        "confidence": 0.0
+    },
+    "Date of diagnosis for HIV/AIDS (ddmmyyyy)": {
+        "value": "",                // Only if previous == "Yes"; keep original date format
+        "confidence": 0.0
+    }
+    "Life Assured’s mental and cognitive abiliites": {
+        "value": "",                // Summary of patient's mental/cognitive state.
+        "confidence": 0.0
+    },
+    "Is Life Assured mentally capable?": {
+        "value": "",                // Allowed: "Yes" / "No" / "" (unknown)
+        "confidence": 0.0
+    }
+}
