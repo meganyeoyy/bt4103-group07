@@ -15,9 +15,34 @@ def split_date(date_str):
     m = re.match(r"(\d{4})-(\d{2})-(\d{2})", date_str)
     if m:
         return m.group(3), m.group(2), m.group(1)
+    # dd-mmm-yyyy
+    m = re.match(r"(\d{2})-([A-Za-z]{3})-(\d{4})", date_str)
+    if m:
+        cal = {
+            "Jan": "01",
+            "Feb": "02",
+            "Mar": "03",
+            "Apr": "04",
+            "May": "05",
+            "Jun": "06",
+            "Jul": "07",
+            "Aug": "08",
+            "Sep": "09",
+            "Oct": "10",
+            "Nov": "11",
+            "Dec": "12"
+        }
+        month = m.group(2)
+        month_num = cal.get(month)
+        return m.group(1), month_num, m.group(3)
+    # ddmmyy
+    m = re.match(r"(\d{2})-(\d{2})-(\d{2})", date_str)
+    if m:
+        year = m.group(3)
+        new_year = "20" + year
+        return m.group(1), m.group(2), new_year
     # fallback
     return date_str, "", ""
-
 
 def set_field_with_confidence(field, combined, key_base):
     """Set value + confidence for text fields."""
@@ -62,10 +87,10 @@ def set_delete_with_confidence(field, combined, key_base):
     value = combined.get(f"{key_base} value", "")
     confidence = combined.get(f"{key_base} confidence", "")
 
-    if "Yes" in field["field_name"] and value == "Yes":
-        field["field_value"] = "Off"
-    elif "No" in field["field_name"] and value == "No":
-        field["field_value"] = "Off"
+    if "Yes" in field["field_name"] and value == "No":
+        field["field_value"] = "X"
+    elif "No" in field["field_name"] and value == "Yes":
+        field["field_value"] = "X"
     else:
         field["field_value"] = ""
 
@@ -77,17 +102,41 @@ def set_source_with_confidence(field, combined, key_base):
     value = combined.get(f"{key_base} value", "")
     confidence = combined.get(f"{key_base} confidence", "")
 
-    if "Patient" in field["field_name"] and value == "Patient":
-        field["field_value"] = "Off"
-    elif "Referring Doctor" in field["field_name"] and value == "Referring Doctor":
-        field["field_value"] = "Off"
-    elif "Others" in field["field_name"] and value == "Others":
-        field["field_value"] = "Off"
+    field_name = field["field_name"]
+
+    # Case 1: If the selected value is "Patient"
+    if value == "Patient":
+        if "Referring Doctor" in field_name or "Others" in field_name:
+            field["field_value"] = "X"
+        elif "Patient" in field_name:
+            field["field_value"] = ""
+        else:
+            field["field_value"] = ""
+
+    # Case 2: If the selected value is "Referring Doctor"
+    elif value == "Referring Doctor":
+        if "Patient" in field_name or "Others" in field_name:
+            field["field_value"] = "X"
+        elif "Referring Doctor" in field_name:
+            field["field_value"] = ""
+        else:
+            field["field_value"] = ""
+
+    # Case 3: If the selected value is "Others"
+    elif value == "Others":
+        if "Patient" in field_name or "Referring Doctor" in field_name:
+            field["field_value"] = "X"
+        elif "Others" in field_name:
+            field["field_value"] = ""
+        else:
+            field["field_value"] = ""
+
+    # Default
     else:
         field["field_value"] = ""
 
+    # Set confidence if present
     field["confidence"] = str(confidence) if confidence != "" else ""
-
 # --- Mapper ---
 
 def map_combined_to_fields(combined, form_fields):
@@ -99,35 +148,35 @@ def map_combined_to_fields(combined, form_fields):
             set_field_with_confidence(field, combined, "Date when insured first consulted you for cancer (ddmmyyyy)")
     
         elif "Please state symptoms presented (1)" in name:
-            set_field_with_confidence(field, combined, "Symptoms presented and the date they first appeared? (1) Symptom")
+            set_field_with_confidence(field, combined, "Please state symptoms presented and date symptoms first appeared (rows 0..3) (1) Symptom")
         elif "Please state duration of symptoms presented (1)" in name:
-            set_field_with_confidence(field, combined, "Symptoms presented and the date they first appeared? (1) Duration of symptom")
+            set_field_with_confidence(field, combined, "Please state symptoms presented and date symptoms first appeared (rows 0..3) (1) Duration of symptom")
         elif "Please state the date that the symptoms first appeared (1)" in name:
-            set_field_with_confidence(field, combined, "Symptoms presented and the date they first appeared? (1) Date symptoms first started (dd/mm/yyyy)")
+            set_field_with_confidence(field, combined, "Please state symptoms presented and date symptoms first appeared (rows 0..3) (1) Date symptoms first started (dd/mm/yyyy)")
 
         elif "Please state symptoms presented (2)" in name:
-            set_field_with_confidence(field, combined, "Symptoms presented and the date they first appeared? (2) Symptom")
+            set_field_with_confidence(field, combined, "Please state symptoms presented and date symptoms first appeared (rows 0..3) (2) Symptom")
         elif "Please state duration of symptoms presented (2)" in name:
-            set_field_with_confidence(field, combined, "Symptoms presented and the date they first appeared? (2) Duration of symptom")
+            set_field_with_confidence(field, combined, "Please state symptoms presented and date symptoms first appeared (rows 0..3) (2) Duration of symptom")
         elif "Please state the date that the symptoms first appeared (2)" in name:
-            set_field_with_confidence(field, combined, "Symptoms presented and the date they first appeared? (2) Date symptoms first started (dd/mm/yyyy)")
+            set_field_with_confidence(field, combined, "Please state symptoms presented and date symptoms first appeared (rows 0..3) (2) Date symptoms first started (dd/mm/yyyy)")
 
         elif "Please state symptoms presented (3)" in name:
-            set_field_with_confidence(field, combined, "Symptoms presented and the date they first appeared? (3) Symptom")
+            set_field_with_confidence(field, combined, "Please state symptoms presented and date symptoms first appeared (rows 0..3) (3) Symptom")
         elif "Please state duration of symptoms presented (3)" in name:
-            set_field_with_confidence(field, combined, "Symptoms presented and the date they first appeared? (3) Duration of symptom")
+            set_field_with_confidence(field, combined, "Please state symptoms presented and date symptoms first appeared (rows 0..3) (3) Duration of symptom")
         elif "Please state the date that the symptoms first appeared (3)" in name:
-            set_field_with_confidence(field, combined, "Symptoms presented and the date they first appeared? (3) Date symptoms first started (dd/mm/yyyy)")
+            set_field_with_confidence(field, combined, "Please state symptoms presented and date symptoms first appeared (rows 0..3) (3) Date symptoms first started (dd/mm/yyyy)")
 
         elif "What is the source of the above information? If \"Referring Doctor / Others\", please specify name (1)" in name:
-            set_field_with_confidence(field, combined, "What is the source of the above information? If Referring Doctor / Others, specify name & address (1) Name")
+            set_field_with_confidence(field, combined, "What is the source of the above information? If Referring Doctor / Others, specify name & address (rows 0..2) (1) Name")
         elif "What is the source of the above information? If \"Referring Doctor / Others\", please specify address (1)" in name:
-            set_field_with_confidence(field, combined, "What is the source of the above information? If Referring Doctor / Others, specify name & address (1) Address")
+            set_field_with_confidence(field, combined, "What is the source of the above information? If Referring Doctor / Others, specify name & address (rows 0..2) (1) Address")
 
         elif "What is the source of the above information? If \"Referring Doctor / Others\", please specify name (2)" in name:
-            set_field_with_confidence(field, combined, "What is the source of the above information? If Referring Doctor / Others, specify name & address (2) Name")
+            set_field_with_confidence(field, combined, "What is the source of the above information? If Referring Doctor / Others, specify name & address (rows 0..2) (2) Name")
         elif "What is the source of the above information? If \"Referring Doctor / Others\", please specify address (2)" in name:
-            set_field_with_confidence(field, combined, "What is the source of the above information? If Referring Doctor / Others, specify name & address (2) Address")
+            set_field_with_confidence(field, combined, "What is the source of the above information? If Referring Doctor / Others, specify name & address (rows 0..2) (2) Address")
 
         elif "What is the source of the above information?" in name:
             set_source_with_confidence(field, combined, "Source of above information")
@@ -175,7 +224,7 @@ def map_combined_to_fields(combined, form_fields):
             set_delete_with_confidence(field, combined, "Was there any other mode of treatment, other than surgery, which could be undertaken to treat the Life Assured’s condition?")
         
         # --- Page 3 ---
-        elif "Has the Life Assured underwent other mode of treatment? If \"Yes\", please state date of treatment (ddmmyyyy)" in name:
+        elif "Has the Life Assured underwent other m ode of treatment? If \"Yes\", please state date of treatment (ddmmyyyy)" in name:
             set_field_with_confidence(field, combined, "Date of other treatment (ddmmyyyy)")
         elif "Has the Life Assured underwent other mode of treatment? If \"No\", please state why not" in name:
             set_field_with_confidence(field, combined, "Reason for no other mode of treatment")
@@ -202,49 +251,49 @@ def map_combined_to_fields(combined, form_fields):
 
         # --- Page 4 ---
         elif "Does the Life Assured have any other medical conditions? If \"YES\", please state medical condition (1)" in name:
-            set_field_with_confidence(field, combined, "Medical conditions (1) Medical condition")        
+            set_field_with_confidence(field, combined, "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3) (1) Medical condition")        
         elif "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (1)" in name:
-            set_field_with_confidence(field, combined, "Medical conditions (1) Diagnosis date (dd/mm/yyyy)")
+            set_field_with_confidence(field, combined, "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3) (1) Diagnosis date (dd/mm/yyyy)")
         elif "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (1)" in name:
-            set_field_with_confidence(field, combined, "Medical conditions (1) Name & address of treating doctor")
+            set_field_with_confidence(field, combined, "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3) (1) Name & address of treating doctor")
 
         elif "Does the Life Assured have any other medical conditions? If \"YES\", please state medical condition (2)" in name:
-            set_field_with_confidence(field, combined, "Medical conditions (2) Medical condition")        
+            set_field_with_confidence(field, combined, "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3) (2) Medical condition")        
         elif "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (2)" in name:
-            set_field_with_confidence(field, combined, "Medical conditions (2) Diagnosis date (dd/mm/yyyy)")
+            set_field_with_confidence(field, combined, "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3) (2) Diagnosis date (dd/mm/yyyy)")
         elif "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (2)" in name:
-            set_field_with_confidence(field, combined, "Medical conditions (2) Name & address of treating doctor")
+            set_field_with_confidence(field, combined, "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3) (2) Name & address of treating doctor")
 
         elif "Does the Life Assured have any other medical conditions? If \"YES\", please state medical condition (3)" in name:
-            set_field_with_confidence(field, combined, "Medical conditions (3) Medical condition")        
+            set_field_with_confidence(field, combined, "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3) (3) Medical condition")        
         elif "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (3)" in name:
-            set_field_with_confidence(field, combined, "Medical conditions (3) Diagnosis date (dd/mm/yyyy)")
-        elif "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (3)" in name:
-            set_field_with_confidence(field, combined, "Medical conditions (3) Name & address of treating doctor")
+            set_field_with_confidence(field, combined, "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3) (3) Diagnosis date (dd/mm/yyyy)")
+        elif "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (1)" in name:
+            set_field_with_confidence(field, combined, "Medical conditions, date of diagnosis, name & address of treating doctor (rows 0..3) (3) Name & address of treating doctor")
 
         elif "Does the Life Assured have any other medical conditions?" in name:
             set_delete_with_confidence(field, combined, "Does Life Assured have any other medical conditions?")
 
         elif "Does the Life Assured have any family history? If \"Yes\", please provide details of the nature of condition (1)" in name:
-            set_field_with_confidence(field, combined, "Family History (1) Family history condition")
+            set_field_with_confidence(field, combined, "Family History (rows 0..3) (1) Family history condition")
         elif "Does the Life Assured have any family history? If \"Yes\", please provide details including relationship to the Life Assured (1)" in name:
-            set_field_with_confidence(field, combined, "Family History (1) Relationship to Life Assured")
+            set_field_with_confidence(field, combined, "Family History (rows 0..3) (1) Relationship to Life Assured")
         elif "Does the Life Assured have any family history? If \"Yes\", please provide details of the age of onset (1)" in name:
-            set_field_with_confidence(field, combined, "Family History (1) Age of onset")
+            set_field_with_confidence(field, combined, "Family History (rows 0..3) (1) Age of onset")
 
         elif "Does the Life Assured have any family history? If \"Yes\", please provide details of the nature of condition (2)" in name:
-            set_field_with_confidence(field, combined, "Family History (2) Family history condition")
+            set_field_with_confidence(field, combined, "Family History (rows 0..3) (2) Family history condition")
         elif "Does the Life Assured have any family history? If \"Yes\", please provide details including relationship to the Life Assured (2)" in name:
-            set_field_with_confidence(field, combined, "Family History (2) Relationship to Life Assured")
+            set_field_with_confidence(field, combined, "Family History (rows 0..3) (2) Relationship to Life Assured")
         elif "Does the Life Assured have any family history? If \"Yes\", please provide details of the age of onset (2)" in name:
-            set_field_with_confidence(field, combined, "Family History (2) Age of onset")
+            set_field_with_confidence(field, combined, "Family History (rows 0..3) (2) Age of onset")
 
         elif "Does the Life Assured have any family history? If \"Yes\", please provide details of the nature of condition (3)" in name:
-            set_field_with_confidence(field, combined, "Family History (3) Family history condition")
+            set_field_with_confidence(field, combined, "Family History (rows 0..3) (3) Family history condition")
         elif "Does the Life Assured have any family history? If \"Yes\", please provide details including relationship to the Life Assured (3)" in name:
-            set_field_with_confidence(field, combined, "Family History (3) Relationship to Life Assured")
+            set_field_with_confidence(field, combined, "Family History (rows 0..3) (3) Relationship to Life Assured")
         elif "Does the Life Assured have any family history? If \"Yes\", please provide details of the age of onset (3)" in name:
-            set_field_with_confidence(field, combined, "Family History (3) Age of onset")
+            set_field_with_confidence(field, combined, "Family History (rows 0..3) (3) Age of onset")
 
         elif "Does the Life Assured have any family history?" in name:
             set_delete_with_confidence(field, combined, "Does Life Assured have any family history?")

@@ -1,7 +1,7 @@
 import json
 
-input_path = "form_fields.json"   # your source file
-output_path = "form_fields_empty.json" # file to save cleaned version
+input_path = "form_fields_filled.json"   # your source file
+output_path = "form_fields_empty_ge_final.json" # file to save cleaned version
 
 with open(input_path, "r", encoding="utf-8") as f:
     data = json.load(f)

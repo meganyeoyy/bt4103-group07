@@ -6,20 +6,16 @@ from pathlib import Path
 
 BASE_URL = "https://yukiko-wreathless-helpfully.ngrok-free.dev"
 
+input_path = Path("data/SCM Records/NTUC_Redacted - SCM_Patient 4.pdf")
+filename = input_path.name
 
-# --- Step 1. Upload multiple PDFs as one job ---
-pdf_paths = [
-    Path("data/SCM Records/NTUC_Redacted - Patient 1 SCM.pdf")
-]
+# Step 1. Upload the PDF
 
-# Build list of ("file", (filename, file_object, mime_type)) tuples
-files = [("file", (path.name, open(path, "rb"), "application/pdf")) for path in pdf_paths]
-
-res = requests.post(f"{BASE_URL}/ask", files=files, verify=False)
-res.raise_for_status()
-
-job_id = res.json().get("job_id")
-print("Job submitted:", job_id)
+with open(input_path, "rb") as f:
+    files = {"file": (filename, f, "application/pdf")}
+    res = requests.post(f"{BASE_URL}/ask", files=files, verify=False)
+    job_id = res.json()["job_id"]
+    print("Job submitted:", job_id)
 
 # Step 2. Poll until done
 while True:

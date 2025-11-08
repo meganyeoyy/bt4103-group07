@@ -102,6 +102,22 @@ def flatten_json(obj: dict, parent_key: str = "", sep: str = " ") -> dict:
             items[new_key] = v
     return items
 
+def fix_short_dates(data: dict) -> dict:
+    """Detect and fix ddmmyy-style date strings by expanding to ddmmyyyy."""
+    fixed = {}
+    for k, v in data.items():
+        if isinstance(v, str):
+            # match exactly 6 digits (e.g., '101025' -> '10/10/25' style)
+            if re.fullmatch(r"\d{6}", v):
+                dd, mm, yy = v[:2], v[2:4], v[4:]
+                v = f"{dd}{mm}20{yy}"  # add '20' before the year part
+            # optional: also handle 'dd/mm/yy' format
+            elif re.fullmatch(r"\d{2}/\d{2}/\d{2}", v):
+                dd, mm, yy = v.split("/")
+                v = f"{dd}/{mm}/20{yy}"
+        fixed[k] = v
+    return fixed
+
 # read + clean
 with open(file_path, "r", encoding="utf-8") as f:
     raw = f.read()
@@ -148,6 +164,8 @@ for i, chunk in enumerate(json_chunks, 1):
 
     merged.update(flat)
     all_keys.update(flat.keys())
+
+merged = fix_short_dates(merged)
 
 # save
 with open(output_path, "w", encoding="utf-8") as f:
