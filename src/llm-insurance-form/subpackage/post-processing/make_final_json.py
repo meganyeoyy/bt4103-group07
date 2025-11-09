@@ -144,7 +144,6 @@ def map_combined_to_fields_ntuc(combined, form_fields):
     for field in form_fields["fields"]:
         name = field["field_name"]
 
-        # --- Page 1 ---
         # --- Doctors/hospitals consulted (explicit mappings) ---
         if "Please provide the date(s) of consultations at listed clinics/hospitals to which the Insured has attended for this condition (1)" in name:
             set_field_with_confidence(field, combined, "Doctors/hospitals consulted for this condition (rows 0..3) (1) Date(s) of consultation (dd/mm/yyyy)")
