@@ -346,7 +346,7 @@ if __name__ == "__main__":
     flag = True
     start_time = time.time()
     processor = PDFUploadProcessor(
-        "../../data/test multi file"
+        "../../../data/test multi file"
     )  # Change to directory with test files
     processor.convert_files_to_searchable_pdfs(multi=flag)
     processor.extract_and_parse_documents(multi=flag)

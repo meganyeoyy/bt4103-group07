@@ -529,25 +529,25 @@ class LabResultParser:
 if __name__ == "__main__":
     # Example usage of MedicalRecordsParser
     medical_records_pdf_path = (
-        f"../../data/SCM Records/Converted/Redacted - SCM_Patient 1_Converted.pdf"
+        f"../../../data/SCM Records/Converted/Redacted - SCM_Patient 1_Converted.pdf"
     )
     parser = MedicalRecordsParser()
     timeline = parser.build_timeline(medical_records_pdf_path)
 
     with open(
-        f"../../data/SCM Records/Converted/Patient 1 Medical Records.json",
+        f"../../../data/SCM Records/Converted/Patient 1 Medical Records.json",
         "w",
         encoding="utf-8",
     ) as f:
         f.write(json.dumps(timeline, indent=2))
 
     # Example usage of LabResultParser
-    lab_results_pdf_path = f"../../data/Lab Results/Converted/Redacted - Lab Results_Patient 1_Converted.pdf"
+    lab_results_pdf_path = f"../../../data/Lab Results/Converted/Redacted - Lab Results_Patient 1_Converted.pdf"
     parser = LabResultParser()
     timeline = parser.build_timeline(lab_results_pdf_path)
 
     with open(
-        f"../../data/Lab Results/Converted/Patient 1 Lab Results.json",
+        f"../../../data/Lab Results/Converted/Patient 1 Lab Results.json",
         "w",
         encoding="utf-8",
     ) as f:

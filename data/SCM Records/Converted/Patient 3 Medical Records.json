@@ -1,0 +1,197 @@
+{
+  "23-Jul-2025": [
+    {
+      "doctor": "John Kelvin Mendoza Lalusis",
+      "section_type": "Consult",
+      "text": {
+        "General": "Pe DMO Consult Note NCC [Charted Location: NCC Clinic 12A] [Authored: 2025-07-23 12:37]- for Visit: H225110612J0001, Complete, Revised, Signed in Full, General Height & Weight: Weight (kg): 52.2 kg 2025-07-23 12:16:51. Height (cm): 158.8 cm 2025-07-23 12:16:51. CLINICAL NOTES:",
+        "History, Examination and Investigations": "Came with family seen with Dr. Daniel Tan History of Present Illness: 2022 had fall with incidental finding of lung nodule Seeing Tan Tock Seng for left lung nodule monitoring June 2025: s/p Transbronchial lung biopsy (02 Jul 2025), unable to access nodule Cells surrounding is said to be cancerous EGFR test negative Found that Stage III cancer Advised Chemo-RT Came in for second opinion Past Medical: Hypertension Hypercholesterolemia Personal and Social History: Non-smoker Admin staff, retired during COVID pandemic",
+        "Investigations": "11 June 2025 CT Scan Left lower lobe mass 02 Jul 2025 Bronchoalveolar lavage MTB PCR and AFB negative 03 Jul 2025 Histopathology DIAGNOSIS SPECIMEN LABELLED AS TRANSBRONCHIAL LUNG BIOPSY : NON-SMALL CELL CARCINOMA FAVOUR ADENOCARCINOMA. 09 Jul 2025 Type of Test Detection of EGFR Exon 18, 19, 20 and Exon 21 mutation. 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 Results Exon 18: No mutation detected Exon 19: No mutation detected Exon 20: No mutation detected Exon 21: No mutation detected T790M mutation not detected. No mutation is detected. 07 July 2025 Comment 1. A negative or wild type result does not rule out the possibility of a mutation which is below the limits of detection by this assay or the possibility of other uncommon EGFR mutations outside the coverage of this assay. 2. The ability of the test to detect the relevant mutation may be dependent on tumour sampling. Clinical correlation is essential. Type of Test Qualitative detection of specific gene fusions for ALK, ROS1, RET as well as MET exon 14 skipping mutation and expression imbalance for ALK, ROS1 and RET. Results ALK Fusion: Not detected ROS1 Fusion: Not detected RET Fusion: Not detected MET Exon 14 skipping mutation: Not detected SUMMARY Overall, no ALK, ROS-1 and RET fusion is detected. No MET exon 14 skipping mutation is present. Comment 1. A negative or wild type result does not rule out the possibility of a mutation which is below the limits of detection by this assay or the possibility of other uncommon TKR mutations listed above outside the coverage of this assay. 2. The ability of the test to detect the relevant mutation may be dependent on tumour sampling. Clinical correlation is essential. 09 Jul 2025 Brain MRI No MR evidence of brain metastasis or hydrocephalus. Small vessel disease 11 Jul 2025 PET Scan: Left lower lobe mass suggestive of primary lung malignancy lung nodule in apical segment of right lower lobe subcentimeter nodules in both lungs 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 Comms: Noted negative EGFR test, but it is possible that it was not picked up due to limited sample Need to balance the need to proceed planned chemo-RT and plan for further investigation of the malignancy Since pace of tumor growth is slow the past two years, it may be possible to delay treatment for now Discussed possibility of doing surgery and possibly perioperative chemotherapy Wouldn't rush into chemo-radiation Surgery can be considered and might also get better tissue sample to test Discussed possibility of pre-op chemo-lO but this is usually for smoker population Discussed doing liquid biopsy, but if tumor burden is low, might not be sensitive enough to pick up Need to determine if lung mass is operable or not If operable, go for surgery then do further testings on the resected specimen Plans: Follow-up tomorrow for discussion with thoracic surgeon 2pm clinic to determine possibility of surgery if operable Antibiotics for next 2 weeks to treat contralateral nodule",
+        "Clinical and Treatment Summary": "NON-SMALL CELL CARCINOMA FAVOUR ADENOCARCINOMA (03 Jul 2025) Left Lower lobe at least Stage IA3 (T1CNOMO) consider left hilar lymph nodes metastases s/p Transbronchial lung biopsy (02 Jul 2025) Molecular profile: Exon 18: No mutation detected Exon 19: No mutation detected Exon 20: No mutation detected Exon 21: No mutation detected T790M mutation not detected. No ALK, ROS-1 and RET fusion is detected. No MET exon 14 skipping mutation is present. Treatment Intent: Curative therapy ECOG: 0 Pain Score:: 0 Allergy Acknowledgement: | have acknowledged the patient's allergy information",
+        "PATIENT STATUS": "Allergy Information: PROPRANOLOL: Probability: Probable, Adverse Reaction: dizziness Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available. 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1",
+        "DIAGNOSIS SUMMARY": "Diagnosis 1: Diagnosis 1: 1228498010 : CA - Lung cancer Primary Site 1: Lung and/or Bronchus",
+        "MANAGEMENT FOR THIS VISIT": "Follow-up tomorrow for discussion with thoracic surgeon 2pm clinic to determine possibility of surgery if operable Antibiotics for next 2 weeks to treat contralateral nodule"
+      },
+      "subsections": [
+        "General",
+        "History, Examination and Investigations",
+        "Investigations",
+        "Clinical and Treatment Summary",
+        "PATIENT STATUS",
+        "DIAGNOSIS SUMMARY",
+        "MANAGEMENT FOR THIS VISIT"
+      ],
+      "allergies": null
+    }
+  ],
+  "24-Jul-2025": [
+    {
+      "doctor": "Kristine Kara Ampig Gayon",
+      "section_type": "Correspondence",
+      "text": {
+        "General": "DMO Correspondence Note NCC [Charted Location: NCC Clinic 12B] [Authored: 2025-07-24 16:28]- for Visit: H225110612J0002, Complete, Entered, Signed in Full, General IR. Dear Colleague. Thank you for seeing the above patient . He has been on follow up in Lung clinic . Kindly review for biopsy of right lung nodule . Sincerely ,"
+      },
+      "subsections": [
+        "General"
+      ],
+      "allergies": null
+    }
+  ],
+  "25-Jul-2025": [
+    {
+      "doctor": "Tan Shao Weng Daniel",
+      "section_type": "Correspondence",
+      "text": {
+        "General": "DMO Correspondence Note NCC [Charted Location: NCC Clinic 14F] [Authored: 2025-07-25 11:41]- for Visit: H225110612J0003, Complete, Entered, Signed in Full, General To whom it may concern. Dear Sir/ Madam. Thanks for seeing Mdm Ang, who has newly diagnosed lung cancer and has just started cancer treatment on 25/7/25. She is also scheduled for surgery with pre-operative",
+        "Investigations": "planned in the next 4 weeks. 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1"
+      },
+      "subsections": [
+        "General",
+        "Investigations"
+      ],
+      "allergies": null
+    },
+    {
+      "doctor": "Tan Shao Weng Daniel",
+      "section_type": "Consult",
+      "text": {
+        "General": "DMO Consult Note NCC [Charted Location: NCC Clinic 14F] [Authored: 2025-07-25 11:47]- for Visit: H225110612J0003, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 52.1 kg 2025-07-25 10:54:26. Height (cm): 159.3 cm 2025-07-25 10:54:26. CLINICAL NOTES:",
+        "History, Examination and Investigations": "After discussion with family Decided to proceed with osimertinib Explained common SE and risk of pneumonitis Also agreeable for IR consult with view to biopsy of right sided mass On examination: ECOG 0 Have signed informed consent Plan Start osimertinib today To see Dr Heng Tseng Hui (IR) on Monday- to establish if right sided mass is infective or cancer TCU 14/8/25 labs OA",
+        "Clinical and Treatment Summary": "NON-SMALL CELL CARCINOMA FAVOUR ADENOCARCINOMA (03 Jul 2025) Left Lower lobe at least Stage IA3 (T1CNOMO) consider left hilar lymph nodes metastases s/p Transbronchial lung biopsy (02 Jul 2025) 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 Molecular profile: Exon 18: No mutation detected Exon 19: No mutation detected Exon 20: No mutation detected Exon 21: No mutation detected T790M mutation not detected. No ALK, ROS-1 and RET fusion is detected. No MET exon 14 skipping mutation is present. Treatment Intent: Curative therapy ECOG: 0 Pain Score:: 0 Allergy Acknowledgement: | have acknowledged the patient's allergy information",
+        "PATIENT STATUS": "Allergy Information: PROPRANOLOL: Probability: Probable, Adverse Reaction: dizziness Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+        "DIAGNOSIS SUMMARY": "Diagnosis 1: Diagnosis 1: 1228498010 : CA - Lung cancer Primary Site 1: Lung and/or Bronchus",
+        "MANAGEMENT FOR THIS VISIT": "Start osimertinib today To see Dr Heng Tseng Hui (IR) on Monday- to establish if right sided mass is infective or cancer TCU 14/8/25 labs OA"
+      },
+      "subsections": [
+        "General",
+        "History, Examination and Investigations",
+        "Clinical and Treatment Summary",
+        "PATIENT STATUS",
+        "DIAGNOSIS SUMMARY",
+        "MANAGEMENT FOR THIS VISIT"
+      ],
+      "allergies": null
+    }
+  ],
+  "14-Aug-2025": [
+    {
+      "doctor": "Edwin Chow Wei Xiang",
+      "section_type": "Pre-clerk Consult",
+      "text": {
+        "General": "DMO Pre-clerk Consult Note NCC [Charted Location: Pre-Admit] [Authored: 2025-08-14 03:20]- for Visit: H225110612J0007, incomplete, Entered, Signed in Full, General 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 CLINICAL NOTES:",
+        "History, Examination and Investigations": "Dr Daniel Tan's Clinic Reason for review: post IR lung biopsy, review on osimertinib Noted 7.8.25 planned for IR guided RIGHT lung biopsy - On table CT performed shows near complete resolution of the right lower lobe lesion with mild ground glass changes. This lesion may just be an infective/inflammatory lesion. - Decision made NOT to proceed with biopsy. Subjective Objective",
+        "Investigations": "Discussion",
+        "Clinical and Treatment Summary": "1. At least CT1cN1MO Left Lung Adenocarcinoma (EGFR Exon 19 del) - diagnosed Jul 2025 at TTSH - PET CT 14.7.25 (TTSH): moderately FDG avid left lower lobe lung lesion 2.5cm spiculated suspicious for primary ung malignancy ; apical segment right lower lobe lung nodule FDG avid ?infective; moderately FDG avid left hilar nodes suggestive of nodal disease - MRI brain 9.7.25 (TTSH): no brain mets - TBLB 2/7/25 : Non small cell carcinoma favor adenocarcinoma > NGS: EGFR Exon 19 del p.L747_E749del > ALK/ROS1/RET/MET negative - started neoadjuvant osimertinib 25.7.25 - planned for IR guided right lung nodule biopsy however on 7.8.25 on table CT showed resolution of RIGHT lung nodule hence biopsy held off 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 Non smoker Treatment Intent: Curative therapy",
+        "PATIENT STATUS": "Allergy Information: PROPRANOLOL: Probability: Probable, Adverse Reaction: dizziness Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available.",
+        "DIAGNOSIS SUMMARY": "Diagnosis 1: Diagnosis 1: 1228498010 : CA - Lung cancer Primary Site 1: Lung and/or Bronchus",
+        "MANAGEMENT FOR THIS VISIT": "Continue osimertinib CPET on 27.8.25; TCU CTVS Dr Ong BH on 9.9.25 TCU Dr Daniel Tan on 25.9.25 with bloods and PET CT prior"
+      },
+      "subsections": [
+        "General",
+        "History, Examination and Investigations",
+        "Investigations",
+        "Clinical and Treatment Summary",
+        "PATIENT STATUS",
+        "DIAGNOSIS SUMMARY",
+        "MANAGEMENT FOR THIS VISIT"
+      ],
+      "allergies": null
+    },
+    {
+      "doctor": "John Kelvin Mendoza Lalusis",
+      "section_type": "Consult",
+      "text": {
+        "General": "Pe DMO Consult Note NCC [Charted Location: NCC Clinic 12B] [Authored: 2025-08-14 17:33]- for Visit: H225110612J0007, Complete, Revised, Signed in Full, General Height & Weight: 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 Weight (kg): 52.8 kg 2025-08-14 16:02:24. Height (cm): 159.3 cm 2025-08-14 16:02:24. CLINICAL NOTES:",
+        "History, Examination and Investigations": "Dr Daniel Tan's Clinic Reason for review: post IR lung biopsy, review on osimertinib Noted 7.8.25 planned for IR guided RIGHT lung biopsy - On table CT performed shows near complete resolution of the right lower lobe lesion with mild ground glass changes. This lesion may just be an infective/inflammatory lesion. - Decision made NOT to proceed with biopsy. Subjective Started 25 July 2025 Osimertinib with mouth sore ltchy skin very dry body 2x/day stools, watery 1st episode Chest tightness/pain after chest trauma, when breathing, left chest with dygeusia Objective Dry skin Clear lungs Heart okay",
+        "Investigations": "Common Lab Results (CBC,Full Blood Count,Chem,LFT): 14/08/25 Haemoglobin: 11.3(L), WBC: 8.08, Haematocrit: 34.0(L), Pit: 114(L). 14/08/25 Neut: 76.8% (H), Neut Abs: 6.21, MCV: 91.6% , Lymph: 13.4% (L), Mono: 7.1% , Eos: 2.6% , Baso: 0.1%. 14/08/25 Na: 136, K+: 4.1, Cl: 98(L), HCO3: 31.1(H), Urea: 4.9, Cre: 67, Glu:5.4. 14/08/25 TP: 71, Alb: 38(L), Bil: 17, AST: 25, ALT: 15, ALP: 60. 14/08/25 CEA: 7.8(H). Discussion Advised to apply moisturizer Can stop Osimertinib for a few days of cant tolerate Studies gave 9 week neoadjuvant Osimertinib 8% of patient have no viable cancer based on latest study Family keen on continuing neoadjuvant Osimertinib since patient is doing well Plan for 1 more response evaluation prior to surgery 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1",
+        "Clinical and Treatment Summary": "1. At least CT1cN1MO Left Lung Adenocarcinoma (EGFR Exon 19 del) - diagnosed Jul 2025 at TTSH - PET CT 14.7.25 (TTSH): moderately FDG avid left lower lobe lung lesion 2.5cm spiculated suspicious for primary ung malignancy ; apical segment right lower lobe lung nodule FDG avid ?infective; moderately FDG avid left hilar nodes suggestive of nodal disease - MRI brain 9.7.25 (TTSH): no brain mets - TBLB 2/7/25 : Non small cell carcinoma favor adenocarcinoma > NGS: EGFR Exon 19 del p.L747_E749del > ALK/ROS1/RET/MET negative - started neoadjuvant osimertinib 25.7.25 - planned for IR guided right lung nodule biopsy however on 7.8.25 on table CT showed resolution of RIGHT lung nodule hence biopsy held off Non smoker Treatment Intent: Curative therapy ECOG: 0 Pain Score:: 0 Allergy Acknowledgement: | have acknowledged the patient's allergy information",
+        "PATIENT STATUS": "Allergy Information: PROPRANOLOL: Probability: Probable, Adverse Reaction: dizziness Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+        "DIAGNOSIS SUMMARY": "Diagnosis 1: Diagnosis 1: 1228498010 : CA - Lung cancer Primary Site 1: Lung and/or Bronchus 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1",
+        "MANAGEMENT FOR THIS VISIT": "Continue osimertinib CPET on 27.8.25; TCU CTVS Dr Ong BH on 9.9.25 TCU Dr Daniel Tan on 25.9.25 with bloods and PET CT prior"
+      },
+      "subsections": [
+        "General",
+        "History, Examination and Investigations",
+        "Investigations",
+        "Clinical and Treatment Summary",
+        "PATIENT STATUS",
+        "DIAGNOSIS SUMMARY",
+        "MANAGEMENT FOR THIS VISIT"
+      ],
+      "allergies": null
+    }
+  ],
+  "12-Sep-2025": [
+    {
+      "doctor": "Gwee Yong Xiang",
+      "section_type": "Consult",
+      "text": {
+        "General": "DMO Consult Note NCC [Charted Location: NCC Clinic 12B] [Authored: 2025-09-12 13:29]- for Visit: H225110612J0010, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 50.2 kg 2025-09-12 12:39:57. Height (cm): 159.5 cm 2025-09-12 12:39:57. CLINICAL NOTES:",
+        "History, Examination and Investigations": "CRC SR Review today for vertigo x 2 days Started yesterday upon waking in the morning, when she turned her head to the left to get up from bed Whole room spinning sensation No focal limb weakness or numbness A/w one episode of nausea but no vomiting Still able to tolerate oral feeding Episode lasted few minutes but intermittently recurred throughout yesterday and this morning On examination: GCS 15 Walked into room independently No dysmetria CN II-XII intact No nystagmus EOM full, no diplopia Tongue central Pronator drift negative 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 Power 5/5 and sensation intact in all 4 limbs Romberg's negative Tandem gait steady Imp: BPPV",
+        "Clinical and Treatment Summary": "1. At least CT1cN1MO Left Lung Adenocarcinoma (EGFR Exon 19 del) - diagnosed Jul 2025 at TTSH - PET CT 14.7.25 (TTSH): moderately FDG avid left lower lobe lung lesion 2.5cm spiculated suspicious for primary ung malignancy ; apical segment right lower lobe lung nodule FDG avid ?infective; moderately FDG avid left hilar nodes suggestive of nodal disease - MRI brain 9.7.25 (TTSH): no brain mets - TBLB 2/7/25 : Non small cell carcinoma favor adenocarcinoma > NGS: EGFR Exon 19 del p.L747_E749del > ALK/ROS1/RET/MET negative - started neoadjuvant osimertinib 25.7.25 - planned for IR guided right lung nodule biopsy however on 7.8.25 on table CT showed resolution of RIGHT lung nodule hence biopsy held off Non smoker Treatment Intent: Curative therapy ECOG: 1 Pain Score:: 0 Allergy Acknowledgement: | have acknowledged the patient's allergy information",
+        "PATIENT STATUS": "Allergy Information: PROPRANOLOL: Probability: Probable, Adverse Reaction: dizziness Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+        "DIAGNOSIS SUMMARY": "Diagnosis 1: Diagnosis 1: 1228498010 : CA - Lung cancer Primary Site 1: Lung and/or Bronchus 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1",
+        "MANAGEMENT FOR THIS VISIT": "Trial of betahistine x 1 week TDS PRN Return advice given - seek medical attention if persistent giddiness despite betahistine, or if new onset focal limb weakness/numbness, facial droop, dysarthria etc"
+      },
+      "subsections": [
+        "General",
+        "History, Examination and Investigations",
+        "Clinical and Treatment Summary",
+        "PATIENT STATUS",
+        "DIAGNOSIS SUMMARY",
+        "MANAGEMENT FOR THIS VISIT"
+      ],
+      "allergies": null
+    }
+  ],
+  "24-Sep-2025": [
+    {
+      "doctor": "John Kelvin Mendoza Lalusis",
+      "section_type": "Pre-clerk Consult",
+      "text": {
+        "General": "DMO Pre-clerk Consult Note NCC [Charted Location: Pre-Admit] [Authored: 2025-09-24 18:04]- for Visit: H225110612J0008, /ncomplete, Entered, Signed in Full, General CLINICAL NOTES:",
+        "History, Examination and Investigations": "Dr Daniel Tan's Clinic Reason for review: On neoadjuvant Osimertinib since 25 July 2025 Subjective: Patient seen CTS on 23 Sep 2025 The patient is agreeable to proceed with surgery tentatively scheduled on 8/10/25 as SDA, and Was asked to stop her osimertinib on 6/10/25 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 with mouth sore Itchy skin very dry body 2x/day stools, watery 1st episode Chest tightness/pain after chest trauma, when breathing, left chest with dygeusia Objective Dry skin Clear lungs Heart okay",
+        "Investigations": "Common Lab Results (CBC,Full Blood Count,Chem,LFT): 23/09/25 Haemoglobin: 11.2(L), WBC: 4.18, Haematocrit: 34.2(L), Platelets: 108(L). 23/09/25 Neut: 71.0% , Neut Abs: 2.97, MCV: 91.2% , Lymph: 17.5% , Mono: 10.0% , Eos: 1.0% , Baso: 0.5% . 23/09/25 Na: 140, K+: 3.7, Cl: 101, HCO3: 30.8(H), Urea: 4.4, Cre: 65, Glu:4.1. 23/09/25 TP: 70, Alb: 39(L), Bil: 12, AST: 26, ALT: 16, ALP: 47. 23/09/25 PT: 11.3, APTT: 27.1. 18/09/25 CEA: 7.0(H). PET/CT F-18 FDG Body Scan with IV Contrast - Nuclear Med (2025-09-18 12:57:04) Comparison was made prior FDG PET/CT performed on 11 July 2025 (RadLink). Reference was made to prior MRI - BRAIN 09/07/2025; CT, Thorax 11/06/2025; FINDINGS Main Findings: The nodular density in the anterior aspect of the left lower lobe (biopsy proven malignancy) demonstrates interval decrease in size and metabolic resolution, now measuring 2.0 cm vs previously 2.3 cm (prev SUVmax 6.9). There are two new adjacent mildly FDG-avid ground glass opacities, one measuring 0.7 cm (SUVmax 2.9) (Se 4/134) and another more inferior measuring 0.9 cm (SUVmax3.6) (Se 4/156), these are likely inflammatory in aetiology. There is near complete resolution of the previously seen intensely FDG-avid nodule in the apical segment of the right lower lobe with residual adjacent faintly FDG-avid ground glass opacities, these are likely infective/inflammatory in nature. Interval near-complete metabolic resolution of previously seen FDG-avid left infrahilar nodes with remnant mild metabolic activity (SUVmax 2.8) (Se 1401/137). Fairly stable scattered tiny pulmonary nodules, too small for PET resolution, indeterminate. For example, right upper lobe (Se 4/93) and middle lobe (Se 4/99). Tiny new right supraclavicular node seen measuring up to 0.4 cm with mild FDG uptake is indeterminate and can be followed up (SUVmax 3.7) (series 1401, image 92). Otherwise, no definite suspicious hypermetabolic lymphadenopathy or distant metastasis. Other Findings: No suspicious FDG-avid intracranial lesion detected. 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 Linear FDG uptake in the muscles of mastication are likely related to muscular tension. No FDG-avid cervical, mediastinal or axillary lymphadenopathy. Cardiomegaly. No pleural effusion detected. No suspicious FDG-avid lesion detected in the liver, gallbladder, pancreas, spleen, adrenals and kidneys. Tiny hypodensity in the right hepatic lobe (Se 3/186) is too small to be accurately characterized. Uncomplicated cholelithiasis. Bilateral extra-renal pelvis. Mild left adrenal thickening with physiological FDG uptake. No FDG-avid abdominal or pelvic lymphadenopathy detected. There is no ascites. No suspicious FDG-avid bone lesion detected. CONCLUSION Since prior FDG PET/CT performed on 11 July 2025, The nodular density in the anterior aspect of the left lower lobe (biopsy proven malignancy) demonstrates interval decrease in size and metabolic resolution. There are new adjacent mildly FDG-avid ground glass opacities likely inflammatory in aetiology. There is near complete resolution of the previously seen intensely FDG-avid nodule in the apical segment of the right lower lobe with residual adjacent ground glass opacities and centrilobular nodularities, these are likely infective/inflammatory in nature. Interval near-complete metabolic resolution of previously seen FDG-avid left infrahilar nodes with remnant mild metabolic activity representing good treatment response. Fairly stable scattered tiny pulmonary nodules, too small for PET resolution, indeterminate. Tiny new right supraciavicular node with mild FDG uptake Is indeterminate and can be followed up. Otherwise, no definite suspicious hypermetabolic lymphadenopathy or distant metastasis.",
+        "Clinical and Treatment Summary": "1. At least cCT1cN1MO Left Lung Adenocarcinoma (EGFR Exon 19 del) - diagnosed Jul 2025 at TTSH - PET CT 14.7.25 (TTSH): moderately FDG avid left lower lobe lung lesion 2.5cm spiculated suspicious for primary ung malignancy ; apical segment right lower lobe lung nodule FDG avid ?infective; moderately FDG avid left hilar nodes suggestive of nodal disease - MRI brain 9.7.25 (TTSH): no brain mets - TBLB 2/7/25 : Non small cell carcinoma favor adenocarcinoma > NGS: EGFR Exon 19 del p.L747_E749del > ALK/ROS1/RET/MET negative - started neoadjuvant osimertinib 25.7.25 - planned for IR guided right lung nodule biopsy however on 7.8.25 on table CT showed resolution of RIGHT lung nodule hence biopsy held off 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 PMHx 1. HTN 2. HLD Non smoker Treatment Intent: Curative therapy ECOG: 0 Pain Score:: 0 Allergy Acknowledgement: | have acknowledged the patient's allergy information",
+        "PATIENT STATUS": "Allergy Information: PROPRANOLOL: Probability: Probable, Adverse Reaction: dizziness Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+        "DIAGNOSIS SUMMARY": "Diagnosis 1: Diagnosis 1: 1228498010 : CA - Lung cancer Primary Site 1: Lung and/or Bronchus",
+        "MANAGEMENT FOR THIS VISIT": "May proceed with surgery tentatively scheduled on 8/10/25 as SDA May stop her osimertinib on 6/10/25 as advised TCU on 05 Nov 2025 with labs KIV adjuvant Osimertinib"
+      },
+      "subsections": [
+        "General",
+        "History, Examination and Investigations",
+        "Investigations",
+        "Clinical and Treatment Summary",
+        "PATIENT STATUS",
+        "DIAGNOSIS SUMMARY",
+        "MANAGEMENT FOR THIS VISIT"
+      ],
+      "allergies": null
+    }
+  ],
+  "25-Sep-2025": [
+    {
+      "doctor": "Ong Zheng Xuan",
+      "section_type": "Consult",
+      "text": {
+        "General": "DMO Consult Note NCC [Charted Location: NCC Clinic 12B] [Authored: 2025-09-25 15:59]- for Visit: H225110612J0008, Complete, Entered, Signed in Full, General 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 Height & Weight: Weight (kg): 51.6 kg 2025-09-25 15:36:08. Height (cm): 159.4 cm 2025-09-25 15:36:08. CLINICAL NOTES:",
+        "History, Examination and Investigations": "Dr Daniel Tan's Clinic Reason for review: On neoadjuvant Osimertinib since 25 July 2025 Subjective: Patient seen CTS on 23 Sep 2025 The patient is agreeable to proceed with surgery tentatively scheduled on 8/10/25 as SDA, and Was asked to stop her osimertinib on 6/10/25 with mouth sore ltchy skin very dry body 2x/day stools, watery 1st episode Chest tightness/pain after chest trauma, when breathing, left chest with dygeusia Objective Dry skin Clear lungs Heart okay",
+        "Investigations": "Common Lab Results (CBC,Full Blood Count,Chem,LFT): 23/09/25 Haemoglobin: 11.2(L), WBC: 4.18, Haematocrit: 34.2(L), Platelets: 108(L). 23/09/25 Neut: 71.0% , Neut Abs: 2.97, MCV: 91.2% , Lymph: 17.5% , Mono: 10.0% , Eos: 1.0% , Baso: 0.5% . 23/09/25 Na: 140, K+: 3.7, Cl: 101, HCO3: 30.8(H), Urea: 4.4, Cre: 65, Glu:4.1. 23/09/25 TP: 70, Alb: 39(L), Bil: 12, AST: 26, ALT: 16, ALP: 47. 23/09/25 PT: 11.3, APTT: 27.1. 18/09/25 CEA: 7.0(H). PET/CT F-18 FDG Body Scan with IV Contrast - Nuclear Med (2025-09-18 12:57:04) Comparison was made prior FDG PET/CT performed on 11 July 2025 (RadLink). Reference was made to prior MRI - BRAIN 09/07/2025; CT, Thorax 11/06/2025; FINDINGS Main Findings: The nodular density in the anterior aspect of the left lower lobe (biopsy proven malignancy) demonstrates interval decrease in size and metabolic resolution, now measuring 2.0 cm vs previously 2.3 cm (prev SUVmax 6.9). There are two new adjacent mildly FDG-avid ground glass opacities, one measuring 0.7 cm (SUVmax 2.9) (Se 4/134) and another more inferior measuring 0.9 cm (SUVmax3.6) (Se 4/156), these are likely inflammatory in aetiology. 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 There is near complete resolution of the previously seen intensely FDG-avid nodule in the apical segment of the right lower lobe with residual adjacent faintly FDG-avid ground glass opacities, these are likely infective/inflammatory in nature. Interval near-complete metabolic resolution of previously seen FDG-avid left infrahilar nodes with remnant mild metabolic activity (SUVmax 2.8) (Se 1401/137). Fairly stable scattered tiny pulmonary nodules, too small for PET resolution, indeterminate. For example, right upper lobe (Se 4/93) and middle lobe (Se 4/99). Tiny new right supraclavicular node seen measuring up to 0.4 cm with mild FDG uptake is indeterminate and can be followed up (SUVmax 3.7) (series 1401, image 92). Otherwise, no definite suspicious hypermetabolic lymphadenopathy or distant metastasis. Other Findings: No suspicious FDG-avid intracranial lesion detected. Linear FDG uptake in the muscles of mastication are likely related to muscular tension. No FDG-avid cervical, mediastinal or axillary lymphadenopathy. Cardiomegaly. No pleural effusion detected. No suspicious FDG-avid lesion detected in the liver, gallbladder, pancreas, spleen, adrenals and kidneys. Tiny hypodensity in the right hepatic lobe (Se 3/186) is too small to be accurately characterized. Uncomplicated cholelithiasis. Bilateral extra-renal pelvis. Mild left adrenal thickening with physiological FDG uptake. No FDG-avid abdominal or pelvic lymphadenopathy detected. There is no ascites. No suspicious FDG-avid bone lesion detected. CONCLUSION Since prior FDG PET/CT performed on 11 July 2025, The nodular density in the anterior aspect of the left lower lobe (biopsy proven malignancy) demonstrates interval decrease in size and metabolic resolution. There are new adjacent mildly FDG-avid ground glass opacities likely inflammatory in aetiology. There is near complete resolution of the previously seen intensely FDG-avid nodule in the apical segment of the right lower lobe with residual adjacent ground glass opacities and centrilobular nodularities, these are likely infective/inflammatory in nature. Interval near-complete metabolic resolution of previously seen FDG-avid left infrahilar nodes with remnant mild metabolic activity representing good treatment response. Fairly stable scattered tiny pulmonary nodules, too small for PET resolution, indeterminate. Tiny new right supraclavicular node with mild FDG uptake is indeterminate and can be followed up. Otherwise, no definite suspicious hypermetabolic lymphadenopathy or distant metastasis. 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 =Comms= Explained progesterone receptor on PET CT. R supraclavicular LN appears reactive and not in line with disease response seen in other tumor in primary and hilar LN. Would recommend to proceed with curative surgery under CTS if they are agreeable. Husband queried if more time can be given on neoadjuvant treatment prior to surgery as she is responding well Explained that curative intent would still require surgery -- and hence would not advise to prolong decision. Family also felt that they wanted more input from other surgeons (either private or public) prior to making a decision on op as they feel that it is a big decision. After a long discussion, decision made to continue osimertinib, keep old surgery booking date for now. They will contact team if keen to change surgical provider or further plans",
+        "Clinical and Treatment Summary": "1. At least CT1cN1MO Left Lung Adenocarcinoma (EGFR Exon 19 del) - diagnosed Jul 2025 at TTSH - PET CT 14.7.25 (TTSH): moderately FDG avid left lower lobe lung lesion 2.5cm spiculated suspicious for primary ung malignancy ; apical segment right lower lobe lung nodule FDG avid ?infective; moderately FDG avid left hilar nodes suggestive of nodal disease - MRI brain 9.7.25 (TTSH): no brain mets - TBLB 2/7/25 : Non small cell carcinoma favor adenocarcinoma > NGS: EGFR Exon 19 del p.L747_E749del > ALK/ROS1/RET/MET negative - started neoadjuvant osimertinib 25.7.25 - planned for IR guided right lung nodule biopsy however on 7.8.25 on table CT showed resolution of RIGHT lung nodule hence biopsy held off Non smoker Treatment Intent: Curative therapy ECOG: 0 Pain Score:: 0 Allergy Acknowledgement: | have acknowledged the patient's allergy information",
+        "PATIENT STATUS": "Allergy Information: PROPRANOLOL: Probability: Probable, Adverse Reaction: dizziness Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. 2025-09-26 16:16  Current Location: NCC-OP Pharmacy L1 Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+        "DIAGNOSIS SUMMARY": "Diagnosis 1: Diagnosis 1: 1228498010 : CA - Lung cancer Primary Site 1: Lung and/or Bronchus",
+        "MANAGEMENT FOR THIS VISIT": "May proceed with surgery tentatively scheduled on 8/10/25 as SDA May stop her osimertinib on 6/10/25 as advised TCU Dr Daniel Tan on 30/10/25 with bloods OA"
+      },
+      "subsections": [
+        "General",
+        "History, Examination and Investigations",
+        "Investigations",
+        "Clinical and Treatment Summary",
+        "PATIENT STATUS",
+        "DIAGNOSIS SUMMARY",
+        "MANAGEMENT FOR THIS VISIT"
+      ],
+      "allergies": null
+    }
+  ]
+}
