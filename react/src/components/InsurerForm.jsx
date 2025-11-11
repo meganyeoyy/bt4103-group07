@@ -58,7 +58,7 @@ export default function InsurerForm({
     return () => window.removeEventListener("message", onMsg);
   }, [viewerSrc, overlaysB64, generatedPdfUrl]);
 
-  // ✅ CASE 1: show loading state when generating
+  // Show loading state when generating
   if (isGenerating) {
     return (
       <div className="card section insurer">
@@ -75,7 +75,7 @@ export default function InsurerForm({
     );
   }
 
-  // ✅ CASE 2: show placeholder if no generated PDF
+  // Show placeholder if no generated PDF
   if (!generatedPdfUrl) {
     return (
       <div className="card section insurer">
@@ -95,7 +95,7 @@ export default function InsurerForm({
     );
   }
 
-  // ✅ CASE 3: show generated PDF from backend
+  // Show generated PDF from backend
   return (
     <div className="card section insurer">
       <div className="panelHeader">

@@ -1,10 +1,9 @@
 .insurer {
   display: flex;
   flex-direction: column;
-  height: 100%; /* NEW: fill the .card.section height set in App.css */
+  height: 100%;
 }
 
-/* Header */
 .insurer .panelHeader {
   display: flex;
   align-items: center;
@@ -18,7 +17,6 @@
   font-size: 16px;
 }
 
-/* PDF container: let it flex to fill parent; DON'T force height */
 .pdfFrame {
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -26,20 +24,11 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  flex: 1; /* fills below the header */
-  /* removed: height: 100%; */
+  flex: 1;
 }
 
-/* REMOVE this rule to avoid inner/parent height conflicts:
-.grid.no-source .insurer .pdfFrame {
-  height: 1100px;
-} 
-   Control expanded height via App.css (.grid.no-source .card.section) instead. */
-
-/* Viewport wraps the iframe and flex-fills */
 .pdfViewport {
   flex: 1;
-  /* removed: height: 100%; */
   overflow: auto;
   background: #fff;
 }

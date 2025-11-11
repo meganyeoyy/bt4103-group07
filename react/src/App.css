@@ -21,18 +21,15 @@
   transition: all 0.3s ease;
 }
 
-/* When Source Preview is hidden */
 .grid.no-source {
   grid-template-columns: 1fr;
 }
 
-/* Normal view (both panels shown) → fixed 820 px height */
 .grid.with-source .card.section {
   height: 820px;
   overflow-y: auto;
 }
 
-/* Expanded view (source hidden) → fixed 1100 px height */
 .grid.no-source .card.section {
   height: 1100px;
   overflow-y: auto;
@@ -106,7 +103,6 @@
   }
 }
 
-/* Secondary button (if used elsewhere) */
 .btn.secondary {
   background: #999;
   color: white;
@@ -117,9 +113,7 @@
   background-color: #777;
 }
 
-/* ========================= */
-/* 🔘 Toggle Switch Styling  */
-/* ========================= */
+/* Toggle switch styles */
 .toggle-switch {
   position: relative;
   display: inline-block;
@@ -157,7 +151,6 @@
   border-radius: 50%;
 }
 
-/* Green ON state */
 .toggle-switch input:checked + .slider {
   background-color: #4caf50;
 }
@@ -166,7 +159,6 @@
   transform: translateX(22px);
 }
 
-/* Optional hover effect */
 .slider:hover {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
