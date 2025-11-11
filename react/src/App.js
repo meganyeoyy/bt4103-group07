@@ -29,7 +29,7 @@ export default function App() {
         URL.revokeObjectURL(generatedPdfUrl);
       }
     };
-  }, [generatedPdfUrl]); // 👈 only depends on generatedPdfUrl
+  }, [generatedPdfUrl]);
 
   const selectedFile = useMemo(
     () => files.find((f) => f.name === selected) || null,
@@ -181,7 +181,7 @@ export default function App() {
       const url = URL.createObjectURL(blob);
       setGeneratedPdfUrl(url);
 
-      // parse JSON → overlay display
+      // parse JSON -> overlay display
       const items = fieldsToOverlays(form_fields_filled);
       setFilledJson(form_fields_filled);
       setCounts({

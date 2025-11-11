@@ -6,7 +6,7 @@ export default function SourcePreview({ file }) {
   const viewerSrc = useMemo(() => {
     if (!file?.url) return null;
     const fileAbs = absoluteUrl(file.url);
-    // Add cache-buster so old previews don’t persist
+
     return `/pdfjs5/web/viewer.html?file=${encodeURIComponent(
       fileAbs
     )}&v=${Date.now().toString().slice(0, 7)}`;

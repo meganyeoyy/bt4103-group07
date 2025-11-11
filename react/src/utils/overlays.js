@@ -6,12 +6,11 @@
  */
 
 export function encodeFields(doc) {
-  // single public API used by App.js
   const items = fieldsToOverlays(doc);
   return btoa(JSON.stringify(items));
 }
 
-/* ---------------- helpers ---------------- */
+// Helpers
 
 const toNumber = (x) => {
   const n = Number(x);
@@ -22,37 +21,42 @@ const normType = (t) =>
   String(t || "")
     .trim()
     .toLowerCase();
-const CHECKBOX_DX_PCT = 10;
+const CHECKBOX_DX_PCT = 7;
 const DATE_DX_PCT = 4.5;
-const CONF_THRESHOLD = 0.8;
+const CONF_THRESHOLD = 0.9;
 
 function pickAnchorTopRightAbove(field) {
-  // top right overlay
   const tl = field?.top_left_pct;
   const sz = field?.size_pct;
   const cp = field?.center_pct;
   if (
     tl &&
-    sz &&
     typeof tl.x === "number" &&
     typeof tl.y === "number" &&
+    sz &&
     typeof sz.w === "number" &&
     typeof sz.h === "number"
   ) {
-    const name = String(field?.field_name || "").toLowerCase();
+    const name = String(field?.field_name || "")
+      .trim()
+      .toLowerCase();
 
-    // ✅ differentiate checkbox vs. date offset
     const isCheckbox = normType(field?.field_type).includes("checkbox");
     const isDateField = /\(dd\)|\(mm\)|\(yyyy\)/.test(name);
+    const isGender = /\b(m|f)\b$/.test(name); // only match if ends with M/F
+    const isYesNoEnding = /\b(yes|no)\s*$/i.test(name); // only if ends with yes/no
 
     let extraDx = 0;
-    if (isCheckbox) extraDx = CHECKBOX_DX_PCT; // 8%
-    else if (isDateField) extraDx = DATE_DX_PCT; // smaller 4%
+    if (isCheckbox || isGender || isYesNoEnding) extraDx = CHECKBOX_DX_PCT;
+    else if (isDateField) extraDx = DATE_DX_PCT;
 
-    const xTR = tl.x + sz.w + extraDx;
+    const effectiveWidth = sz.w < 1.5 ? 2.5 : sz.w;
+    const xTR = tl.x + effectiveWidth + extraDx;
 
-    // slightly above center for better visibility
-    return { xPct: clampPct(xTR), yPct: clampPct(cp.y - 1) };
+    return {
+      xPct: clampPct(xTR),
+      yPct: clampPct(cp?.y ? cp.y - 1 : tl.y),
+    };
   }
 }
 
@@ -69,13 +73,24 @@ function baseCheckboxKey(f) {
   return m ? m[1].trim() || null : null;
 }
 
-/* ---------------- main transform ---------------- */
+function isGenderField(f) {
+  const name = String(f?.field_name || "").trim();
+  return /\b(M|F)\s*$/i.test(name);
+}
+
+function baseGenderKey(f) {
+  const name = String(f?.field_name || "").trim();
+  const m = name.match(/^(.*?)(?:\s*[:\-–—]?\s*\(?\b(M|F)\b\)?\s*)$/i);
+  return m ? m[1].trim() || null : null;
+}
+
+// Main transform
 
 export function fieldsToOverlays(doc) {
   const fields = Array.isArray(doc?.fields) ? doc.fields : [];
   const out = [];
 
-  /* ---------- group helpers ---------- */
+  // Group helpers
   const groups = new Map(); // for yes/no checkboxes
   const dateGroups = new Map(); // for (dd/mm/yyyy)
   const singles = [];
@@ -84,7 +99,7 @@ export function fieldsToOverlays(doc) {
     const name = String(f?.field_name || "")
       .trim()
       .toLowerCase();
-    // ✅ Match only fields ending with (dd), (mm), or (yyyy)
+    // Match only fields ending with (dd), (mm), or (yyyy)
     return /\(\s*(dd|mm|yyyy)\s*\)$/.test(name);
   };
 
@@ -93,27 +108,38 @@ export function fieldsToOverlays(doc) {
       .trim()
       .toLowerCase();
 
-    // ✅ Normalize smart quotes and apostrophes
+    // Normalize smart quotes and apostrophes
     name = name
       .replace(/[“”«»„‟"]/g, '"') // replace any curly or angled quotes with straight quote
       .replace(/[‘’‚‛']/g, "'"); // normalize single quotes
 
-    // ✅ Strip trailing (dd)/(mm)/(yyyy)
+    // Strip trailing (dd)/(mm)/(yyyy)
     name = name.replace(/\(\s*(dd|mm|yyyy)\s*\)\s*$/i, "");
 
-    // ✅ Collapse multiple spaces/dashes
+    // Collapse multiple spaces/dashes
     name = name.replace(/[\s\-–—]+/g, " ").trim();
 
     return name;
   };
 
-  /* ---------- partition fields ---------- */
+  // Partition fields
+  const genderGroups = new Map();
+
   for (const f of fields) {
     if (isCheckboxField(f)) {
       const base = baseCheckboxKey(f);
       if (base) {
         if (!groups.has(base)) groups.set(base, []);
         groups.get(base).push(f);
+        continue;
+      }
+    }
+
+    if (isGenderField(f)) {
+      const base = baseGenderKey(f);
+      if (base) {
+        if (!genderGroups.has(base)) genderGroups.set(base, []);
+        genderGroups.get(base).push(f);
         continue;
       }
     }
@@ -130,7 +156,7 @@ export function fieldsToOverlays(doc) {
     singles.push(f);
   }
 
-  /* ---------- checkbox logic ---------- */
+  // Checkbox logic
   for (const [, items] of groups) {
     const anchorField = items.length >= 2 ? items[1] : items[items.length - 1];
 
@@ -170,7 +196,7 @@ export function fieldsToOverlays(doc) {
     }
   }
 
-  /* ---------- date triplet logic ---------- */
+  // Date triplet logic
   for (const [, items] of dateGroups) {
     if (items.length < 3) continue; // skip incomplete sets
 
@@ -215,7 +241,47 @@ export function fieldsToOverlays(doc) {
     }
   }
 
-  /* ---------- single-field logic ---------- */
+  // Gender M/F logic
+  for (const [, items] of genderGroups) {
+    const anchorField = items.length >= 2 ? items[1] : items[items.length - 1];
+
+    const vals = items.map((f) => String(f?.field_value ?? "").trim());
+    const confs = items.map((f) => toNumber(f?.confidence));
+    const bothEmpty = vals.every((v) => v === "");
+
+    let show = false;
+    let label = "";
+    let klass = "";
+
+    if (bothEmpty) {
+      show = true;
+      label = "Missing";
+      klass = "missing";
+    } else {
+      const lowExists = items.some((f, i) => {
+        const answered = vals[i] !== "";
+        const c = confs[i];
+        return answered && Number.isFinite(c) && c < CONF_THRESHOLD;
+      });
+      if (lowExists) {
+        show = true;
+        label = "Low";
+        klass = "low";
+      }
+    }
+
+    if (show) {
+      let page = Number(anchorField?.page);
+      if (!Number.isFinite(page)) continue;
+      if (page === 0) page = 1;
+
+      const pos = pickAnchorTopRightAbove(anchorField);
+      if (!pos) continue;
+      out.push({ page, xPct: pos.xPct, yPct: pos.yPct, label, class: klass });
+    }
+  }
+
+  // Single field logic
   for (const f of singles) {
     let page = Number(f?.page);
     if (!Number.isFinite(page)) continue;

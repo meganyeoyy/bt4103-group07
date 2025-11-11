@@ -1,5 +1,5 @@
 (function () {
-  /* ---------- DOM helpers ---------- */
+  // DOM helpers
   function ensureHud(pageDiv) {
     let hud = pageDiv.querySelector(".pdf-hud-layer");
     if (!hud) {
@@ -27,7 +27,7 @@
     };
   }
 
-  /* ---------- render ---------- */
+  // Render
   function renderPage(items, pageView) {
     if (!pageView || !pageView.div) return;
 
@@ -78,7 +78,7 @@
     });
   }
 
-  /* ---------- state ---------- */
+  // State
   let items = [];
   function setItems(next, app) {
     items = Array.isArray(next) ? next : [];
@@ -86,9 +86,8 @@
     for (const v of vis) renderPage(items, v.view || v);
   }
 
-  /* ---------- boot ---------- */
+  // Boot
   async function main() {
-    // Minimal readiness poll (kept compact)
     while (
       !(
         window.PDFViewerApplication &&
@@ -102,13 +101,12 @@
     const app = window.PDFViewerApplication;
     const bus = app.eventBus;
 
-    // Draw anything already visible
     scheduleRedrawVisible(items, app);
 
     // Re-render when a page finishes (initial render / zoom / rotate)
     bus.on("pagerendered", (evt) => renderPage(items, evt.source));
 
-    // Viewport updates (scroll/zoom) — throttled
+    // Viewport updates (scroll/zoom)
     bus.on("updateviewarea", () => scheduleRedrawVisible(items, app));
 
     // Runtime updates from parent via postMessage
@@ -122,7 +120,6 @@
       }
     });
 
-    // Handshake
     try {
       window.parent?.postMessage({ type: "overlay-ready" }, "*");
     } catch {}

@@ -4,7 +4,7 @@
   border-radius: var(--radius);
   background: #fafafa;
   text-align: center;
-  min-height: 84px; /* taller than before */
+  min-height: 84px;
 }
 .uploader.drag {
   background: #f0f9ff;
