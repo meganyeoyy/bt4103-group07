@@ -1,0 +1,56 @@
+:root {
+  --bg: #f6f7fb;
+  --panel: #ffffff;
+  --border: #e5e7eb;
+  --muted: #6b7280;
+  --text: #111827;
+  --brand: #0ea5e9;
+  --accent: #f97316;
+  --chip: #eef2ff;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 6px 24px rgba(0, 0, 0, 0.06);
+  --content-width: 1450px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html,
+body,
+#root,
+.app {
+  touch-action: pinch-zoom pan-x pan-y;
+}
+
+.card,
+.section,
+.uploadGrid,
+.templateRow,
+.fileList,
+.uploader {
+  touch-action: pinch-zoom pan-x pan-y;
+}
+
+.sourceBox,
+.sourceBox .preview,
+.pdfFrame,
+.pdfViewport {
+  touch-action: auto;
+}
+
+body {
+  margin: 0;
+  font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button {
+  cursor: pointer;
+}

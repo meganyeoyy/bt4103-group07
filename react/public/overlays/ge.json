@@ -1,0 +1,3189 @@
+{
+  "fields": [
+    {
+      "field_name": "Name of insured",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 108.0,
+        "y0": 176.0,
+        "x1": 568.0,
+        "y1": 192.0,
+        "width": 460.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 108.0,
+        "y": 176.0
+      },
+      "center": {
+        "x": 338.0,
+        "y": 184.0
+      },
+      "top_left_pct": {
+        "x": 18.620689655172416,
+        "y": 21.204819277108435
+      },
+      "center_pct": {
+        "x": 58.27586206896552,
+        "y": 22.16867469879518
+      },
+      "size_pct": {
+        "w": 79.3103448275862,
+        "h": 1.9277108433734942
+      }
+    },
+    {
+      "field_name": "NRIC / Passport No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 109.0,
+        "y0": 198.0,
+        "x1": 262.0,
+        "y1": 213.0,
+        "width": 153.0,
+        "height": 15.0
+      },
+      "top_left": {
+        "x": 109.0,
+        "y": 198.0
+      },
+      "center": {
+        "x": 185.5,
+        "y": 205.5
+      },
+      "top_left_pct": {
+        "x": 18.79310344827586,
+        "y": 23.85542168674699
+      },
+      "center_pct": {
+        "x": 31.982758620689655,
+        "y": 24.759036144578314
+      },
+      "size_pct": {
+        "w": 26.379310344827587,
+        "h": 1.8072289156626504
+      }
+    },
+    {
+      "field_name": "Date of Birth (ddmmyyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 390.0,
+        "y0": 198.0,
+        "x1": 492.0,
+        "y1": 213.0,
+        "width": 102.0,
+        "height": 15.0
+      },
+      "top_left": {
+        "x": 390.0,
+        "y": 198.0
+      },
+      "center": {
+        "x": 441.0,
+        "y": 205.5
+      },
+      "top_left_pct": {
+        "x": 67.24137931034483,
+        "y": 23.85542168674699
+      },
+      "center_pct": {
+        "x": 76.0344827586207,
+        "y": 24.759036144578314
+      },
+      "size_pct": {
+        "w": 17.586206896551722,
+        "h": 1.8072289156626504
+      }
+    },
+    {
+      "field_name": "Date when insured first consulted you for cancer (ddmmyyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 300.0,
+        "y0": 293.0,
+        "x1": 400.0,
+        "y1": 306.0,
+        "width": 100.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 300.0,
+        "y": 293.0
+      },
+      "center": {
+        "x": 350.0,
+        "y": 299.5
+      },
+      "top_left_pct": {
+        "x": 51.724137931034484,
+        "y": 35.30120481927711
+      },
+      "center_pct": {
+        "x": 60.3448275862069,
+        "y": 36.084337349397586
+      },
+      "size_pct": {
+        "w": 17.24137931034483,
+        "h": 1.566265060240964
+      }
+    },
+    {
+      "field_name": "Please state symptoms presented (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 57.0,
+        "y0": 367.0,
+        "x1": 166.0,
+        "y1": 387.0,
+        "width": 109.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 57.0,
+        "y": 367.0
+      },
+      "center": {
+        "x": 111.5,
+        "y": 377.0
+      },
+      "top_left_pct": {
+        "x": 9.827586206896552,
+        "y": 44.21686746987952
+      },
+      "center_pct": {
+        "x": 19.224137931034484,
+        "y": 45.42168674698795
+      },
+      "size_pct": {
+        "w": 18.79310344827586,
+        "h": 2.4096385542168677
+      }
+    },
+    {
+      "field_name": "Please state duration of symptoms presented (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 169.0,
+        "y0": 369.0,
+        "x1": 393.0,
+        "y1": 389.0,
+        "width": 224.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 169.0,
+        "y": 369.0
+      },
+      "center": {
+        "x": 281.0,
+        "y": 379.0
+      },
+      "top_left_pct": {
+        "x": 29.13793103448276,
+        "y": 44.45783132530121
+      },
+      "center_pct": {
+        "x": 48.44827586206897,
+        "y": 45.66265060240964
+      },
+      "size_pct": {
+        "w": 38.62068965517241,
+        "h": 2.4096385542168677
+      }
+    },
+    {
+      "field_name": "Please state the date that the symptoms first appeared (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 398.0,
+        "y0": 369.0,
+        "x1": 562.0,
+        "y1": 389.0,
+        "width": 164.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 398.0,
+        "y": 369.0
+      },
+      "center": {
+        "x": 480.0,
+        "y": 379.0
+      },
+      "top_left_pct": {
+        "x": 68.62068965517241,
+        "y": 44.45783132530121
+      },
+      "center_pct": {
+        "x": 82.75862068965517,
+        "y": 45.66265060240964
+      },
+      "size_pct": {
+        "w": 28.27586206896552,
+        "h": 2.4096385542168677
+      }
+    },
+    {
+      "field_name": "Please state symptoms presented (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 57.0,
+        "y0": 391.0,
+        "x1": 166.0,
+        "y1": 411.0,
+        "width": 109.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 57.0,
+        "y": 391.0
+      },
+      "center": {
+        "x": 111.5,
+        "y": 401.0
+      },
+      "top_left_pct": {
+        "x": 9.827586206896552,
+        "y": 47.10843373493976
+      },
+      "center_pct": {
+        "x": 19.224137931034484,
+        "y": 48.31325301204819
+      },
+      "size_pct": {
+        "w": 18.79310344827586,
+        "h": 2.4096385542168677
+      }
+    },
+    {
+      "field_name": "Please state duration of symptoms presented (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 170.0,
+        "y0": 391.0,
+        "x1": 394.0,
+        "y1": 411.0,
+        "width": 224.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 170.0,
+        "y": 391.0
+      },
+      "center": {
+        "x": 282.0,
+        "y": 401.0
+      },
+      "top_left_pct": {
+        "x": 29.310344827586203,
+        "y": 47.10843373493976
+      },
+      "center_pct": {
+        "x": 48.62068965517241,
+        "y": 48.31325301204819
+      },
+      "size_pct": {
+        "w": 38.62068965517241,
+        "h": 2.4096385542168677
+      }
+    },
+    {
+      "field_name": "Please state the date that the symptoms first appeared (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 399.0,
+        "y0": 392.0,
+        "x1": 563.0,
+        "y1": 412.0,
+        "width": 164.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 399.0,
+        "y": 392.0
+      },
+      "center": {
+        "x": 481.0,
+        "y": 402.0
+      },
+      "top_left_pct": {
+        "x": 68.79310344827586,
+        "y": 47.2289156626506
+      },
+      "center_pct": {
+        "x": 82.93103448275862,
+        "y": 48.433734939759034
+      },
+      "size_pct": {
+        "w": 28.27586206896552,
+        "h": 2.4096385542168677
+      }
+    },
+    {
+      "field_name": "Please state symptoms presented (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 57.0,
+        "y0": 413.0,
+        "x1": 166.0,
+        "y1": 433.0,
+        "width": 109.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 57.0,
+        "y": 413.0
+      },
+      "center": {
+        "x": 111.5,
+        "y": 423.0
+      },
+      "top_left_pct": {
+        "x": 9.827586206896552,
+        "y": 49.75903614457831
+      },
+      "center_pct": {
+        "x": 19.224137931034484,
+        "y": 50.963855421686745
+      },
+      "size_pct": {
+        "w": 18.79310344827586,
+        "h": 2.4096385542168677
+      }
+    },
+    {
+      "field_name": "Please state duration of symptoms presented (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 169.0,
+        "y0": 415.0,
+        "x1": 393.0,
+        "y1": 435.0,
+        "width": 224.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 169.0,
+        "y": 415.0
+      },
+      "center": {
+        "x": 281.0,
+        "y": 425.0
+      },
+      "top_left_pct": {
+        "x": 29.13793103448276,
+        "y": 50.0
+      },
+      "center_pct": {
+        "x": 48.44827586206897,
+        "y": 51.204819277108435
+      },
+      "size_pct": {
+        "w": 38.62068965517241,
+        "h": 2.4096385542168677
+      }
+    },
+    {
+      "field_name": "Please state the date that the symptoms first appeared (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 399.0,
+        "y0": 415.0,
+        "x1": 563.0,
+        "y1": 435.0,
+        "width": 164.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 399.0,
+        "y": 415.0
+      },
+      "center": {
+        "x": 481.0,
+        "y": 425.0
+      },
+      "top_left_pct": {
+        "x": 68.79310344827586,
+        "y": 50.0
+      },
+      "center_pct": {
+        "x": 82.93103448275862,
+        "y": 51.204819277108435
+      },
+      "size_pct": {
+        "w": 28.27586206896552,
+        "h": 2.4096385542168677
+      }
+    },
+    {
+      "field_name": "What is the source of the above information? If \"Referring Doctor / Others\", please specify name (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 59.0,
+        "y0": 524.0,
+        "x1": 200.0,
+        "y1": 540.0,
+        "width": 141.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 59.0,
+        "y": 524.0
+      },
+      "center": {
+        "x": 129.5,
+        "y": 532.0
+      },
+      "top_left_pct": {
+        "x": 10.172413793103448,
+        "y": 63.132530120481924
+      },
+      "center_pct": {
+        "x": 22.32758620689655,
+        "y": 64.09638554216868
+      },
+      "size_pct": {
+        "w": 24.310344827586206,
+        "h": 1.9277108433734942
+      }
+    },
+    {
+      "field_name": "What is the source of the above information? If \"Referring Doctor / Others\", please specify address (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 206.0,
+        "y0": 525.0,
+        "x1": 563.0,
+        "y1": 541.0,
+        "width": 357.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 206.0,
+        "y": 525.0
+      },
+      "center": {
+        "x": 384.5,
+        "y": 533.0
+      },
+      "top_left_pct": {
+        "x": 35.51724137931034,
+        "y": 63.25301204819277
+      },
+      "center_pct": {
+        "x": 66.29310344827586,
+        "y": 64.21686746987952
+      },
+      "size_pct": {
+        "w": 61.55172413793103,
+        "h": 1.9277108433734942
+      }
+    },
+    {
+      "field_name": "What is the source of the above information? If \"Referring Doctor / Others\", please specify name (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 58.0,
+        "y0": 546.0,
+        "x1": 200.0,
+        "y1": 564.0,
+        "width": 142.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 58.0,
+        "y": 546.0
+      },
+      "center": {
+        "x": 129.0,
+        "y": 555.0
+      },
+      "top_left_pct": {
+        "x": 10.0,
+        "y": 65.78313253012048
+      },
+      "center_pct": {
+        "x": 22.24137931034483,
+        "y": 66.86746987951807
+      },
+      "size_pct": {
+        "w": 24.482758620689655,
+        "h": 2.1686746987951806
+      }
+    },
+    {
+      "field_name": "What is the source of the above information? If \"Referring Doctor / Others\", please specify address (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 205.0,
+        "y0": 548.0,
+        "x1": 562.0,
+        "y1": 564.0,
+        "width": 357.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 205.0,
+        "y": 548.0
+      },
+      "center": {
+        "x": 383.5,
+        "y": 556.0
+      },
+      "top_left_pct": {
+        "x": 35.3448275862069,
+        "y": 66.02409638554217
+      },
+      "center_pct": {
+        "x": 66.12068965517241,
+        "y": 66.98795180722892
+      },
+      "size_pct": {
+        "w": 61.55172413793103,
+        "h": 1.9277108433734942
+      }
+    },
+    {
+      "field_name": "Date when Cancer was FIRST diagnosed (ddmmyyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 241.0,
+        "y0": 594.0,
+        "x1": 341.0,
+        "y1": 607.0,
+        "width": 100.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 241.0,
+        "y": 594.0
+      },
+      "center": {
+        "x": 291.0,
+        "y": 600.5
+      },
+      "top_left_pct": {
+        "x": 41.55172413793103,
+        "y": 71.56626506024097
+      },
+      "center_pct": {
+        "x": 50.172413793103445,
+        "y": 72.34939759036145
+      },
+      "size_pct": {
+        "w": 17.24137931034483,
+        "h": 1.566265060240964
+      }
+    },
+    {
+      "field_name": "Diagnosis was first made by (name of Doctor)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 244.0,
+        "y0": 628.0,
+        "x1": 564.0,
+        "y1": 641.0,
+        "width": 320.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 244.0,
+        "y": 628.0
+      },
+      "center": {
+        "x": 404.0,
+        "y": 634.5
+      },
+      "top_left_pct": {
+        "x": 42.06896551724138,
+        "y": 75.66265060240964
+      },
+      "center_pct": {
+        "x": 69.6551724137931,
+        "y": 76.44578313253012
+      },
+      "size_pct": {
+        "w": 55.172413793103445,
+        "h": 1.566265060240964
+      }
+    },
+    {
+      "field_name": "date of completed form",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 57.0,
+        "y0": 694.0,
+        "x1": 157.0,
+        "y1": 710.0,
+        "width": 100.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 57.0,
+        "y": 694.0
+      },
+      "center": {
+        "x": 107.0,
+        "y": 702.0
+      },
+      "top_left_pct": {
+        "x": 9.827586206896552,
+        "y": 83.61445783132531
+      },
+      "center_pct": {
+        "x": 18.448275862068968,
+        "y": 84.57831325301206
+      },
+      "size_pct": {
+        "w": 17.24137931034483,
+        "h": 1.9277108433734942
+      }
+    },
+    {
+      "field_name": "Are you the Life Assured's usual medical doctor? If \"yes\", since what date (ddmmyyyy)?",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 151.0,
+        "y0": 260.0,
+        "x1": 251.0,
+        "y1": 273.0,
+        "width": 100.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 151.0,
+        "y": 260.0
+      },
+      "center": {
+        "x": 201.0,
+        "y": 266.5
+      },
+      "top_left_pct": {
+        "x": 26.03448275862069,
+        "y": 31.32530120481928
+      },
+      "center_pct": {
+        "x": 34.6551724137931,
+        "y": 32.10843373493976
+      },
+      "size_pct": {
+        "w": 17.24137931034483,
+        "h": 1.566265060240964
+      }
+    },
+    {
+      "field_name": "Gender: M",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 537.0,
+        "y0": 198.0,
+        "x1": 555.0,
+        "y1": 216.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 537.0,
+        "y": 198.0
+      },
+      "center": {
+        "x": 546.0,
+        "y": 207.0
+      },
+      "top_left_pct": {
+        "x": 92.58620689655173,
+        "y": 23.85542168674699
+      },
+      "center_pct": {
+        "x": 94.13793103448276,
+        "y": 24.93975903614458
+      },
+      "size_pct": {
+        "w": 3.103448275862069,
+        "h": 2.1686746987951806
+      }
+    },
+    {
+      "field_name": "Gender: F",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 552.0,
+        "y0": 198.0,
+        "x1": 570.0,
+        "y1": 216.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 552.0,
+        "y": 198.0
+      },
+      "center": {
+        "x": 561.0,
+        "y": 207.0
+      },
+      "top_left_pct": {
+        "x": 95.17241379310344,
+        "y": 23.85542168674699
+      },
+      "center_pct": {
+        "x": 96.72413793103448,
+        "y": 24.93975903614458
+      },
+      "size_pct": {
+        "w": 3.103448275862069,
+        "h": 2.1686746987951806
+      }
+    },
+    {
+      "field_name": "Are you the Life Assured's usual medical doctor? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 523.0,
+        "y0": 225.0,
+        "x1": 541.0,
+        "y1": 243.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 523.0,
+        "y": 225.0
+      },
+      "center": {
+        "x": 532.0,
+        "y": 234.0
+      },
+      "top_left_pct": {
+        "x": 90.17241379310344,
+        "y": 27.10843373493976
+      },
+      "center_pct": {
+        "x": 91.72413793103448,
+        "y": 28.19277108433735
+      },
+      "size_pct": {
+        "w": 3.103448275862069,
+        "h": 2.1686746987951806
+      }
+    },
+    {
+      "field_name": "Are you the Life Assured's usual medical doctor? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 546.0,
+        "y0": 225.0,
+        "x1": 564.0,
+        "y1": 243.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 546.0,
+        "y": 225.0
+      },
+      "center": {
+        "x": 555.0,
+        "y": 234.0
+      },
+      "top_left_pct": {
+        "x": 94.13793103448276,
+        "y": 27.10843373493976
+      },
+      "center_pct": {
+        "x": 95.6896551724138,
+        "y": 28.19277108433735
+      },
+      "size_pct": {
+        "w": 3.103448275862069,
+        "h": 2.1686746987951806
+      }
+    },
+    {
+      "field_name": "What is the source of the above information? Patient",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 421.0,
+        "y0": 448.0,
+        "x1": 439.0,
+        "y1": 466.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 421.0,
+        "y": 448.0
+      },
+      "center": {
+        "x": 430.0,
+        "y": 457.0
+      },
+      "top_left_pct": {
+        "x": 72.58620689655172,
+        "y": 53.975903614457835
+      },
+      "center_pct": {
+        "x": 74.13793103448276,
+        "y": 55.06024096385542
+      },
+      "size_pct": {
+        "w": 3.103448275862069,
+        "h": 2.1686746987951806
+      }
+    },
+    {
+      "field_name": "What is the source of the above information? Referring Doctor",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 479.0,
+        "y0": 448.0,
+        "x1": 497.0,
+        "y1": 466.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 479.0,
+        "y": 448.0
+      },
+      "center": {
+        "x": 488.0,
+        "y": 457.0
+      },
+      "top_left_pct": {
+        "x": 82.58620689655173,
+        "y": 53.975903614457835
+      },
+      "center_pct": {
+        "x": 84.13793103448276,
+        "y": 55.06024096385542
+      },
+      "size_pct": {
+        "w": 3.103448275862069,
+        "h": 2.1686746987951806
+      }
+    },
+    {
+      "field_name": "What is the source of the above information? Others",
+      "field_value": "",
+      "field_type": "text",
+      "page": 1,
+      "confidence": "",
+      "bbox": {
+        "x0": 538.0,
+        "y0": 448.0,
+        "x1": 556.0,
+        "y1": 466.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 538.0,
+        "y": 448.0
+      },
+      "center": {
+        "x": 547.0,
+        "y": 457.0
+      },
+      "top_left_pct": {
+        "x": 92.75862068965517,
+        "y": 53.975903614457835
+      },
+      "center_pct": {
+        "x": 94.3103448275862,
+        "y": 55.06024096385542
+      },
+      "size_pct": {
+        "w": 3.103448275862069,
+        "h": 2.1686746987951806
+      }
+    },
+    {
+      "field_name": "Actual diagnosis",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 135.8800048828125,
+        "y0": 69.0,
+        "x1": 552.8800048828125,
+        "y1": 82.0,
+        "width": 417.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 135.8800048828125,
+        "y": 69.0
+      },
+      "center": {
+        "x": 344.3800048828125,
+        "y": 75.5
+      },
+      "top_left_pct": {
+        "x": 23.35671111831059,
+        "y": 8.712121212121213
+      },
+      "center_pct": {
+        "x": 59.19623196884118,
+        "y": 9.532828282828284
+      },
+      "size_pct": {
+        "w": 71.67904170106118,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Date when insured first became aware of this illness (ddmmyyyy):",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 294.8800048828125,
+        "y0": 107.0,
+        "x1": 391.8800048828125,
+        "y1": 120.0,
+        "width": 97.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 294.8800048828125,
+        "y": 107.0
+      },
+      "center": {
+        "x": 343.3800048828125,
+        "y": 113.5
+      },
+      "top_left_pct": {
+        "x": 50.68756874533392,
+        "y": 13.51010101010101
+      },
+      "center_pct": {
+        "x": 59.02433978250771,
+        "y": 14.33080808080808
+      },
+      "size_pct": {
+        "w": 16.673542074347566,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse? If \"yes\", please give details",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 65.87999725341797,
+        "y0": 165.0,
+        "x1": 556.8800048828125,
+        "y1": 197.0,
+        "width": 491.00000762939453,
+        "height": 32.0
+      },
+      "top_left": {
+        "x": 65.87999725341797,
+        "y": 165.0
+      },
+      "center": {
+        "x": 311.38000106811523,
+        "y": 181.0
+      },
+      "top_left_pct": {
+        "x": 11.324256763533677,
+        "y": 20.833333333333336
+      },
+      "center_pct": {
+        "x": 53.523789164119684,
+        "y": 22.853535353535353
+      },
+      "size_pct": {
+        "w": 84.39906480117202,
+        "h": 4.040404040404041
+      }
+    },
+    {
+      "field_name": "What is the staging of the tumour?",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 66.87999725341797,
+        "y0": 240.0,
+        "x1": 557.8800048828125,
+        "y1": 272.0,
+        "width": 491.00000762939453,
+        "height": 32.0
+      },
+      "top_left": {
+        "x": 66.87999725341797,
+        "y": 240.0
+      },
+      "center": {
+        "x": 312.38000106811523,
+        "y": 256.0
+      },
+      "top_left_pct": {
+        "x": 11.496148949867157,
+        "y": 30.303030303030305
+      },
+      "center_pct": {
+        "x": 53.69568135045317,
+        "y": 32.323232323232325
+      },
+      "size_pct": {
+        "w": 84.39906480117202,
+        "h": 4.040404040404041
+      }
+    },
+    {
+      "field_name": "Please state the tumour classification (eg TNM classification etc)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 66.87999725341797,
+        "y0": 316.0,
+        "x1": 557.8800048828125,
+        "y1": 349.0,
+        "width": 491.00000762939453,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 66.87999725341797,
+        "y": 316.0
+      },
+      "center": {
+        "x": 312.38000106811523,
+        "y": 332.5
+      },
+      "top_left_pct": {
+        "x": 11.496148949867157,
+        "y": 39.8989898989899
+      },
+      "center_pct": {
+        "x": 53.69568135045317,
+        "y": 41.98232323232323
+      },
+      "size_pct": {
+        "w": 84.39906480117202,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "Did the Life Assured undergo any surgery? If \"Yes\", state the date of surgery (ddmmyyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 207.8800048828125,
+        "y0": 468.0,
+        "x1": 304.8800048828125,
+        "y1": 481.0,
+        "width": 97.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 207.8800048828125,
+        "y": 468.0
+      },
+      "center": {
+        "x": 256.3800048828125,
+        "y": 474.5
+      },
+      "top_left_pct": {
+        "x": 35.73294853432115,
+        "y": 59.09090909090909
+      },
+      "center_pct": {
+        "x": 44.069719571494936,
+        "y": 59.911616161616166
+      },
+      "size_pct": {
+        "w": 16.673542074347566,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Did the Life Assured undergo any surgery? If \"Yes\", please indicate the surgical procedure performed",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 65.87999725341797,
+        "y0": 503.0,
+        "x1": 556.8800048828125,
+        "y1": 536.0,
+        "width": 491.00000762939453,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 65.87999725341797,
+        "y": 503.0
+      },
+      "center": {
+        "x": 311.38000106811523,
+        "y": 519.5
+      },
+      "top_left_pct": {
+        "x": 11.324256763533677,
+        "y": 63.510101010101
+      },
+      "center_pct": {
+        "x": 53.523789164119684,
+        "y": 65.59343434343434
+      },
+      "size_pct": {
+        "w": 84.39906480117202,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "Was there any other mode of treatment, other than surgery, which could be undertaken to treat the Life Assured's condition? If \"YES\", please specify type of treatment",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 66.87999725341797,
+        "y0": 599.0,
+        "x1": 557.8800048828125,
+        "y1": 632.0,
+        "width": 491.00000762939453,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 66.87999725341797,
+        "y": 599.0
+      },
+      "center": {
+        "x": 312.38000106811523,
+        "y": 615.5
+      },
+      "top_left_pct": {
+        "x": 11.496148949867157,
+        "y": 75.63131313131312
+      },
+      "center_pct": {
+        "x": 53.69568135045317,
+        "y": 77.71464646464646
+      },
+      "size_pct": {
+        "w": 84.39906480117202,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "date of completed form",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 64.87999725341797,
+        "y0": 687.0,
+        "x1": 164.8800048828125,
+        "y1": 703.0,
+        "width": 100.00000762939453,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 64.87999725341797,
+        "y": 687.0
+      },
+      "center": {
+        "x": 114.88000106811523,
+        "y": 695.0
+      },
+      "top_left_pct": {
+        "x": 11.152364577200197,
+        "y": 86.74242424242425
+      },
+      "center_pct": {
+        "x": 19.746974549590853,
+        "y": 87.75252525252525
+      },
+      "size_pct": {
+        "w": 17.189219944781314,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 513.8800048828125,
+        "y0": 135.0,
+        "x1": 531.8800048828125,
+        "y1": 153.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 513.8800048828125,
+        "y": 135.0
+      },
+      "center": {
+        "x": 522.8800048828125,
+        "y": 144.0
+      },
+      "top_left_pct": {
+        "x": 88.33195755236606,
+        "y": 17.045454545454543
+      },
+      "center_pct": {
+        "x": 89.87898722936738,
+        "y": 18.181818181818183
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 535.8800048828125,
+        "y0": 135.0,
+        "x1": 553.8800048828125,
+        "y1": 153.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 535.8800048828125,
+        "y": 135.0
+      },
+      "center": {
+        "x": 544.8800048828125,
+        "y": 144.0
+      },
+      "top_left_pct": {
+        "x": 92.11358565170262,
+        "y": 17.045454545454543
+      },
+      "center_pct": {
+        "x": 93.66061532870393,
+        "y": 18.181818181818183
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Was the cancer completely localised? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 514.8800048828125,
+        "y0": 386.0,
+        "x1": 527.8800048828125,
+        "y1": 399.0,
+        "width": 13.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 514.8800048828125,
+        "y": 386.0
+      },
+      "center": {
+        "x": 521.3800048828125,
+        "y": 392.5
+      },
+      "top_left_pct": {
+        "x": 88.50384973869953,
+        "y": 48.73737373737374
+      },
+      "center_pct": {
+        "x": 89.62114894986716,
+        "y": 49.55808080808081
+      },
+      "size_pct": {
+        "w": 2.234598422335241,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Was the cancer completely localised? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 535.8800048828125,
+        "y0": 386.0,
+        "x1": 548.8800048828125,
+        "y1": 399.0,
+        "width": 13.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 535.8800048828125,
+        "y": 386.0
+      },
+      "center": {
+        "x": 542.3800048828125,
+        "y": 392.5
+      },
+      "top_left_pct": {
+        "x": 92.11358565170262,
+        "y": 48.73737373737374
+      },
+      "center_pct": {
+        "x": 93.23088486287023,
+        "y": 49.55808080808081
+      },
+      "size_pct": {
+        "w": 2.234598422335241,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Was there invasion of tissues? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 514.8800048828125,
+        "y0": 398.0,
+        "x1": 527.8800048828125,
+        "y1": 411.0,
+        "width": 13.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 514.8800048828125,
+        "y": 398.0
+      },
+      "center": {
+        "x": 521.3800048828125,
+        "y": 404.5
+      },
+      "top_left_pct": {
+        "x": 88.50384973869953,
+        "y": 50.252525252525245
+      },
+      "center_pct": {
+        "x": 89.62114894986716,
+        "y": 51.07323232323232
+      },
+      "size_pct": {
+        "w": 2.234598422335241,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Was there invasion of tissues? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 535.8800048828125,
+        "y0": 398.0,
+        "x1": 548.8800048828125,
+        "y1": 411.0,
+        "width": 13.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 535.8800048828125,
+        "y": 398.0
+      },
+      "center": {
+        "x": 542.3800048828125,
+        "y": 404.5
+      },
+      "top_left_pct": {
+        "x": 92.11358565170262,
+        "y": 50.252525252525245
+      },
+      "center_pct": {
+        "x": 93.23088486287023,
+        "y": 51.07323232323232
+      },
+      "size_pct": {
+        "w": 2.234598422335241,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Were regional lymph nodes involved? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 514.8800048828125,
+        "y0": 408.0,
+        "x1": 527.8800048828125,
+        "y1": 421.0,
+        "width": 13.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 514.8800048828125,
+        "y": 408.0
+      },
+      "center": {
+        "x": 521.3800048828125,
+        "y": 414.5
+      },
+      "top_left_pct": {
+        "x": 88.50384973869953,
+        "y": 51.515151515151516
+      },
+      "center_pct": {
+        "x": 89.62114894986716,
+        "y": 52.33585858585859
+      },
+      "size_pct": {
+        "w": 2.234598422335241,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Were regional lymph nodes involved? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 535.8800048828125,
+        "y0": 409.0,
+        "x1": 548.8800048828125,
+        "y1": 422.0,
+        "width": 13.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 535.8800048828125,
+        "y": 409.0
+      },
+      "center": {
+        "x": 542.3800048828125,
+        "y": 415.5
+      },
+      "top_left_pct": {
+        "x": 92.11358565170262,
+        "y": 51.641414141414145
+      },
+      "center_pct": {
+        "x": 93.23088486287023,
+        "y": 52.46212121212122
+      },
+      "size_pct": {
+        "w": 2.234598422335241,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Were there distant metastases? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 514.8800048828125,
+        "y0": 419.0,
+        "x1": 527.8800048828125,
+        "y1": 432.0,
+        "width": 13.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 514.8800048828125,
+        "y": 419.0
+      },
+      "center": {
+        "x": 521.3800048828125,
+        "y": 425.5
+      },
+      "top_left_pct": {
+        "x": 88.50384973869953,
+        "y": 52.90404040404041
+      },
+      "center_pct": {
+        "x": 89.62114894986716,
+        "y": 53.72474747474747
+      },
+      "size_pct": {
+        "w": 2.234598422335241,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Were there distant metastases? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 535.8800048828125,
+        "y0": 419.0,
+        "x1": 548.8800048828125,
+        "y1": 432.0,
+        "width": 13.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 535.8800048828125,
+        "y": 419.0
+      },
+      "center": {
+        "x": 542.3800048828125,
+        "y": 425.5
+      },
+      "top_left_pct": {
+        "x": 92.11358565170262,
+        "y": 52.90404040404041
+      },
+      "center_pct": {
+        "x": 93.23088486287023,
+        "y": 53.72474747474747
+      },
+      "size_pct": {
+        "w": 2.234598422335241,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Did the Life Assured undergo any surgery? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.8800048828125,
+        "y0": 443.0,
+        "x1": 529.8800048828125,
+        "y1": 461.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 511.8800048828125,
+        "y": 443.0
+      },
+      "center": {
+        "x": 520.8800048828125,
+        "y": 452.0
+      },
+      "top_left_pct": {
+        "x": 87.98817317969909,
+        "y": 55.93434343434344
+      },
+      "center_pct": {
+        "x": 89.53520285670041,
+        "y": 57.07070707070707
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Did the Life Assured undergo any surgery? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 533.8800048828125,
+        "y0": 443.0,
+        "x1": 551.8800048828125,
+        "y1": 461.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 533.8800048828125,
+        "y": 443.0
+      },
+      "center": {
+        "x": 542.8800048828125,
+        "y": 452.0
+      },
+      "top_left_pct": {
+        "x": 91.76980127903566,
+        "y": 55.93434343434344
+      },
+      "center_pct": {
+        "x": 93.31683095603698,
+        "y": 57.07070707070707
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Was there any other mode of treatment, other than surgery, which could be undertaken to treat the Life Assured's condition? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 513.8800048828125,
+        "y0": 571.0,
+        "x1": 531.8800048828125,
+        "y1": 589.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 513.8800048828125,
+        "y": 571.0
+      },
+      "center": {
+        "x": 522.8800048828125,
+        "y": 580.0
+      },
+      "top_left_pct": {
+        "x": 88.33195755236606,
+        "y": 72.09595959595958
+      },
+      "center_pct": {
+        "x": 89.87898722936738,
+        "y": 73.23232323232324
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Was there any other mode of treatment, other than surgery, which could be undertaken to treat the Life Assured's condition? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 2,
+      "confidence": "",
+      "bbox": {
+        "x0": 534.8800048828125,
+        "y0": 571.0,
+        "x1": 552.8800048828125,
+        "y1": 589.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 534.8800048828125,
+        "y": 571.0
+      },
+      "center": {
+        "x": 543.8800048828125,
+        "y": 580.0
+      },
+      "top_left_pct": {
+        "x": 91.94169346536913,
+        "y": 72.09595959595958
+      },
+      "center_pct": {
+        "x": 93.48872314237046,
+        "y": 73.23232323232324
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Has the Life Assured underwent other mode of treatment? If \"Yes\", please state date of treatment (ddmmyyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 251.8800048828125,
+        "y0": 90.0,
+        "x1": 348.8800048828125,
+        "y1": 103.0,
+        "width": 97.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 251.8800048828125,
+        "y": 90.0
+      },
+      "center": {
+        "x": 300.3800048828125,
+        "y": 96.5
+      },
+      "top_left_pct": {
+        "x": 43.296204732994276,
+        "y": 11.363636363636363
+      },
+      "center_pct": {
+        "x": 51.632975770168066,
+        "y": 12.184343434343434
+      },
+      "size_pct": {
+        "w": 16.673542074347566,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Has the Life Assured underwent other mode of treatment? If \"No\", please state why not",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 66.87999725341797,
+        "y0": 119.0,
+        "x1": 557.8800048828125,
+        "y1": 152.0,
+        "width": 491.00000762939453,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 66.87999725341797,
+        "y": 119.0
+      },
+      "center": {
+        "x": 312.38000106811523,
+        "y": 135.5
+      },
+      "top_left_pct": {
+        "x": 11.496148949867157,
+        "y": 15.025252525252524
+      },
+      "center_pct": {
+        "x": 53.69568135045317,
+        "y": 17.108585858585858
+      },
+      "size_pct": {
+        "w": 84.39906480117202,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "What other forms of treatment did the Life Assured undergo (eg chemotherapy, radiotherapy etc)?",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 47.880001068115234,
+        "y0": 199.0,
+        "x1": 552.8800048828125,
+        "y1": 232.0,
+        "width": 505.00000381469727,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 47.880001068115234,
+        "y": 199.0
+      },
+      "center": {
+        "x": 300.38000297546387,
+        "y": 215.5
+      },
+      "top_left_pct": {
+        "x": 8.23019806524769,
+        "y": 25.126262626262623
+      },
+      "center_pct": {
+        "x": 51.632975442309736,
+        "y": 27.209595959595962
+      },
+      "size_pct": {
+        "w": 86.80555475412409,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "If diagnosis is leukaemia, please provide the type of leukaemia",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 46.880001068115234,
+        "y0": 281.0,
+        "x1": 552.8800048828125,
+        "y1": 314.0,
+        "width": 506.00000381469727,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 46.880001068115234,
+        "y": 281.0
+      },
+      "center": {
+        "x": 299.88000297546387,
+        "y": 297.5
+      },
+      "top_left_pct": {
+        "x": 8.058305878914208,
+        "y": 35.47979797979798
+      },
+      "center_pct": {
+        "x": 51.54702934914299,
+        "y": 37.563131313131315
+      },
+      "size_pct": {
+        "w": 86.97744694045757,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "If the diagnosis is malignant melanoma, please give full details of size, thickness (Breslow classification) and/or depth of invasion (Clark level)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 48.880001068115234,
+        "y0": 373.0,
+        "x1": 551.8800048828125,
+        "y1": 406.0,
+        "width": 503.00000381469727,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 48.880001068115234,
+        "y": 373.0
+      },
+      "center": {
+        "x": 300.38000297546387,
+        "y": 389.5
+      },
+      "top_left_pct": {
+        "x": 8.40209025158117,
+        "y": 47.0959595959596
+      },
+      "center_pct": {
+        "x": 51.632975442309736,
+        "y": 49.17929292929293
+      },
+      "size_pct": {
+        "w": 86.46177038145713,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "Is the diagnosis related to Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? If \"Yes\", please provide the date of diagnosis for HIV / AIDS (ddmmyyyy)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 302.8800048828125,
+        "y0": 468.0,
+        "x1": 399.8800048828125,
+        "y1": 481.0,
+        "width": 97.0,
+        "height": 13.0
+      },
+      "top_left": {
+        "x": 302.8800048828125,
+        "y": 468.0
+      },
+      "center": {
+        "x": 351.3800048828125,
+        "y": 474.5
+      },
+      "top_left_pct": {
+        "x": 52.062706236001766,
+        "y": 59.09090909090909
+      },
+      "center_pct": {
+        "x": 60.39947727317554,
+        "y": 59.911616161616166
+      },
+      "size_pct": {
+        "w": 16.673542074347566,
+        "h": 1.6414141414141417
+      }
+    },
+    {
+      "field_name": "Please describe the Life Assured's mental and cognitive abilities",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 64.87999725341797,
+        "y0": 515.0,
+        "x1": 557.8800048828125,
+        "y1": 548.0,
+        "width": 493.00000762939453,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 64.87999725341797,
+        "y": 515.0
+      },
+      "center": {
+        "x": 311.38000106811523,
+        "y": 531.5
+      },
+      "top_left_pct": {
+        "x": 11.152364577200197,
+        "y": 65.02525252525253
+      },
+      "center_pct": {
+        "x": 53.523789164119684,
+        "y": 67.10858585858585
+      },
+      "size_pct": {
+        "w": 84.74284917383899,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "date of completed form",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 44.880001068115234,
+        "y0": 682.0,
+        "x1": 144.8800048828125,
+        "y1": 698.0,
+        "width": 100.00000381469727,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 44.880001068115234,
+        "y": 682.0
+      },
+      "center": {
+        "x": 94.88000297546387,
+        "y": 690.0
+      },
+      "top_left_pct": {
+        "x": 7.714521506247249,
+        "y": 86.11111111111111
+      },
+      "center_pct": {
+        "x": 16.309131150779578,
+        "y": 87.12121212121212
+      },
+      "size_pct": {
+        "w": 17.18921928906466,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Has the Life Assured underwent other mode of treatment? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 511.8800048828125,
+        "y0": 54.0,
+        "x1": 529.8800048828125,
+        "y1": 72.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 511.8800048828125,
+        "y": 54.0
+      },
+      "center": {
+        "x": 520.8800048828125,
+        "y": 63.0
+      },
+      "top_left_pct": {
+        "x": 87.98817317969909,
+        "y": 6.8181818181818175
+      },
+      "center_pct": {
+        "x": 89.53520285670041,
+        "y": 7.954545454545454
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Has the Life Assured underwent other mode of treatment? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 533.8800048828125,
+        "y0": 54.0,
+        "x1": 551.8800048828125,
+        "y1": 72.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 533.8800048828125,
+        "y": 54.0
+      },
+      "center": {
+        "x": 542.8800048828125,
+        "y": 63.0
+      },
+      "top_left_pct": {
+        "x": 91.76980127903566,
+        "y": 6.8181818181818175
+      },
+      "center_pct": {
+        "x": 93.31683095603698,
+        "y": 7.954545454545454
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Is the diagnosis related to Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 509.8800048828125,
+        "y0": 434.0,
+        "x1": 527.8800048828125,
+        "y1": 452.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 509.8800048828125,
+        "y": 434.0
+      },
+      "center": {
+        "x": 518.8800048828125,
+        "y": 443.0
+      },
+      "top_left_pct": {
+        "x": 87.64438880703213,
+        "y": 54.7979797979798
+      },
+      "center_pct": {
+        "x": 89.19141848403346,
+        "y": 55.93434343434344
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Is the diagnosis related to Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 532.8800048828125,
+        "y0": 434.0,
+        "x1": 550.8800048828125,
+        "y1": 452.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 532.8800048828125,
+        "y": 434.0
+      },
+      "center": {
+        "x": 541.8800048828125,
+        "y": 443.0
+      },
+      "top_left_pct": {
+        "x": 91.59790909270218,
+        "y": 54.7979797979798
+      },
+      "center_pct": {
+        "x": 93.1449387697035,
+        "y": 55.93434343434344
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Is the Life Assured mentally incapacitated in accordance to the Mental Capacity Act (Chapter 177A of Singapore)? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 508.8800048828125,
+        "y0": 566.0,
+        "x1": 526.8800048828125,
+        "y1": 584.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 508.8800048828125,
+        "y": 566.0
+      },
+      "center": {
+        "x": 517.8800048828125,
+        "y": 575.0
+      },
+      "top_left_pct": {
+        "x": 87.47249662069866,
+        "y": 71.46464646464646
+      },
+      "center_pct": {
+        "x": 89.01952629769998,
+        "y": 72.6010101010101
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Is the Life Assured mentally incapacitated in accordance to the Mental Capacity Act (Chapter 177A of Singapore)? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 3,
+      "confidence": "",
+      "bbox": {
+        "x0": 531.8800048828125,
+        "y0": 566.0,
+        "x1": 549.8800048828125,
+        "y1": 584.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 531.8800048828125,
+        "y": 566.0
+      },
+      "center": {
+        "x": 540.8800048828125,
+        "y": 575.0
+      },
+      "top_left_pct": {
+        "x": 91.4260169063687,
+        "y": 71.46464646464646
+      },
+      "center_pct": {
+        "x": 92.97304658337002,
+        "y": 72.6010101010101
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state medical condition (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 50.880001068115234,
+        "y0": 114.0,
+        "x1": 197.8800048828125,
+        "y1": 134.0,
+        "width": 147.00000381469727,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 50.880001068115234,
+        "y": 114.0
+      },
+      "center": {
+        "x": 124.38000297546387,
+        "y": 124.0
+      },
+      "top_left_pct": {
+        "x": 8.74587462424813,
+        "y": 14.393939393939394
+      },
+      "center_pct": {
+        "x": 21.379950647617243,
+        "y": 15.656565656565657
+      },
+      "size_pct": {
+        "w": 25.268152046738223,
+        "h": 2.525252525252525
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 203.8800048828125,
+        "y0": 116.0,
+        "x1": 293.8800048828125,
+        "y1": 132.0,
+        "width": 90.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 203.8800048828125,
+        "y": 116.0
+      },
+      "center": {
+        "x": 248.8800048828125,
+        "y": 124.0
+      },
+      "top_left_pct": {
+        "x": 35.04537978898723,
+        "y": 14.646464646464647
+      },
+      "center_pct": {
+        "x": 42.78052817399384,
+        "y": 15.656565656565657
+      },
+      "size_pct": {
+        "w": 15.470296770013206,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 295.8800048828125,
+        "y0": 115.0,
+        "x1": 552.8800048828125,
+        "y1": 135.0,
+        "width": 257.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 295.8800048828125,
+        "y": 115.0
+      },
+      "center": {
+        "x": 424.3800048828125,
+        "y": 125.0
+      },
+      "top_left_pct": {
+        "x": 50.8594609316674,
+        "y": 14.520202020202019
+      },
+      "center_pct": {
+        "x": 72.94760687551958,
+        "y": 15.782828282828282
+      },
+      "size_pct": {
+        "w": 44.17629188770438,
+        "h": 2.525252525252525
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state medical condition (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 51.880001068115234,
+        "y0": 139.0,
+        "x1": 198.8800048828125,
+        "y1": 159.0,
+        "width": 147.00000381469727,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 51.880001068115234,
+        "y": 139.0
+      },
+      "center": {
+        "x": 125.38000297546387,
+        "y": 149.0
+      },
+      "top_left_pct": {
+        "x": 8.91776681058161,
+        "y": 17.55050505050505
+      },
+      "center_pct": {
+        "x": 21.551842833950722,
+        "y": 18.81313131313131
+      },
+      "size_pct": {
+        "w": 25.268152046738223,
+        "h": 2.525252525252525
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 202.8800048828125,
+        "y0": 141.0,
+        "x1": 292.8800048828125,
+        "y1": 157.0,
+        "width": 90.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 202.8800048828125,
+        "y": 141.0
+      },
+      "center": {
+        "x": 247.8800048828125,
+        "y": 149.0
+      },
+      "top_left_pct": {
+        "x": 34.87348760265375,
+        "y": 17.803030303030305
+      },
+      "center_pct": {
+        "x": 42.60863598766036,
+        "y": 18.81313131313131
+      },
+      "size_pct": {
+        "w": 15.470296770013206,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 297.8800048828125,
+        "y0": 139.0,
+        "x1": 552.8800048828125,
+        "y1": 159.0,
+        "width": 255.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 297.8800048828125,
+        "y": 139.0
+      },
+      "center": {
+        "x": 425.3800048828125,
+        "y": 149.0
+      },
+      "top_left_pct": {
+        "x": 51.20324530433437,
+        "y": 17.55050505050505
+      },
+      "center_pct": {
+        "x": 73.11949906185306,
+        "y": 18.81313131313131
+      },
+      "size_pct": {
+        "w": 43.83250751503741,
+        "h": 2.525252525252525
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state medical condition (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 51.880001068115234,
+        "y0": 161.0,
+        "x1": 198.8800048828125,
+        "y1": 181.0,
+        "width": 147.00000381469727,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 51.880001068115234,
+        "y": 161.0
+      },
+      "center": {
+        "x": 125.38000297546387,
+        "y": 171.0
+      },
+      "top_left_pct": {
+        "x": 8.91776681058161,
+        "y": 20.32828282828283
+      },
+      "center_pct": {
+        "x": 21.551842833950722,
+        "y": 21.59090909090909
+      },
+      "size_pct": {
+        "w": 25.268152046738223,
+        "h": 2.525252525252525
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state name & address of treating doctor (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 298.8800048828125,
+        "y0": 161.0,
+        "x1": 553.8800048828125,
+        "y1": 181.0,
+        "width": 255.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 298.8800048828125,
+        "y": 161.0
+      },
+      "center": {
+        "x": 426.3800048828125,
+        "y": 171.0
+      },
+      "top_left_pct": {
+        "x": 51.375137490667846,
+        "y": 20.32828282828283
+      },
+      "center_pct": {
+        "x": 73.29139124818656,
+        "y": 21.59090909090909
+      },
+      "size_pct": {
+        "w": 43.83250751503741,
+        "h": 2.525252525252525
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? If \"YES\", please state date of diagnosis (dd/mm/yyyy) (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 202.8800048828125,
+        "y0": 163.0,
+        "x1": 292.8800048828125,
+        "y1": 179.0,
+        "width": 90.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 202.8800048828125,
+        "y": 163.0
+      },
+      "center": {
+        "x": 247.8800048828125,
+        "y": 171.0
+      },
+      "top_left_pct": {
+        "x": 34.87348760265375,
+        "y": 20.58080808080808
+      },
+      "center_pct": {
+        "x": 42.60863598766036,
+        "y": 21.59090909090909
+      },
+      "size_pct": {
+        "w": 15.470296770013206,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? If \"Yes\", please provide details of the nature of condition (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 146.8800048828125,
+        "y0": 257.0,
+        "x1": 464.8800048828125,
+        "y1": 277.0,
+        "width": 318.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 146.8800048828125,
+        "y": 257.0
+      },
+      "center": {
+        "x": 305.8800048828125,
+        "y": 267.0
+      },
+      "top_left_pct": {
+        "x": 25.247525167978868,
+        "y": 32.44949494949495
+      },
+      "center_pct": {
+        "x": 52.5783827950022,
+        "y": 33.71212121212121
+      },
+      "size_pct": {
+        "w": 54.66171525404666,
+        "h": 2.525252525252525
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? If \"Yes\", please provide details including relationship to the Life Assured (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 50.880001068115234,
+        "y0": 259.0,
+        "x1": 140.8800048828125,
+        "y1": 275.0,
+        "width": 90.00000381469727,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 50.880001068115234,
+        "y": 259.0
+      },
+      "center": {
+        "x": 95.88000297546387,
+        "y": 267.0
+      },
+      "top_left_pct": {
+        "x": 8.74587462424813,
+        "y": 32.70202020202021
+      },
+      "center_pct": {
+        "x": 16.48102333711306,
+        "y": 33.71212121212121
+      },
+      "size_pct": {
+        "w": 15.470297425729859,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? If \"Yes\", please provide details of the age of onset (1)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 470.8800048828125,
+        "y0": 259.0,
+        "x1": 551.8800048828125,
+        "y1": 275.0,
+        "width": 81.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 470.8800048828125,
+        "y": 259.0
+      },
+      "center": {
+        "x": 511.3800048828125,
+        "y": 267.0
+      },
+      "top_left_pct": {
+        "x": 80.94059354002641,
+        "y": 32.70202020202021
+      },
+      "center_pct": {
+        "x": 87.90222708653236,
+        "y": 33.71212121212121
+      },
+      "size_pct": {
+        "w": 13.923267093011887,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? If \"Yes\", please provide details of the nature of condition (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 147.8800048828125,
+        "y0": 281.0,
+        "x1": 465.8800048828125,
+        "y1": 301.0,
+        "width": 318.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 147.8800048828125,
+        "y": 281.0
+      },
+      "center": {
+        "x": 306.8800048828125,
+        "y": 291.0
+      },
+      "top_left_pct": {
+        "x": 25.41941735431235,
+        "y": 35.47979797979798
+      },
+      "center_pct": {
+        "x": 52.75027498133568,
+        "y": 36.74242424242424
+      },
+      "size_pct": {
+        "w": 54.66171525404666,
+        "h": 2.525252525252525
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? If \"Yes\", please provide details including relationship to the Life Assured (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 50.880001068115234,
+        "y0": 284.0,
+        "x1": 140.8800048828125,
+        "y1": 300.0,
+        "width": 90.00000381469727,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 50.880001068115234,
+        "y": 284.0
+      },
+      "center": {
+        "x": 95.88000297546387,
+        "y": 292.0
+      },
+      "top_left_pct": {
+        "x": 8.74587462424813,
+        "y": 35.858585858585855
+      },
+      "center_pct": {
+        "x": 16.48102333711306,
+        "y": 36.868686868686865
+      },
+      "size_pct": {
+        "w": 15.470297425729859,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? If \"Yes\", please provide details of the age of onset (2)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 470.8800048828125,
+        "y0": 283.0,
+        "x1": 551.8800048828125,
+        "y1": 299.0,
+        "width": 81.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 470.8800048828125,
+        "y": 283.0
+      },
+      "center": {
+        "x": 511.3800048828125,
+        "y": 291.0
+      },
+      "top_left_pct": {
+        "x": 80.94059354002641,
+        "y": 35.73232323232323
+      },
+      "center_pct": {
+        "x": 87.90222708653236,
+        "y": 36.74242424242424
+      },
+      "size_pct": {
+        "w": 13.923267093011887,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? If \"Yes\", please provide details including relationship to the Life Assured (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 50.880001068115234,
+        "y0": 305.0,
+        "x1": 140.8800048828125,
+        "y1": 321.0,
+        "width": 90.00000381469727,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 50.880001068115234,
+        "y": 305.0
+      },
+      "center": {
+        "x": 95.88000297546387,
+        "y": 313.0
+      },
+      "top_left_pct": {
+        "x": 8.74587462424813,
+        "y": 38.51010101010101
+      },
+      "center_pct": {
+        "x": 16.48102333711306,
+        "y": 39.52020202020202
+      },
+      "size_pct": {
+        "w": 15.470297425729859,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? If \"Yes\", please provide details of the nature of condition (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 147.8800048828125,
+        "y0": 305.0,
+        "x1": 465.8800048828125,
+        "y1": 325.0,
+        "width": 318.0,
+        "height": 20.0
+      },
+      "top_left": {
+        "x": 147.8800048828125,
+        "y": 305.0
+      },
+      "center": {
+        "x": 306.8800048828125,
+        "y": 315.0
+      },
+      "top_left_pct": {
+        "x": 25.41941735431235,
+        "y": 38.51010101010101
+      },
+      "center_pct": {
+        "x": 52.75027498133568,
+        "y": 39.77272727272727
+      },
+      "size_pct": {
+        "w": 54.66171525404666,
+        "h": 2.525252525252525
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? If \"Yes\", please provide details of the age of onset (3)",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 470.8800048828125,
+        "y0": 306.0,
+        "x1": 551.8800048828125,
+        "y1": 322.0,
+        "width": 81.0,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 470.8800048828125,
+        "y": 306.0
+      },
+      "center": {
+        "x": 511.3800048828125,
+        "y": 314.0
+      },
+      "top_left_pct": {
+        "x": 80.94059354002641,
+        "y": 38.63636363636363
+      },
+      "center_pct": {
+        "x": 87.90222708653236,
+        "y": 39.64646464646464
+      },
+      "size_pct": {
+        "w": 13.923267093011887,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Please give details of the Life Assured's habits in relation to cigarette smoking, including the duration of smoking habit, number of cigarettes smoked per day and source of information",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 51.880001068115234,
+        "y0": 373.0,
+        "x1": 554.8800048828125,
+        "y1": 406.0,
+        "width": 503.00000381469727,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 51.880001068115234,
+        "y": 373.0
+      },
+      "center": {
+        "x": 303.38000297546387,
+        "y": 389.5
+      },
+      "top_left_pct": {
+        "x": 8.91776681058161,
+        "y": 47.0959595959596
+      },
+      "center_pct": {
+        "x": 52.14865200131017,
+        "y": 49.17929292929293
+      },
+      "size_pct": {
+        "w": 86.46177038145713,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "Please give details of the Life Assured's habit in relation to alcohol consumption including the amount of alcohol consumption per day and source of information",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 53.880001068115234,
+        "y0": 467.0,
+        "x1": 555.8800048828125,
+        "y1": 500.0,
+        "width": 502.00000381469727,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 53.880001068115234,
+        "y": 467.0
+      },
+      "center": {
+        "x": 304.88000297546387,
+        "y": 483.5
+      },
+      "top_left_pct": {
+        "x": 9.261551183248569,
+        "y": 58.964646464646464
+      },
+      "center_pct": {
+        "x": 52.40649028081039,
+        "y": 61.0479797979798
+      },
+      "size_pct": {
+        "w": 86.28987819512365,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "Please provide any other information which may be of assistance to us in assessing this claim",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 50.880001068115234,
+        "y0": 546.0,
+        "x1": 551.8800048828125,
+        "y1": 579.0,
+        "width": 501.00000381469727,
+        "height": 33.0
+      },
+      "top_left": {
+        "x": 50.880001068115234,
+        "y": 546.0
+      },
+      "center": {
+        "x": 301.38000297546387,
+        "y": 562.5
+      },
+      "top_left_pct": {
+        "x": 8.74587462424813,
+        "y": 68.93939393939394
+      },
+      "center_pct": {
+        "x": 51.804867628643215,
+        "y": 71.02272727272727
+      },
+      "size_pct": {
+        "w": 86.11798600879017,
+        "h": 4.166666666666666
+      }
+    },
+    {
+      "field_name": "date of completed form",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 46.880001068115234,
+        "y0": 679.0,
+        "x1": 146.8800048828125,
+        "y1": 695.0,
+        "width": 100.00000381469727,
+        "height": 16.0
+      },
+      "top_left": {
+        "x": 46.880001068115234,
+        "y": 679.0
+      },
+      "center": {
+        "x": 96.88000297546387,
+        "y": 687.0
+      },
+      "top_left_pct": {
+        "x": 8.058305878914208,
+        "y": 85.73232323232324
+      },
+      "center_pct": {
+        "x": 16.65291552344654,
+        "y": 86.74242424242425
+      },
+      "size_pct": {
+        "w": 17.18921928906466,
+        "h": 2.0202020202020203
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 509.8800048828125,
+        "y0": 53.0,
+        "x1": 527.8800048828125,
+        "y1": 71.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 509.8800048828125,
+        "y": 53.0
+      },
+      "center": {
+        "x": 518.8800048828125,
+        "y": 62.0
+      },
+      "top_left_pct": {
+        "x": 87.64438880703213,
+        "y": 6.691919191919192
+      },
+      "center_pct": {
+        "x": 89.19141848403346,
+        "y": 7.828282828282829
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any other medical conditions? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 532.8800048828125,
+        "y0": 53.0,
+        "x1": 550.8800048828125,
+        "y1": 71.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 532.8800048828125,
+        "y": 53.0
+      },
+      "center": {
+        "x": 541.8800048828125,
+        "y": 62.0
+      },
+      "top_left_pct": {
+        "x": 91.59790909270218,
+        "y": 6.691919191919192
+      },
+      "center_pct": {
+        "x": 93.1449387697035,
+        "y": 7.828282828282829
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? Yes",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 509.8800048828125,
+        "y0": 196.0,
+        "x1": 527.8800048828125,
+        "y1": 214.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 509.8800048828125,
+        "y": 196.0
+      },
+      "center": {
+        "x": 518.8800048828125,
+        "y": 205.0
+      },
+      "top_left_pct": {
+        "x": 87.64438880703213,
+        "y": 24.747474747474747
+      },
+      "center_pct": {
+        "x": 89.19141848403346,
+        "y": 25.88383838383838
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    },
+    {
+      "field_name": "Does the Life Assured have any family history? No",
+      "field_value": "",
+      "field_type": "text",
+      "page": 4,
+      "confidence": "",
+      "bbox": {
+        "x0": 534.8800048828125,
+        "y0": 196.0,
+        "x1": 552.8800048828125,
+        "y1": 214.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "top_left": {
+        "x": 534.8800048828125,
+        "y": 196.0
+      },
+      "center": {
+        "x": 543.8800048828125,
+        "y": 205.0
+      },
+      "top_left_pct": {
+        "x": 91.94169346536913,
+        "y": 24.747474747474747
+      },
+      "center_pct": {
+        "x": 93.48872314237046,
+        "y": 25.88383838383838
+      },
+      "size_pct": {
+        "w": 3.0940593540026415,
+        "h": 2.272727272727273
+      }
+    }
+  ]
+}

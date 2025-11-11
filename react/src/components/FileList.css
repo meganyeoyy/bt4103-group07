@@ -1,0 +1,49 @@
+.fileList {
+  width: 100%;
+}
+.fileRow {
+  width: 100%;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+  text-align: left;
+}
+.fileRow .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand);
+  display: inline-block;
+}
+.fileRow .tag {
+  margin-left: auto;
+  border: 1px solid var(--border);
+  padding: 2px 6px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: var(--chip);
+}
+.fileRow .tag.PDF {
+  background: #fff7ed;
+  border-color: #fed7aa;
+}
+.fileRow .tag.CSV {
+  background: #ecfeff;
+  border-color: #a5f3fc;
+}
+.fileRow .x {
+  margin-left: 8px;
+  color: var(--muted);
+}
+.fileRow.active {
+  outline: 2px solid var(--brand);
+}
+.empty {
+  padding: 8px 0;
+}

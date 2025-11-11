@@ -1,0 +1,53 @@
+.header {
+  padding: 16px 18px;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.title span {
+  font-weight: 600;
+}
+
+.subtitle {
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.rightGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 12px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: #0f172a;
+}
+.pill.neutral {
+  background: #f1f5f9;
+  border-color: #bae6fd;
+  color: #0c4a6e;
+}

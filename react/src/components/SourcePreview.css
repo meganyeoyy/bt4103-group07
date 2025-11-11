@@ -1,0 +1,43 @@
+.sourceBox {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* ensures entire card height (820px) is used */
+}
+
+.sourceBox .title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-align: center;
+  flex-shrink: 0; /* keeps title visible */
+}
+
+/* FIXED: remove height:100%, keep only flex:1 */
+.preview {
+  flex: 1; /* let it fill remaining space naturally */
+  background: #f8fafc;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.srcPdf {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.fileName {
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.placeholder {
+  color: var(--muted);
+}

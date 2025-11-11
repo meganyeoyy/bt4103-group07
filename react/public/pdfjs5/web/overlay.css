@@ -1,0 +1,39 @@
+.pdf-hud-layer {
+  position: absolute;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.pdf-hud-chip {
+  position: absolute;
+  transform: translate(-100%, 0) scale(var(--pdf-scale, 1));
+  transform-origin: right center;
+  pointer-events: none;
+
+  font: 5px/1.2 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-weight: 700;
+  white-space: nowrap;
+
+  padding: 2px 6px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.pdf-hud-chip.missing {
+  color: #7f1d1d;
+  background: #fee2e280;
+  border-color: #fecaca;
+}
+.pdf-hud-chip.low {
+  color: #7c2d12;
+  background: #fef3c785;
+  border-color: #fde68a;
+}
+
+@media print {
+  .pdf-hud-layer,
+  .pdf-hud-chip {
+    display: none !important;
+  }
+}
