@@ -1,0 +1,52 @@
+FIELD JSON WITH INLINE META (guidance in comments — DO NOT return comments):
+
+{
+"Tumour caused by HIV or AIDS?": {
+    "value": "",           # Allowed: "Yes" / "No" / "" (unknown)
+    "confidence": 0.0
+},
+"HIV antibody status": {
+    "value": "",           # Only if previous == "Yes"; leave blank if "No" or unknown
+    "confidence": 0.0
+},
+"HIV/AIDS diagnosis date (dd/mm/yyyy)": {
+    "value": "",           # Only if previous == "Yes"; keep original date format
+    "confidence": 0.0
+},
+"Any other significant health conditions": {
+    "value": "",           # Allowed: "Yes" / "No" / "" (unknown)
+    "confidence": 0.0
+},
+"Details of other health conditions (rows 0..3)": [
+    # Rules:
+    # - If no health conditions → return []
+    # - If conditions exist → return 1..3 row objects (as many as are clearly present, capped at 3)
+    {
+        "Diagnosis": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Name of doctor": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Name/address of clinic/hospital": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Date of diagnosis (dd/mm/yyyy)": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Duration of condition": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Treatment received": {
+            "value": "",
+            "confidence": 0.0
+        }
+    }
+    # Add a second/third object ONLY if multiple conditions are clearly present
+]
+}

@@ -1,0 +1,66 @@
+FIELD JSON WITH INLINE META (guidance in comments — DO NOT return comments):
+
+{
+    "Actual diagnosis": {
+        "value": "",                // State the final medical diagnosis from the diagnosis summary
+        "confidence": 0.0
+    },
+    "Date when insured first became aware of this illness (ddmmyyyy)": {
+        "value": "",                // Date patient was first aware of the illness.
+        "confidence": 0.0
+    },
+
+    "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse?": {
+        "value": "",                // Allowed: "Yes" / "No" / "" (unknown)
+        "confidence": 0.0
+    },
+
+    "If illness caused directly or indirectly by alcohol or drug abuse, please give details": {
+        "value": "",                // Only if previous == "Yes"; include details
+        "confidence": 0.0
+    },
+    "What is the staging of the tumour?": {
+        "value": "",                // e.g., Stage II, Stage IV.
+        "confidence": 0.0
+    },
+    "Please state the tumour classification (eg TMN classification etc)": {
+        "value": "",                // Extract the TNM code (e.g., "pT2NO", "T1cN0M0").
+        "confidence": 0.0
+    },
+    "Was the cancer completely localised?": {
+        "value": "",               //"Yes" if staging is N0 AND M0. "No" if N is 1+ OR M is 1+.
+        "confidence": 0.0
+    },
+    "Was there invasion of tissues?": {
+        "value":"",                // "Yes" if staging is T4
+        "confidence": 0.0
+    },
+    "Were regional lymph nodes involved?": {
+        "value": "",                // "N0" means "No". "N1" or "N2" means "Yes".
+        "confidence": 0.0
+    },
+    "Were there distant metastases?": {
+        "value": ""                // Allowed: "Yes" / "No" / "" (unknown)
+        "confidence": 0.0
+    },
+    "Did the Life Assured undergo any surgery?": {
+        "value": "",                // Allowed: "Yes" / "No" / "" (unknown)
+        "confidence": 0.0
+    },
+    "Date of surgery (ddmmyyyy)": {
+        "value": "",                // Only if previous == "Yes"; keep original date format
+        "confidence": 0.0
+    },
+    "Surgical procedure performed": {
+        "value": "",                // If yes, name of the surgical procedure.
+        "confidence": 0.0
+    },
+    "Was there any other mode of treatment, other than surgery, which could be undertaken to treat the Life Assured’s condition?": {
+        "value": "",                // Allowed: "Yes" / "No" / "" (unknown)
+        "confidence": 0.0
+    },
+    "Type of treatment other than surgery that could be undertaken to treat condition": {
+        "value": "",               // Only if previous == "Yes";
+        "confidence": 0.0
+    }
+}

@@ -1,0 +1,360 @@
+{
+    "1": {
+        "queries": [
+            "Date when insured first consulted you for cancer (ddmmyyyy)",
+            "Symptoms presented and the date they first appeared?",
+            "Source of above information",
+            "What is the source of the above information? If Referring Doctor / Others, specify name & address",
+            "Date when Cancer was FIRST diagnosed (ddmmyyyy)",
+            "Diagnosis was first made by (name of Doctor)"
+        ],
+        "retrieved_chunks": [
+            {
+                "text": "07-Jul-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+                "score": 0.9151356816291809,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_DIAGNOSIS SUMMARY_chunk_1_22"
+            },
+            {
+                "text": "12-Sep-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+                "score": 0.9143784642219543,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_DIAGNOSIS SUMMARY_chunk_1_5"
+            },
+            {
+                "text": "07-Jul-2025, History, Examination and Investigations: ) progesterone receptor- HER2 2+ FISH pending CT-TAP 02/07/25 CONCLUSION Markedly enlarged left axillary lymph nodes , worrisome suspicious for nodal metastases . Subcentimetre nodules in the left breast of which correlation with breast imaging is suggested . No evidence of distant metastasis is detected . Incidental findings as described . Bone Scan 03/07/25 CONCLUSION No definite scan evidence of osteoblastic bone metastasis . Please note that scan sensitivity is reduced for predominantly lytic bone metastasis . Examination Wt : 53 kg ( 2025-06-17 09:36:09 ) Left breast nil significant lumps Left axilla - 5.5cm ( horizontally angles perpendicularly towards axilla ) x 4cm",
+                "score": 0.8344514966011047,
+                "date": "07-Jul-2025",
+                "chunk_number": 2,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_History, Examination and Investigations_chunk_2_16"
+            },
+            {
+                "text": "07-Jul-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+                "score": 0.7970553636550903,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_PATIENT STATUS_chunk_1_21"
+            },
+            {
+                "text": "13-Aug-2025, MANAGEMENT FOR THIS VISIT: P:",
+                "score": 0.7960758209228516,
+                "date": "13-Aug-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "13-Aug-2025_MANAGEMENT FOR THIS VISIT_chunk_1_13"
+            },
+            {
+                "text": "13-Aug-2025, General: DMO Consult Note NCC [Charted Location: NCC Clinic 12B] [Authored: 2025-08-13 10:47]- for Visit: H22509975710011, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 51.2 kg 2025-08-13 10:10:30. Height (cm): 149.6 cm 2025-08-13 10:10:30. CLINICAL NOTES: Visit/Appointment Date: 2025-08-13",
+                "score": 0.8666104674339294,
+                "date": "13-Aug-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "13-Aug-2025_General_chunk_1_7"
+            },
+            {
+                "text": "07-Jul-2025, General: DMO Consult Note NCC [Charted Location: NCC Clinic 13C] [Authored: 2025-07-07 14:12]- for Visit: H22509975710001, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 53.2 kg 2025-07-07 11:38:44. Height (cm): 147.4 cm 2025-07-07 11:38:44. CLINICAL NOTES: Visit/Anpointment Date: 2025-07-07",
+                "score": 0.8644368648529053,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_General_chunk_1_14"
+            },
+            {
+                "text": "13-Aug-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+                "score": 0.9010815024375916,
+                "date": "13-Aug-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "13-Aug-2025_DIAGNOSIS SUMMARY_chunk_1_12"
+            }
+        ],
+        "aggregated_text": "07-Jul-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending\n\n12-Sep-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending\n\n07-Jul-2025, History, Examination and Investigations: ) progesterone receptor- HER2 2+ FISH pending CT-TAP 02/07/25 CONCLUSION Markedly enlarged left axillary lymph nodes , worrisome suspicious for nodal metastases . Subcentimetre nodules in the left breast of which correlation with breast imaging is suggested . No evidence of distant metastasis is detected . Incidental findings as described . Bone Scan 03/07/25 CONCLUSION No definite scan evidence of osteoblastic bone metastasis . Please note that scan sensitivity is reduced for predominantly lytic bone metastasis . Examination Wt : 53 kg ( 2025-06-17 09:36:09 ) Left breast nil significant lumps Left axilla - 5.5cm ( horizontally angles perpendicularly towards axilla ) x 4cm\n\n07-Jul-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.\n\n13-Aug-2025, MANAGEMENT FOR THIS VISIT: P:\n\n13-Aug-2025, General: DMO Consult Note NCC [Charted Location: NCC Clinic 12B] [Authored: 2025-08-13 10:47]- for Visit: H22509975710011, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 51.2 kg 2025-08-13 10:10:30. Height (cm): 149.6 cm 2025-08-13 10:10:30. CLINICAL NOTES: Visit/Appointment Date: 2025-08-13\n\n07-Jul-2025, General: DMO Consult Note NCC [Charted Location: NCC Clinic 13C] [Authored: 2025-07-07 14:12]- for Visit: H22509975710001, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 53.2 kg 2025-07-07 11:38:44. Height (cm): 147.4 cm 2025-07-07 11:38:44. CLINICAL NOTES: Visit/Anpointment Date: 2025-07-07\n\n13-Aug-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+        "chunk_count": 8
+    },
+    "2": {
+        "queries": [
+            "Actual diagnosis",
+            "Date when insured first became aware of this illness (ddmmyyyy)",
+            "Was the illness suffered by Life Assured caused directly or indirectly by alcohol or drug abuse?",
+            "If illness caused directly or indirectly by alcohol or drug abuse, please give details",
+            "What is the staging of the tumour?",
+            "Please state the tumour classification (eg TMN classification etc)",
+            "Was the cancer completely localised?",
+            "Was there invasion of tissues?",
+            "Were regional lymph nodes involved?",
+            "Were there distant metastases?",
+            "Did the Life Assured undergo any surgery?",
+            "Date of surgery (ddmmyyyy)",
+            "Surgical procedure performed",
+            "Was there any other mode of treatment, other than surgery, which could be undertaken to treat the Life Assured\u2019s condition?",
+            "Type of treatment other than surgery that could be undertaken to treat condition"
+        ],
+        "retrieved_chunks": [
+            {
+                "text": "13-Aug-2025, MANAGEMENT FOR THIS VISIT: P:",
+                "score": 0.7714439630508423,
+                "date": "13-Aug-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "13-Aug-2025_MANAGEMENT FOR THIS VISIT_chunk_1_13"
+            },
+            {
+                "text": "07-Jul-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+                "score": 0.7602173686027527,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_DIAGNOSIS SUMMARY_chunk_1_22"
+            },
+            {
+                "text": "12-Sep-2025, General: DMO Consult Note NCC [Charted Location: NCC Clinic 13C] [Authored: 2025-09-12 09:14]- for Visit: H22509975710007, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 51.2 kg 2025-08-13 10:10:30. Height (cm): 149.6 cm 2025-08-13 10:10:30. CLINICAL NOTES: Min iti A wnnimtmaant Matas 19 Sep-2025 Lene eee Sees. --",
+                "score": 0.8991389274597168,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_General_chunk_1_0"
+            },
+            {
+                "text": "07-Jul-2025, IMPRESSION: x 4 > Paclitaxel [ add on dual HER2 if HER2 FISH+ ] . Discussed about toxicities of Doxorubicin/Cyclophosphamide , including but not limited to nausea , vomiting , diarrhoea , neutropenia , thrombocytopenia , anaemia , cardiotoxicity and heart failure , alopecia , allergic reaction , haemorrhagic cystitis and gonadal suppression resulting in amenorrhoea . Discussed about Paclitaxel scheduling and associated side effects as per BC Cancer Agency monograph . Side effects include the following but not limited to : Anaemia , Febrile neutropenia , Leukopenia , cardiovascular events , bradycardia and other arrythmias , intestinal obstruction , nausea and vomiting , hypersensitivity reactions , peripheral neuropathy , alopeica and arthralgia/myalgias . Discussed about Phesgo , Pertuzumab and Herceptin scheduling and associated side effects as per BC Cancer Agency monograph . Side effects include the following but not limited to : cardiotoxicity , diarrhoea , nausea , vomiting , hypersensitivity reactions , fatigue and rash . Patient agreeable to proceed with recommended treatment . Consent form signed .",
+                "score": 0.8611550331115723,
+                "date": "07-Jul-2025",
+                "chunk_number": 2,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_IMPRESSION_chunk_2_19"
+            },
+            {
+                "text": "07-Jul-2025, History, Examination and Investigations: ) progesterone receptor- HER2 2+ FISH pending CT-TAP 02/07/25 CONCLUSION Markedly enlarged left axillary lymph nodes , worrisome suspicious for nodal metastases . Subcentimetre nodules in the left breast of which correlation with breast imaging is suggested . No evidence of distant metastasis is detected . Incidental findings as described . Bone Scan 03/07/25 CONCLUSION No definite scan evidence of osteoblastic bone metastasis . Please note that scan sensitivity is reduced for predominantly lytic bone metastasis . Examination Wt : 53 kg ( 2025-06-17 09:36:09 ) Left breast nil significant lumps Left axilla - 5.5cm ( horizontally angles perpendicularly towards axilla ) x 4cm",
+                "score": 0.8456906676292419,
+                "date": "07-Jul-2025",
+                "chunk_number": 2,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_History, Examination and Investigations_chunk_2_16"
+            },
+            {
+                "text": "13-Aug-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+                "score": 0.8708788156509399,
+                "date": "13-Aug-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "13-Aug-2025_PATIENT STATUS_chunk_1_11"
+            },
+            {
+                "text": "12-Sep-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+                "score": 0.8696886897087097,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_PATIENT STATUS_chunk_1_4"
+            },
+            {
+                "text": "07-Jul-2025, IMPRESSION: Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH pending - CT1 ( radiologically < icm ) N+ ( Bx proven , large 3.9cm ) - for consideration of neoadjuvant treatment Communication Explained that based on available information patient has newly diagnosed Locally advanced Left Breast Cancer . Node positivity also proven on biopsy and axillary LN rather sizeable . Will recommend neoadjuvant chemotherapy for her . 2025-10-16 16:29 If HER2 FISH positive - will need to add on anti HER2 therapy . In this situation , neoadjuvant chemotherapy+HER2 targeted therapy allows for early systemic control as well as allows for downsizing/downstaging of disease . It allows us to test disease biology as well and depending on whether patient achieves pathCR or not , we may be able to escalate adjuvant treatment accordingly . It also allows for increased breast conservation . If HER2 FISH negative - will proceed with chemotherapy alone in neoadjuvant setting In this situation , given HR+ HER2- and post-menopausal status , there could be an utility of genomic tests if she has not more than 3 affect lymph nodes . Genomic testing may then offer a possibility to omit chemotherapy if given in adjuvant setting . However , it is difficult to ascertain number of lymph nodes with imaging so far and given large axillary mass . Recommend to proceed with neoadjuvant chemotherapy if she is able to accept a possibility of over-treatment . In terms of treatment , will recommend for AC x 4 > Paclitaxel [ add on dual",
+                "score": 0.8154308199882507,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_IMPRESSION_chunk_1_18"
+            },
+            {
+                "text": "12-Sep-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+                "score": 0.8844460248947144,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_DIAGNOSIS SUMMARY_chunk_1_5"
+            },
+            {
+                "text": "12-Sep-2025, IMPRESSION: Tolerating Treatment Clinically Responding Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH negative - CT1 (radiologically <1cm) N+ (Bx proven, large 3.9cm) Communications Explained clinically responding - continue treatment 2025-10-16 16:29",
+                "score": 0.8407761454582214,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_IMPRESSION_chunk_1_2"
+            },
+            {
+                "text": "07-Jul-2025, MANAGEMENT FOR THIS VISIT: - Trace HER2 FISH testing Refer SCN Book and Proceed with #1 AC on 11/07/25 - Premeds: Aprepitant - For Pegfilgrastim 24 hours after chemotherapy (NCCS) TCU 3/52s on 01/08/25 - Full Blood Count, UECr, LFT OA - Prebook for #2 AC on 01/08/25 Overall Plan AC x 4 > Paclitaxel x 12 KIV HER2 therapy if HER2 FISH+",
+                "score": 0.822378933429718,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_MANAGEMENT FOR THIS VISIT_chunk_1_23"
+            }
+        ],
+        "aggregated_text": "13-Aug-2025, MANAGEMENT FOR THIS VISIT: P:\n\n07-Jul-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending\n\n12-Sep-2025, General: DMO Consult Note NCC [Charted Location: NCC Clinic 13C] [Authored: 2025-09-12 09:14]- for Visit: H22509975710007, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 51.2 kg 2025-08-13 10:10:30. Height (cm): 149.6 cm 2025-08-13 10:10:30. CLINICAL NOTES: Min iti A wnnimtmaant Matas 19 Sep-2025 Lene eee Sees. --\n\n07-Jul-2025, IMPRESSION: x 4 > Paclitaxel [ add on dual HER2 if HER2 FISH+ ] . Discussed about toxicities of Doxorubicin/Cyclophosphamide , including but not limited to nausea , vomiting , diarrhoea , neutropenia , thrombocytopenia , anaemia , cardiotoxicity and heart failure , alopecia , allergic reaction , haemorrhagic cystitis and gonadal suppression resulting in amenorrhoea . Discussed about Paclitaxel scheduling and associated side effects as per BC Cancer Agency monograph . Side effects include the following but not limited to : Anaemia , Febrile neutropenia , Leukopenia , cardiovascular events , bradycardia and other arrythmias , intestinal obstruction , nausea and vomiting , hypersensitivity reactions , peripheral neuropathy , alopeica and arthralgia/myalgias . Discussed about Phesgo , Pertuzumab and Herceptin scheduling and associated side effects as per BC Cancer Agency monograph . Side effects include the following but not limited to : cardiotoxicity , diarrhoea , nausea , vomiting , hypersensitivity reactions , fatigue and rash . Patient agreeable to proceed with recommended treatment . Consent form signed .\n\n07-Jul-2025, History, Examination and Investigations: ) progesterone receptor- HER2 2+ FISH pending CT-TAP 02/07/25 CONCLUSION Markedly enlarged left axillary lymph nodes , worrisome suspicious for nodal metastases . Subcentimetre nodules in the left breast of which correlation with breast imaging is suggested . No evidence of distant metastasis is detected . Incidental findings as described . Bone Scan 03/07/25 CONCLUSION No definite scan evidence of osteoblastic bone metastasis . Please note that scan sensitivity is reduced for predominantly lytic bone metastasis . Examination Wt : 53 kg ( 2025-06-17 09:36:09 ) Left breast nil significant lumps Left axilla - 5.5cm ( horizontally angles perpendicularly towards axilla ) x 4cm\n\n13-Aug-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.\n\n12-Sep-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.\n\n07-Jul-2025, IMPRESSION: Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH pending - CT1 ( radiologically < icm ) N+ ( Bx proven , large 3.9cm ) - for consideration of neoadjuvant treatment Communication Explained that based on available information patient has newly diagnosed Locally advanced Left Breast Cancer . Node positivity also proven on biopsy and axillary LN rather sizeable . Will recommend neoadjuvant chemotherapy for her . 2025-10-16 16:29 If HER2 FISH positive - will need to add on anti HER2 therapy . In this situation , neoadjuvant chemotherapy+HER2 targeted therapy allows for early systemic control as well as allows for downsizing/downstaging of disease . It allows us to test disease biology as well and depending on whether patient achieves pathCR or not , we may be able to escalate adjuvant treatment accordingly . It also allows for increased breast conservation . If HER2 FISH negative - will proceed with chemotherapy alone in neoadjuvant setting In this situation , given HR+ HER2- and post-menopausal status , there could be an utility of genomic tests if she has not more than 3 affect lymph nodes . Genomic testing may then offer a possibility to omit chemotherapy if given in adjuvant setting . However , it is difficult to ascertain number of lymph nodes with imaging so far and given large axillary mass . Recommend to proceed with neoadjuvant chemotherapy if she is able to accept a possibility of over-treatment . In terms of treatment , will recommend for AC x 4 > Paclitaxel [ add on dual\n\n12-Sep-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending\n\n12-Sep-2025, IMPRESSION: Tolerating Treatment Clinically Responding Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH negative - CT1 (radiologically <1cm) N+ (Bx proven, large 3.9cm) Communications Explained clinically responding - continue treatment 2025-10-16 16:29\n\n07-Jul-2025, MANAGEMENT FOR THIS VISIT: - Trace HER2 FISH testing Refer SCN Book and Proceed with #1 AC on 11/07/25 - Premeds: Aprepitant - For Pegfilgrastim 24 hours after chemotherapy (NCCS) TCU 3/52s on 01/08/25 - Full Blood Count, UECr, LFT OA - Prebook for #2 AC on 01/08/25 Overall Plan AC x 4 > Paclitaxel x 12 KIV HER2 therapy if HER2 FISH+",
+        "chunk_count": 11
+    },
+    "3": {
+        "queries": [
+            "Has the Life Assured underwent other mode of treatment?",
+            "Date of other treatment (ddmmyyyy)",
+            "Reason for no other mode of treatment",
+            "What other forms of treatment did the Life Assured undergo (eg chemotherapy, radiotherapy etc)?",
+            "If diagnosis is leukaemia, please provide the type of leukaemia",
+            "If the diagnosis is malignant melanoma, please give full details of size, thickness (Breslow classification) and/or depth of invasion (Clark level)",
+            "Is the diagnosis related to Human Immunodeficiency Virus (HIV) or Acquired Immune Deficiency Syndrome (AIDS)?",
+            "Date of diagnosis for HIV/AIDS (ddmmyyyy)",
+            "Life Assured\u2019s mental and cognitive abiliites",
+            "Is Life Assured mentally incapacitated?"
+        ],
+        "retrieved_chunks": [
+            {
+                "text": "07-Jul-2025, MANAGEMENT FOR THIS VISIT: - Trace HER2 FISH testing Refer SCN Book and Proceed with #1 AC on 11/07/25 - Premeds: Aprepitant - For Pegfilgrastim 24 hours after chemotherapy (NCCS) TCU 3/52s on 01/08/25 - Full Blood Count, UECr, LFT OA - Prebook for #2 AC on 01/08/25 Overall Plan AC x 4 > Paclitaxel x 12 KIV HER2 therapy if HER2 FISH+",
+                "score": 0.8595466613769531,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_MANAGEMENT FOR THIS VISIT_chunk_1_23"
+            },
+            {
+                "text": "12-Sep-2025, IMPRESSION: Tolerating Treatment Clinically Responding Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH negative - CT1 (radiologically <1cm) N+ (Bx proven, large 3.9cm) Communications Explained clinically responding - continue treatment 2025-10-16 16:29",
+                "score": 0.8592529892921448,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_IMPRESSION_chunk_1_2"
+            },
+            {
+                "text": "13-Aug-2025, MANAGEMENT FOR THIS VISIT: P:",
+                "score": 0.8923726081848145,
+                "date": "13-Aug-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "13-Aug-2025_MANAGEMENT FOR THIS VISIT_chunk_1_13"
+            },
+            {
+                "text": "07-Jul-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+                "score": 0.8902750611305237,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_DIAGNOSIS SUMMARY_chunk_1_22"
+            },
+            {
+                "text": "07-Jul-2025, IMPRESSION: Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH pending - CT1 ( radiologically < icm ) N+ ( Bx proven , large 3.9cm ) - for consideration of neoadjuvant treatment Communication Explained that based on available information patient has newly diagnosed Locally advanced Left Breast Cancer . Node positivity also proven on biopsy and axillary LN rather sizeable . Will recommend neoadjuvant chemotherapy for her . 2025-10-16 16:29 If HER2 FISH positive - will need to add on anti HER2 therapy . In this situation , neoadjuvant chemotherapy+HER2 targeted therapy allows for early systemic control as well as allows for downsizing/downstaging of disease . It allows us to test disease biology as well and depending on whether patient achieves pathCR or not , we may be able to escalate adjuvant treatment accordingly . It also allows for increased breast conservation . If HER2 FISH negative - will proceed with chemotherapy alone in neoadjuvant setting In this situation , given HR+ HER2- and post-menopausal status , there could be an utility of genomic tests if she has not more than 3 affect lymph nodes . Genomic testing may then offer a possibility to omit chemotherapy if given in adjuvant setting . However , it is difficult to ascertain number of lymph nodes with imaging so far and given large axillary mass . Recommend to proceed with neoadjuvant chemotherapy if she is able to accept a possibility of over-treatment . In terms of treatment , will recommend for AC x 4 > Paclitaxel [ add on dual",
+                "score": 0.8569459319114685,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_IMPRESSION_chunk_1_18"
+            },
+            {
+                "text": "07-Jul-2025, IMPRESSION: x 4 > Paclitaxel [ add on dual HER2 if HER2 FISH+ ] . Discussed about toxicities of Doxorubicin/Cyclophosphamide , including but not limited to nausea , vomiting , diarrhoea , neutropenia , thrombocytopenia , anaemia , cardiotoxicity and heart failure , alopecia , allergic reaction , haemorrhagic cystitis and gonadal suppression resulting in amenorrhoea . Discussed about Paclitaxel scheduling and associated side effects as per BC Cancer Agency monograph . Side effects include the following but not limited to : Anaemia , Febrile neutropenia , Leukopenia , cardiovascular events , bradycardia and other arrythmias , intestinal obstruction , nausea and vomiting , hypersensitivity reactions , peripheral neuropathy , alopeica and arthralgia/myalgias . Discussed about Phesgo , Pertuzumab and Herceptin scheduling and associated side effects as per BC Cancer Agency monograph . Side effects include the following but not limited to : cardiotoxicity , diarrhoea , nausea , vomiting , hypersensitivity reactions , fatigue and rash . Patient agreeable to proceed with recommended treatment . Consent form signed .",
+                "score": 0.8553501963615417,
+                "date": "07-Jul-2025",
+                "chunk_number": 2,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_IMPRESSION_chunk_2_19"
+            },
+            {
+                "text": "07-Jul-2025, History, Examination and Investigations: ) progesterone receptor- HER2 2+ FISH pending CT-TAP 02/07/25 CONCLUSION Markedly enlarged left axillary lymph nodes , worrisome suspicious for nodal metastases . Subcentimetre nodules in the left breast of which correlation with breast imaging is suggested . No evidence of distant metastasis is detected . Incidental findings as described . Bone Scan 03/07/25 CONCLUSION No definite scan evidence of osteoblastic bone metastasis . Please note that scan sensitivity is reduced for predominantly lytic bone metastasis . Examination Wt : 53 kg ( 2025-06-17 09:36:09 ) Left breast nil significant lumps Left axilla - 5.5cm ( horizontally angles perpendicularly towards axilla ) x 4cm",
+                "score": 0.8922855257987976,
+                "date": "07-Jul-2025",
+                "chunk_number": 2,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_History, Examination and Investigations_chunk_2_16"
+            },
+            {
+                "text": "07-Jul-2025, History, Examination and Investigations: DMO Consult on 07/07/25 NEW CASE -Referred by Dr Julie Liana 70yo Chinese Female NKDA Social History Single Works in admin for maid agency Non smoker Non drinker Family History Nil Past Medical History 1 . HTN 2 . HLD 3 . Prev hyperthyroidism Current Presentation Presented with left breast lump MMG/US 23/06/25 CONCLUSION 1 . Suspicious nodal mass in the left axilla . US-guided core needle biopsy has been arranged . 2 . There are 4 indeterminate hypoechoic nodules in the left upper inner quadrant . The more concerning two lesions at the 10:30 position ( 60 and 44mm FN ) can be sampled together as one sample using US-guided vacuum assisted biopsy ( VAB ) as they are possibly of similar pathology . This has been discussed with the patient and arranged to be 2025-10-16 16:29 done in the same setting as the left axillary node biopsy . 3 . Indeterminate grouped coarse heterogenous calcifications in the left upper outer quadrant show mild increase in number since mammograms dating back to 2005 . Stereotactic guided VAB can be considered after the two aforementioned biopsies if it changes clinical management . Underwent US VAB of Left breast lesion and left axillary lump - Left Breast lesion : DCIS G3 and limited amount of invasive carcinoma NST with apocrine features G2 - Left axillary Lump : invasive carcinoma - Receptor status on Left axillary lump due to limited material within breast lesion - estrogen receptor+ ( 90 % ) progesterone receptor- HER2 2+ FISH pending CT-TAP",
+                "score": 0.8861560821533203,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_History, Examination and Investigations_chunk_1_15"
+            },
+            {
+                "text": "12-Sep-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+                "score": 0.9063617587089539,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_DIAGNOSIS SUMMARY_chunk_1_5"
+            }
+        ],
+        "aggregated_text": "07-Jul-2025, MANAGEMENT FOR THIS VISIT: - Trace HER2 FISH testing Refer SCN Book and Proceed with #1 AC on 11/07/25 - Premeds: Aprepitant - For Pegfilgrastim 24 hours after chemotherapy (NCCS) TCU 3/52s on 01/08/25 - Full Blood Count, UECr, LFT OA - Prebook for #2 AC on 01/08/25 Overall Plan AC x 4 > Paclitaxel x 12 KIV HER2 therapy if HER2 FISH+\n\n12-Sep-2025, IMPRESSION: Tolerating Treatment Clinically Responding Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH negative - CT1 (radiologically <1cm) N+ (Bx proven, large 3.9cm) Communications Explained clinically responding - continue treatment 2025-10-16 16:29\n\n13-Aug-2025, MANAGEMENT FOR THIS VISIT: P:\n\n07-Jul-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending\n\n07-Jul-2025, IMPRESSION: Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH pending - CT1 ( radiologically < icm ) N+ ( Bx proven , large 3.9cm ) - for consideration of neoadjuvant treatment Communication Explained that based on available information patient has newly diagnosed Locally advanced Left Breast Cancer . Node positivity also proven on biopsy and axillary LN rather sizeable . Will recommend neoadjuvant chemotherapy for her . 2025-10-16 16:29 If HER2 FISH positive - will need to add on anti HER2 therapy . In this situation , neoadjuvant chemotherapy+HER2 targeted therapy allows for early systemic control as well as allows for downsizing/downstaging of disease . It allows us to test disease biology as well and depending on whether patient achieves pathCR or not , we may be able to escalate adjuvant treatment accordingly . It also allows for increased breast conservation . If HER2 FISH negative - will proceed with chemotherapy alone in neoadjuvant setting In this situation , given HR+ HER2- and post-menopausal status , there could be an utility of genomic tests if she has not more than 3 affect lymph nodes . Genomic testing may then offer a possibility to omit chemotherapy if given in adjuvant setting . However , it is difficult to ascertain number of lymph nodes with imaging so far and given large axillary mass . Recommend to proceed with neoadjuvant chemotherapy if she is able to accept a possibility of over-treatment . In terms of treatment , will recommend for AC x 4 > Paclitaxel [ add on dual\n\n07-Jul-2025, IMPRESSION: x 4 > Paclitaxel [ add on dual HER2 if HER2 FISH+ ] . Discussed about toxicities of Doxorubicin/Cyclophosphamide , including but not limited to nausea , vomiting , diarrhoea , neutropenia , thrombocytopenia , anaemia , cardiotoxicity and heart failure , alopecia , allergic reaction , haemorrhagic cystitis and gonadal suppression resulting in amenorrhoea . Discussed about Paclitaxel scheduling and associated side effects as per BC Cancer Agency monograph . Side effects include the following but not limited to : Anaemia , Febrile neutropenia , Leukopenia , cardiovascular events , bradycardia and other arrythmias , intestinal obstruction , nausea and vomiting , hypersensitivity reactions , peripheral neuropathy , alopeica and arthralgia/myalgias . Discussed about Phesgo , Pertuzumab and Herceptin scheduling and associated side effects as per BC Cancer Agency monograph . Side effects include the following but not limited to : cardiotoxicity , diarrhoea , nausea , vomiting , hypersensitivity reactions , fatigue and rash . Patient agreeable to proceed with recommended treatment . Consent form signed .\n\n07-Jul-2025, History, Examination and Investigations: ) progesterone receptor- HER2 2+ FISH pending CT-TAP 02/07/25 CONCLUSION Markedly enlarged left axillary lymph nodes , worrisome suspicious for nodal metastases . Subcentimetre nodules in the left breast of which correlation with breast imaging is suggested . No evidence of distant metastasis is detected . Incidental findings as described . Bone Scan 03/07/25 CONCLUSION No definite scan evidence of osteoblastic bone metastasis . Please note that scan sensitivity is reduced for predominantly lytic bone metastasis . Examination Wt : 53 kg ( 2025-06-17 09:36:09 ) Left breast nil significant lumps Left axilla - 5.5cm ( horizontally angles perpendicularly towards axilla ) x 4cm\n\n07-Jul-2025, History, Examination and Investigations: DMO Consult on 07/07/25 NEW CASE -Referred by Dr Julie Liana 70yo Chinese Female NKDA Social History Single Works in admin for maid agency Non smoker Non drinker Family History Nil Past Medical History 1 . HTN 2 . HLD 3 . Prev hyperthyroidism Current Presentation Presented with left breast lump MMG/US 23/06/25 CONCLUSION 1 . Suspicious nodal mass in the left axilla . US-guided core needle biopsy has been arranged . 2 . There are 4 indeterminate hypoechoic nodules in the left upper inner quadrant . The more concerning two lesions at the 10:30 position ( 60 and 44mm FN ) can be sampled together as one sample using US-guided vacuum assisted biopsy ( VAB ) as they are possibly of similar pathology . This has been discussed with the patient and arranged to be 2025-10-16 16:29 done in the same setting as the left axillary node biopsy . 3 . Indeterminate grouped coarse heterogenous calcifications in the left upper outer quadrant show mild increase in number since mammograms dating back to 2005 . Stereotactic guided VAB can be considered after the two aforementioned biopsies if it changes clinical management . Underwent US VAB of Left breast lesion and left axillary lump - Left Breast lesion : DCIS G3 and limited amount of invasive carcinoma NST with apocrine features G2 - Left axillary Lump : invasive carcinoma - Receptor status on Left axillary lump due to limited material within breast lesion - estrogen receptor+ ( 90 % ) progesterone receptor- HER2 2+ FISH pending CT-TAP\n\n12-Sep-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+        "chunk_count": 9
+    },
+    "4": {
+        "queries": [
+            "Does Life Assured have any other medical conditions?",
+            "Medical conditions",
+            "Does Life Assured have any family history?",
+            "Family History",
+            "Details of the Life Assured\u2019s habits in relation to cigarette smoking, including the duration of smoking habit, number of cigarettes smoked per day and source of information",
+            "Details of the Life Assured\u2019s habit in relation to alcohol consumption including the amount of alcohol consumption per day and source of information",
+            "Please provide any other information which may be of assistance to us in assessing this claim"
+        ],
+        "retrieved_chunks": [
+            {
+                "text": "07-Jul-2025, History, Examination and Investigations: ) progesterone receptor- HER2 2+ FISH pending CT-TAP 02/07/25 CONCLUSION Markedly enlarged left axillary lymph nodes , worrisome suspicious for nodal metastases . Subcentimetre nodules in the left breast of which correlation with breast imaging is suggested . No evidence of distant metastasis is detected . Incidental findings as described . Bone Scan 03/07/25 CONCLUSION No definite scan evidence of osteoblastic bone metastasis . Please note that scan sensitivity is reduced for predominantly lytic bone metastasis . Examination Wt : 53 kg ( 2025-06-17 09:36:09 ) Left breast nil significant lumps Left axilla - 5.5cm ( horizontally angles perpendicularly towards axilla ) x 4cm",
+                "score": 0.8273370265960693,
+                "date": "07-Jul-2025",
+                "chunk_number": 2,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_History, Examination and Investigations_chunk_2_16"
+            },
+            {
+                "text": "12-Sep-2025, IMPRESSION: Tolerating Treatment Clinically Responding Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH negative - CT1 (radiologically <1cm) N+ (Bx proven, large 3.9cm) Communications Explained clinically responding - continue treatment 2025-10-16 16:29",
+                "score": 0.8258897662162781,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_IMPRESSION_chunk_1_2"
+            },
+            {
+                "text": "13-Aug-2025, MANAGEMENT FOR THIS VISIT: P:",
+                "score": 0.682026743888855,
+                "date": "13-Aug-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "13-Aug-2025_MANAGEMENT FOR THIS VISIT_chunk_1_13"
+            },
+            {
+                "text": "13-Aug-2025, General: DMO Consult Note NCC [Charted Location: NCC Clinic 12B] [Authored: 2025-08-13 10:47]- for Visit: H22509975710011, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 51.2 kg 2025-08-13 10:10:30. Height (cm): 149.6 cm 2025-08-13 10:10:30. CLINICAL NOTES: Visit/Appointment Date: 2025-08-13",
+                "score": 0.680036187171936,
+                "date": "13-Aug-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "13-Aug-2025_General_chunk_1_7"
+            },
+            {
+                "text": "13-Aug-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+                "score": 0.8182728886604309,
+                "date": "13-Aug-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "13-Aug-2025_PATIENT STATUS_chunk_1_11"
+            },
+            {
+                "text": "12-Sep-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.",
+                "score": 0.8156036734580994,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_PATIENT STATUS_chunk_1_4"
+            },
+            {
+                "text": "12-Sep-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+                "score": 0.7208587527275085,
+                "date": "12-Sep-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "12-Sep-2025_DIAGNOSIS SUMMARY_chunk_1_5"
+            },
+            {
+                "text": "07-Jul-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+                "score": 0.7195733785629272,
+                "date": "07-Jul-2025",
+                "chunk_number": 1,
+                "word_count": 0,
+                "chunk_id": "07-Jul-2025_DIAGNOSIS SUMMARY_chunk_1_22"
+            }
+        ],
+        "aggregated_text": "07-Jul-2025, History, Examination and Investigations: ) progesterone receptor- HER2 2+ FISH pending CT-TAP 02/07/25 CONCLUSION Markedly enlarged left axillary lymph nodes , worrisome suspicious for nodal metastases . Subcentimetre nodules in the left breast of which correlation with breast imaging is suggested . No evidence of distant metastasis is detected . Incidental findings as described . Bone Scan 03/07/25 CONCLUSION No definite scan evidence of osteoblastic bone metastasis . Please note that scan sensitivity is reduced for predominantly lytic bone metastasis . Examination Wt : 53 kg ( 2025-06-17 09:36:09 ) Left breast nil significant lumps Left axilla - 5.5cm ( horizontally angles perpendicularly towards axilla ) x 4cm\n\n12-Sep-2025, IMPRESSION: Tolerating Treatment Clinically Responding Locally Advanced Left Breast Cancer estrogen receptor+ HER2 FISH negative - CT1 (radiologically <1cm) N+ (Bx proven, large 3.9cm) Communications Explained clinically responding - continue treatment 2025-10-16 16:29\n\n13-Aug-2025, MANAGEMENT FOR THIS VISIT: P:\n\n13-Aug-2025, General: DMO Consult Note NCC [Charted Location: NCC Clinic 12B] [Authored: 2025-08-13 10:47]- for Visit: H22509975710011, Complete, Entered, Signed in Full, General Height & Weight: Weight (kg): 51.2 kg 2025-08-13 10:10:30. Height (cm): 149.6 cm 2025-08-13 10:10:30. CLINICAL NOTES: Visit/Appointment Date: 2025-08-13\n\n13-Aug-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.\n\n12-Sep-2025, PATIENT STATUS: Allergy Information: No Known Allergies. Adverse Reactions (Nursing Notes): No Hypersensitivity reaction available. Adverse Reactions (DMO / HAE / HAE BCC ADR Note): No Adverse drug reaction available.\n\n12-Sep-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending\n\n07-Jul-2025, DIAGNOSIS SUMMARY: Diagnosis 1: Diagnosis 1: 317185017 : [DJAxillary lump Primary Site 1: Axillary mass Basis of Staging 1: Pending",
+        "chunk_count": 8
+    }
+}

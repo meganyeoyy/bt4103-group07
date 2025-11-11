@@ -1,0 +1,108 @@
+FIELD JSON WITH INLINE META (guidance in comments — DO NOT return comments):
+
+{
+"Is the Insured still on follow-up at your clinic?": {
+    "value": "",           // Allowed: "Yes" / "No" / "" (unknown)
+    "confidence": 0.0
+},
+"Next appointment date (dd/mm/yyyy)": {
+    "value": "",           // Only if follow-up == "Yes"; leave blank if "No" or not stated
+    "confidence": 0.0
+},
+"Discharge date (dd/mm/yyyy)": {
+    "value": "",           // Only if follow-up == "No"; leave blank if "Yes" or not stated
+    "confidence": 0.0
+},
+"Is the Insured terminally ill (i.e. death expected within 12 months)?": {
+    "value": "",           // Allowed: "Yes" / "No" / "" (unknown)
+    "confidence": 0.0
+},
+"Terminal illness evaluation": {
+    "value": "",           // Only if terminally ill == "Yes"; verbatim if present
+    "confidence": 0.0
+},
+"Terminal illness assessment date (dd/mm/yyyy)": {
+    "value": "",           // Only if terminally ill == "Yes"; keep original date format
+    "confidence": 0.0
+},
+"Is the Insured referred to hospice care?": {
+    "value": "",           // Allowed: "Yes" / "No" / "" (unknown)
+    "confidence": 0.0
+},
+"Hospice name": {
+    "value": "",           // Only if hospice care == "Yes"; copy verbatim
+    "confidence": 0.0
+},
+"Hospice care type - Inpatient": {
+    "value": "",           // Allowed: "Yes" / ""; "Yes" if inpatient ticked. Only for this field, not inpatient, do not give "No"
+    "confidence": 0.0
+},
+"Hospice inpatient admission date (dd/mm/yyyy)": {
+    "value": "",           // Only if Hospice care type - Inpatient == "Yes"
+    "confidence": 0.0
+},
+"Hospice care type - Day care": {
+    "value": "",           // Allowed: "Yes" / ""; "Yes" if day care ticked. Only for this field, not day care, do not give "No"
+    "confidence": 0.0
+},
+"Hospice daycare start date (dd/mm/yyyy)": {
+    "value": "",           // Only if Hospice care type - Day care == "Yes"
+    "confidence": 0.0
+},
+"Doctors/hospitals consulted for this condition (rows 0..3)": [
+    // Rules:
+    // - If no other doctors/hospitals consulted → return []
+    // - If other doctors/hospitals consulted → return 1..3 row objects (as many as are clearly present, capped at 3)
+    {
+        "Name of doctor": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Name and Address of Clinic/Hospital": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Date(s) of consultation (dd/mm/yyyy)": {
+            "value": "",
+            "confidence": 0.0
+        },
+        "Diagnosis made": {
+            "value": "",
+            "confidence": 0.0
+        }
+    }
+    // Add a second/third object only if multiple consultations are clearly present
+],
+"Malignant, pre-malignant or other related conditions or risk factors?": {
+    "value": "",           # Allowed: "Yes" / "No" / "" (unknown)
+    "confidence": 0.0
+},
+"Malignant, pre-malignant or other related conditions or risk factors details": {
+    "value": "",           # Only if previous == "Yes"; include diagnosis, dates, doctors, source info
+    "confidence": 0.0
+},
+"Medical history that would have increased the risk of cancer": {
+    "value": "",           # Nature of illness, date of diagnosis, source of info
+    "confidence": 0.0
+},
+"Family history that would have increased the risk of Cancer": {
+    "value": "",           # Relationship, nature of illness, date, source
+    "confidence": 0.0
+},
+"Smoking habits": {
+    "value": "",           # Past and present, duration, # cigarettes/day, source of info
+    "confidence": 0.0
+},
+"Alcohol consumption habits": {
+    "value": "",           # Type, amount/day, duration, source of info
+    "confidence": 0.0
+},
+"Is the tumour or cancer in any way caused directly or indirectly by alcohol or drug abuse?": {
+    "value": "",           # Allowed: "Yes" / "No" / "" (unknown)
+    "confidence": 0.0
+},
+"Alcohol/drug abuse details": {
+    "value": "",           # Only if previous == "Yes"; copy verbatim if present
+    "confidence": 0.0
+}
+}

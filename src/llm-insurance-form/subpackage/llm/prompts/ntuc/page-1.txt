@@ -1,0 +1,41 @@
+FIELD JSON WITH INLINE META (guidance in comments — DO NOT return comments):
+
+{
+"Over what period do your records extend? Start date (dd/mm/yyyy)": {
+    "value": "",                // Find the EARLIEST "Visit/Appointment Date" or "Authored:" date
+    "confidence": 0.0
+},
+"Over what period do your records extend? End date (dd/mm/yyyy)": {
+    "value": "",                // Find the LATEST "Visit/Appointment Date" or "Authored:" date.
+    "confidence": 0.0
+},
+"When did the Insured first consult you for this condition? (dd/mm/yyyy)": {
+    "value": "",                // Earliest consult date associated with the condition
+    "confidence": 0.0
+},
+
+"When you first saw the Insured, what were the symptoms presented and their duration? (rows 0..2)": [
+    // Rules:
+    // - If no symptoms are stated → return [].
+    // - If exactly one symptom is stated → return ONE object (length = 1).
+    // - If two or more symptoms are stated → return TWO objects (take the first two).
+    // - Keep date strings exactly as in the notes; do not reformat.
+    {
+        "Symptom presented": {
+            // CRITICAL: Initial symptom that led to the diagnosis.
+            // DO NOT extract treatment side effects (e.g., "nausea", "mucositis", "rash") that appear after a treatment is mentioned.
+            "value": "",
+            "confidence": 0.0
+        },
+        "Duration of symptom": {
+            "value": "",               // Copy duration associated with this symptom
+            "confidence": 0.0
+        },
+        "Date of onset (dd/mm/yyyy)": {
+            "value": "",               // Keep date text as-is
+            "confidence": 0.0
+        }
+    }
+    // Add a second object ONLY if there is a second symptom to capture.
+]
+}

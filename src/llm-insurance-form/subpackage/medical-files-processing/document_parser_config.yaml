@@ -1,0 +1,70 @@
+lab_results_config:
+  test_detection:
+    name_stopwords:
+      - "Final"
+      - "Report Link"
+
+  cleanup_words:
+    - "Final"
+    - "Updated"
+
+medical_records_config:
+  pdf_cleaning:
+    hospital_patterns:
+      - "National Cancer Centre"
+      - "Singapore General Hospital"
+      - ".*Hospital.*"
+    footer_patterns:
+      - "Requested by:"
+      - "computer generated"
+      - "printed from"
+      - "page"
+
+  section_headers:
+    ignored:
+      - "NUR"
+      - "PHA"
+      - "CTR"
+      - "DISTRESS SCREENING NOTE"
+    subsections:
+      - "History, Examination and Investigations"
+      - "Cancer Risk"
+      - "Investigations"
+      - "IMPRESSION"
+      - "Clinical and Treatment Summary"
+      - "DIAGNOSIS SUMMARY"
+      - "MANAGEMENT FOR THIS VISIT"
+      - "PATIENT STATUS"
+
+  normalization:
+    month_map:
+      Jan: "01"
+      Feb: "02"
+      Mar: "03"
+      Apr: "04"
+      May: "05"
+      Jun: "06"
+      Jul: "07"
+      Aug: "08"
+      Sep: "09"
+      Oct: "10"
+      Nov: "11"
+      Dec: "12"
+
+    abbreviation_map:
+      ANC: "Absolute Neutrophil Count"
+      URTI: "Upper Respiratory Tract Infection"
+      CRP: "C-Reactive Protein"
+      FBC: "Full Blood Count"
+      Hb: "Haemoglobin"
+      Plt: "Platelets"
+      Het: "Haematocrit"
+      PR: "progesterone receptor"
+      ER: "estrogen receptor"
+      NAD: "no abnormality detected"
+      O/E: "On examination:"
+      Neoadjuvant: "pre-operative"
+      Pt: "Patient"
+      s/b: "seen by"
+      c/o: "complaints of"
+    
